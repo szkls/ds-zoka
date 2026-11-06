@@ -10,13 +10,13 @@
   "Hint": {
     "props": {"hint": "Insert hint here.", "show-icon": true, "status": ["default", "error", "disabled"]},
     "root": {"layout": "HORIZONTAL", "gap": "gap/2xs", "align": "MIN/MIN"},
-    "Icon": {"size": "size/3xs", "default": "Info (Stroke, Fill) icon/neutral/subtler", "error": "WarningCircle (Stroke, Fill) icon/system/error/base", "disabled": "Info icon/neutral/subtlest"},
+    "Icon": {"size": "12 px, Stroke Regular, stroke 1.2 (icon takes the label colour)", "default": "Info icon/neutral/soft", "error": "WarningCircle icon/system/error/base", "disabled": "Info icon/neutral/subtler"},
     "Hint": {"style": "xs/regular", "default": "text/neutral/soft", "error": "text/system/error/base", "disabled": "text/neutral/subtler"}
   },
   "Input": {
     "props": {"show-label": true, "show-hint": true, "value": "Placeholder", "show-icon": true, "icon": "User", "show-info": false, "phone-number": "(555) 000-0000", "url": "www.example.com", "amount": "0.00", "search-query": "Search…", "password": "••••••••••", "share-url": "www.example.com/share", "type": ["basic", "phone", "website", "amount", "search", "password", "share-link"], "state": ["placeholder", "hover", "focus", "filled", "disabled"], "status": ["default", "error"]},
-    "root": {"layout": "VERTICAL", "gap": "gap/2xs", "width": 320, "children": ["Label", "Field", "Hint"]},
-    "Field": {"layout": "HORIZONTAL", "height": "size/xl", "fill": "background/neutral/extra-subtle", "stroke": "border/neutral/base", "sw": 1, "radius": "radius/md", "fillW": true,
+    "root": {"layout": "VERTICAL", "gap": "gap/sm (8, updated 2026-11-06)", "width": 320, "children": ["Label", "Field", "Hint"]},
+    "Field": {"layout": "HORIZONTAL", "height": "size/xl", "fill": "background/neutral/extra-subtle", "stroke": "border/neutral/soft (300, updated 2026-11-06; focus keeps strongest)", "sw": 1, "radius": "radius/md", "fillW": true,
       "Content": {"pad": "0 padding/md", "gap": "gap/sm", "align": "MIN/CENTER", "fillW": true, "Icon": "size/3xs sw 1.5 icon/neutral/soft", "Value": {"style": "sm/regular", "color": "text/neutral/soft", "fillW": true}, "Info": "size/3xs Info icon/neutral/soft (hidden by default, trailing)"}},
     "states": {
       "placeholder": {},

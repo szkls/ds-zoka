@@ -1150,7 +1150,9 @@ export const tokenNames = {
   "background/static/dark/base",
   "background/static/dark/hover",
   "background/static/dark/pressed",
-  "border/static/dark"
+  "border/static/dark",
+  "border/neutral/subtle",
+  "border/neutral/strong"
  ],
  "3b": [
   "family/sans",

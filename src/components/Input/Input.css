@@ -8,16 +8,16 @@
 .rv-label[data-disabled] .rv-label__info { color: var(--rv-icon-neutral-subtlest); }
 
 .rv-hint { display: flex; align-items: flex-start; gap: var(--rv-gap-2xs); font-family: var(--rv-font-family-sans), system-ui, sans-serif; font-size: var(--rv-font-size-xs); line-height: var(--rv-font-line-height-xs); font-weight: var(--rv-font-weight-normal); color: var(--rv-text-neutral-soft); }
-.rv-hint__icon { color: var(--rv-icon-neutral-subtler); }
+.rv-hint__icon { color: var(--rv-icon-neutral-soft); }
 .rv-hint[data-status="error"] { color: var(--rv-text-system-error-base); }
 .rv-hint[data-status="error"] .rv-hint__icon { color: var(--rv-icon-system-error-base); }
 .rv-hint[data-status="disabled"] { color: var(--rv-text-neutral-subtler); }
-.rv-hint[data-status="disabled"] .rv-hint__icon { color: var(--rv-icon-neutral-subtlest); }
+.rv-hint[data-status="disabled"] .rv-hint__icon { color: var(--rv-icon-neutral-subtler); }
 
-.rv-input { display: flex; flex-direction: column; gap: var(--rv-gap-2xs); width: 320px; max-width: 100%; font-family: var(--rv-font-family-sans), system-ui, sans-serif; }
+.rv-input { display: flex; flex-direction: column; gap: var(--rv-gap-sm); width: 320px; max-width: 100%; font-family: var(--rv-font-family-sans), system-ui, sans-serif; }
 .rv-input--full { width: 100%; }
 .rv-input__field {
-  --_border: var(--rv-border-neutral-base);
+  --_border: var(--rv-border-neutral-soft);
   display: flex; align-items: center; height: var(--rv-size-xl); width: 100%;
   border-radius: var(--rv-radius-md); background: var(--rv-background-neutral-extra-subtle);
   box-shadow: inset 0 0 0 var(--rv-border-xs) var(--_border);
@@ -34,11 +34,11 @@
 .rv-input__toggle:focus-visible { outline: none; box-shadow: var(--rv-focus-ring-neutral); }
 .rv-input__addon { display: inline-flex; align-items: center; gap: var(--rv-gap-2xs); height: 100%; padding: 0 var(--rv-padding-md); background: var(--rv-background-neutral-subtlest); color: var(--rv-text-neutral-base); font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); white-space: nowrap; border: 0; }
 .rv-input__addon .rv-icon { color: var(--rv-icon-neutral-base); }
-.rv-input__addon--leading { box-shadow: inset calc(-1 * var(--rv-border-xs)) 0 0 0 var(--rv-border-neutral-base); }
-.rv-input__addon--trailing { box-shadow: inset var(--rv-border-xs) 0 0 0 var(--rv-border-neutral-base); }
+.rv-input__addon--leading { box-shadow: inset calc(-1 * var(--rv-border-xs)) 0 0 0 var(--rv-border-neutral-soft); }
+.rv-input__addon--trailing { box-shadow: inset var(--rv-border-xs) 0 0 0 var(--rv-border-neutral-soft); }
 .rv-input[data-type="phone"] .rv-input__addon--leading { background: var(--rv-background-neutral-extra-subtle); }
 .rv-input__copy { cursor: pointer; }
-.rv-input__copy:focus-visible { outline: none; box-shadow: inset var(--rv-border-xs) 0 0 0 var(--rv-border-neutral-base), var(--rv-focus-ring-neutral); }
+.rv-input__copy:focus-visible { outline: none; box-shadow: inset var(--rv-border-xs) 0 0 0 var(--rv-border-neutral-soft), var(--rv-focus-ring-neutral); }
 /* states */
 .rv-input__field:hover { background: var(--rv-background-neutral-subtlest); }
 .rv-input__field:focus-within { --_border: var(--rv-border-neutral-strongest); background: var(--rv-background-neutral-extra-subtle); box-shadow: inset 0 0 0 var(--rv-border-xs) var(--_border), var(--rv-focus-ring-neutral); }

@@ -1188,6 +1188,8 @@
   --rv-background-static-dark-hover: var(--rv-colors-neutral-800);
   --rv-background-static-dark-pressed: var(--rv-colors-neutral-900);
   --rv-border-static-dark: var(--rv-colors-neutral-700);
+  --rv-border-neutral-subtle: var(--rv-colors-neutral-400);
+  --rv-border-neutral-strong: var(--rv-colors-neutral-700);
 }
 
 /* 3a mode: Dark */
@@ -1545,6 +1547,8 @@
   --rv-background-static-dark-hover: var(--rv-colors-neutral-800);
   --rv-background-static-dark-pressed: var(--rv-colors-neutral-900);
   --rv-border-static-dark: var(--rv-colors-neutral-700);
+  --rv-border-neutral-subtle: var(--rv-colors-neutral-500);
+  --rv-border-neutral-strong: var(--rv-colors-neutral-300);
 }
 
 /* 3b mode: Value */

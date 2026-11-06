@@ -8404,6 +8404,22 @@
      "{colors/neutral/700}",
      "{colors/neutral/700}"
     ]
+   },
+   "border/neutral/subtle": {
+    "type": null,
+    "css": "--rv-border-neutral-subtle",
+    "values": [
+     "{colors/neutral/400}",
+     "{colors/neutral/500}"
+    ]
+   },
+   "border/neutral/strong": {
+    "type": null,
+    "css": "--rv-border-neutral-strong",
+    "values": [
+     "{colors/neutral/700}",
+     "{colors/neutral/300}"
+    ]
    }
   }
  },
