@@ -16,7 +16,7 @@ Use in an app:
 
 ```tsx
 import 'rv-design/src/styles/index.css';
-import { Button, Input, Alert } from 'rv-design';
+import { Button, Input, Alert } from 'ds-zoka';
 
 <html data-theme="light" data-brand="boreal" data-device="desktop">
 ```

@@ -5,7 +5,7 @@ Figma: component `Input` on page `↳ Text input` · spec: `tokens/figma/compone
 ## Import
 
 ```tsx
-import { Input, Label, Hint } from 'rv-design'
+import { Input, Label, Hint } from 'ds-zoka'
 ```
 
 ## Props

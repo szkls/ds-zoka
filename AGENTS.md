@@ -9,7 +9,7 @@ This repository is the code twin of the Figma file **"DS - Test"** (white-label 
 | Component registry (machine-readable) | `registry.json` — one entry per component: import, props, example, Figma page, docs path |
 | Component docs (usage rules, do/don't, notes) | `docs/components/*.md` |
 | Component code | `src/components/<Name>/<Name>.tsx` + `.css` |
-| Public entry | `src/index.ts` (`import { Button, Input, … } from 'rv-design'` or `@/index`) |
+| Public entry | `src/index.ts` (`import { Button, Input, … } from 'ds-zoka'` or `@/index`) |
 | Design tokens (CSS custom properties) | `src/tokens/tokens.css` (generated) · names in `src/tokens/index.ts` · resolved values in `src/tokens/resolved.json` |
 | Text styles | `src/tokens/typography.css` → classes `.rv-text-{size}-{weight}` (e.g. `.rv-text-sm-medium`) |
 | Icons | `src/icons/Icon.tsx`, names in `src/icons/paths.ts` (`iconNames`) — Phosphor set, stroke-based |

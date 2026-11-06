@@ -34,7 +34,7 @@
       "exports": [
         "Button"
       ],
-      "import": "import { Button } from 'rv-design'",
+      "import": "import { Button } from 'ds-zoka'",
       "path": "src/components/Button/",
       "spec": "tokens/figma/components/button.json",
       "docs": "docs/components/button.md",
@@ -62,7 +62,7 @@
       "exports": [
         "Badge"
       ],
-      "import": "import { Badge } from 'rv-design'",
+      "import": "import { Badge } from 'ds-zoka'",
       "path": "src/components/Badge/",
       "spec": "tokens/figma/components/badge-banner.json",
       "docs": "docs/components/badge.md",
@@ -84,7 +84,7 @@
       "exports": [
         "Alert"
       ],
-      "import": "import { Alert } from 'rv-design'",
+      "import": "import { Alert } from 'ds-zoka'",
       "path": "src/components/Alert/",
       "spec": "tokens/figma/components/alert.json",
       "docs": "docs/components/alert.md",
@@ -109,7 +109,7 @@
       "exports": [
         "Banner"
       ],
-      "import": "import { Banner } from 'rv-design'",
+      "import": "import { Banner } from 'ds-zoka'",
       "path": "src/components/Banner/",
       "spec": "tokens/figma/components/badge-banner.json",
       "docs": "docs/components/banner.md",
@@ -133,7 +133,7 @@
         "Checkbox",
         "CheckboxGroup"
       ],
-      "import": "import { Checkbox, CheckboxGroup } from 'rv-design'",
+      "import": "import { Checkbox, CheckboxGroup } from 'ds-zoka'",
       "path": "src/components/Checkbox/",
       "spec": "tokens/figma/components/checkbox.json",
       "docs": "docs/components/checkbox.md",
@@ -160,7 +160,7 @@
         "Radio",
         "RadioGroup"
       ],
-      "import": "import { Radio, RadioGroup } from 'rv-design'",
+      "import": "import { Radio, RadioGroup } from 'ds-zoka'",
       "path": "src/components/Radio/",
       "spec": "tokens/figma/components/radio.json",
       "docs": "docs/components/radio-button.md",
@@ -187,7 +187,7 @@
         "Label",
         "Hint"
       ],
-      "import": "import { Input, Label, Hint } from 'rv-design'",
+      "import": "import { Input, Label, Hint } from 'ds-zoka'",
       "path": "src/components/Input/",
       "spec": "tokens/figma/components/input.json",
       "docs": "docs/components/text-input.md",
@@ -224,7 +224,7 @@
       "exports": [
         "Select"
       ],
-      "import": "import { Select } from 'rv-design'",
+      "import": "import { Select } from 'ds-zoka'",
       "path": "src/components/Select/",
       "spec": "tokens/figma/components/dropdown.json",
       "docs": "docs/components/select.md",
@@ -261,7 +261,7 @@
         "DropdownUser",
         "DropdownFooter"
       ],
-      "import": "import { Dropdown, DropdownItem, DropdownDivider } from 'rv-design'",
+      "import": "import { Dropdown, DropdownItem, DropdownDivider } from 'ds-zoka'",
       "path": "src/components/Dropdown/",
       "spec": "tokens/figma/components/dropdown.json",
       "docs": "docs/components/dropdown.md",
@@ -294,7 +294,7 @@
         "Accordion",
         "AccordionBlock"
       ],
-      "import": "import { Accordion, AccordionBlock } from 'rv-design'",
+      "import": "import { Accordion, AccordionBlock } from 'ds-zoka'",
       "path": "src/components/Accordion/",
       "spec": "tokens/figma/components/accordion.json",
       "docs": "docs/components/accordion.md",
@@ -321,7 +321,7 @@
         "AvatarUser",
         "AvatarGroup"
       ],
-      "import": "import { Avatar, AvatarUser, AvatarGroup } from 'rv-design'",
+      "import": "import { Avatar, AvatarUser, AvatarGroup } from 'ds-zoka'",
       "path": "src/components/Avatar/",
       "spec": "tokens/figma/components/avatar.json",
       "docs": "docs/components/avatar.md",
@@ -353,7 +353,7 @@
       "exports": [
         "Breadcrumb"
       ],
-      "import": "import { Breadcrumb } from 'rv-design'",
+      "import": "import { Breadcrumb } from 'ds-zoka'",
       "path": "src/components/Breadcrumb/",
       "spec": "tokens/figma/components/breadcrumb.json",
       "docs": "docs/components/breadcrumb.md",
@@ -374,7 +374,7 @@
       "exports": [
         "Tabs"
       ],
-      "import": "import { Tabs } from 'rv-design'",
+      "import": "import { Tabs } from 'ds-zoka'",
       "path": "src/components/Tabs/",
       "spec": "tokens/figma/components/tabs.json",
       "docs": "docs/components/tabs.md",
@@ -398,7 +398,7 @@
       "exports": [
         "Header"
       ],
-      "import": "import { Header } from 'rv-design'",
+      "import": "import { Header } from 'ds-zoka'",
       "path": "src/components/Header/",
       "spec": "tokens/figma/components/header.json",
       "docs": "docs/components/header.md",

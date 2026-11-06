@@ -5,7 +5,7 @@ Figma: component `Header` on page `↳ Header` · spec: `tokens/figma/components
 ## Import
 
 ```tsx
-import { Header } from 'rv-design'
+import { Header } from 'ds-zoka'
 ```
 
 ## Props

@@ -5,7 +5,7 @@ Figma: component `Tabs` on page `↳ Tabs` · spec: `tokens/figma/components/tab
 ## Import
 
 ```tsx
-import { Tabs } from 'rv-design'
+import { Tabs } from 'ds-zoka'
 ```
 
 ## Props

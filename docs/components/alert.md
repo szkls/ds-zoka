@@ -5,7 +5,7 @@ Figma: component `Alert` on page `↳ Alert` · spec: `tokens/figma/components/a
 ## Import
 
 ```tsx
-import { Alert } from 'rv-design'
+import { Alert } from 'ds-zoka'
 ```
 
 ## Props

@@ -1,5 +1,5 @@
 {
-  "name": "rv-design",
+  "name": "ds-zoka",
   "version": "0.1.0",
   "private": true,
   "description": "RV Design — React + TypeScript design system mirrored 1:1 from the Figma file \"DS - Test\" (tokens, components, usage guidelines).",

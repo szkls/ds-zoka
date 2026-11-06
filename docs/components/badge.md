@@ -5,7 +5,7 @@ Figma: component `Badge` on page `↳ Badge` · spec: `tokens/figma/components/b
 ## Import
 
 ```tsx
-import { Badge } from 'rv-design'
+import { Badge } from 'ds-zoka'
 ```
 
 ## Props

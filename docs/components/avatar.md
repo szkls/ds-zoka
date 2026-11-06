@@ -5,7 +5,7 @@ Figma: component `Avatar` on page `↳ Avatar` · spec: `tokens/figma/components
 ## Import
 
 ```tsx
-import { Avatar, AvatarUser, AvatarGroup } from 'rv-design'
+import { Avatar, AvatarUser, AvatarGroup } from 'ds-zoka'
 ```
 
 ## Props

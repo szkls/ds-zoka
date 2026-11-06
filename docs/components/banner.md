@@ -5,7 +5,7 @@ Figma: component `Banner` on page `↳ Banner` · spec: `tokens/figma/components
 ## Import
 
 ```tsx
-import { Banner } from 'rv-design'
+import { Banner } from 'ds-zoka'
 ```
 
 ## Props

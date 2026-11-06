@@ -5,7 +5,7 @@ Figma: component `Button` on page `↳ Button` · spec: `tokens/figma/components
 ## Import
 
 ```tsx
-import { Button } from 'rv-design'
+import { Button } from 'ds-zoka'
 ```
 
 ## Props

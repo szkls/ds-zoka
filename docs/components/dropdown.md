@@ -5,7 +5,7 @@ Figma: component `Dropdown` on page `↳ Dropdown` · spec: `tokens/figma/compon
 ## Import
 
 ```tsx
-import { Dropdown, DropdownItem, DropdownDivider } from 'rv-design'
+import { Dropdown, DropdownItem, DropdownDivider } from 'ds-zoka'
 ```
 
 ## Props

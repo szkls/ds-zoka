@@ -5,7 +5,7 @@ Figma: component `Breadcrumb` on page `↳ Breadcrumb` · spec: `tokens/figma/co
 ## Import
 
 ```tsx
-import { Breadcrumb } from 'rv-design'
+import { Breadcrumb } from 'ds-zoka'
 ```
 
 ## Props

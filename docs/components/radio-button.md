@@ -5,7 +5,7 @@ Figma: component `Radio button` on page `↳ Radio button` · spec: `tokens/figm
 ## Import
 
 ```tsx
-import { Radio, RadioGroup } from 'rv-design'
+import { Radio, RadioGroup } from 'ds-zoka'
 ```
 
 ## Props

@@ -5,7 +5,7 @@ Figma: component `Accordion` on page `↳ Accordion` · spec: `tokens/figma/comp
 ## Import
 
 ```tsx
-import { Accordion, AccordionBlock } from 'rv-design'
+import { Accordion, AccordionBlock } from 'ds-zoka'
 ```
 
 ## Props

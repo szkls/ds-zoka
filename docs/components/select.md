@@ -5,7 +5,7 @@ Figma: component `Select` on page `↳ Dropdown` · spec: `tokens/figma/componen
 ## Import
 
 ```tsx
-import { Select } from 'rv-design'
+import { Select } from 'ds-zoka'
 ```
 
 ## Props

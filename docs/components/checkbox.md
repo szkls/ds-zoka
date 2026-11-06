@@ -5,7 +5,7 @@ Figma: component `Checkbox` on page `↳ Checkbox` · spec: `tokens/figma/compon
 ## Import
 
 ```tsx
-import { Checkbox, CheckboxGroup } from 'rv-design'
+import { Checkbox, CheckboxGroup } from 'ds-zoka'
 ```
 
 ## Props
