@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import { Alert, Breadcrumb, Button, Checkbox, CheckboxGroup, Header, Input, Radio, RadioGroup, Select, Tabs } from '../../index';
-import { Page, PageSection, PageSubsection } from '../../layout/Page';
+import { Page, PageSection } from '../../layout/Page';
 import './form.css';
 
 const nav = [{ id: 'overview', label: 'Overview' }, { id: 'members', label: 'Members' }, { id: 'settings', label: 'Settings' }];
@@ -32,30 +32,27 @@ export function FormPage() {
           {saved && <Alert status="success" title="Invitation sent" description="Camille Leroy will receive the email in a few minutes." fullWidth onClose={() => setSaved(false)} />}
 
           <PageSection title="Identity" description="How this person appears to the rest of the team.">
-            <div className="rv-form-row">
-              <Input id="name" label="Full name" required icon="User" placeholder="First and last name" fullWidth value={name} onChange={(e) => setName(e.target.value)} status={errors.name ? 'error' : 'default'} hint={errors.name ?? 'As shown on the profile and in mentions.'} />
-              <Input id="title" label="Job title" optional icon="Briefcase" placeholder="Product designer" fullWidth />
-            </div>
-            <div className="rv-form-row">
-              <Input id="email" label="Work email" required icon="Envelope" placeholder="name@company.com" fullWidth value={email} onChange={(e) => setEmail(e.target.value)} status={errors.email ? 'error' : 'default'} hint={errors.email ?? 'The invitation is sent to this address.'} />
-              <Input id="phone" label="Phone" optional type="phone" fullWidth />
+            <div className="rv-form-fields">
+              <Input id="name" label="Full name" required icon="User" placeholder="First and last name" value={name} onChange={(e) => setName(e.target.value)} status={errors.name ? 'error' : 'default'} hint={errors.name ?? 'As shown on the profile and in mentions.'} />
+              <Input id="title" label="Job title" optional icon="Briefcase" placeholder="Product designer" />
+              <Input id="email" label="Work email" required icon="Envelope" placeholder="name@company.com" value={email} onChange={(e) => setEmail(e.target.value)} status={errors.email ? 'error' : 'default'} hint={errors.email ?? 'The invitation is sent to this address.'} />
+              <Input id="phone" label="Phone" optional type="phone" />
             </div>
           </PageSection>
 
           <PageSection title="Role and access" description="What this person can see and do. Admins can change it at any time from the member list.">
-            <PageSubsection title="Role">
-              <div className="rv-form-row">
-                <Select id="role" label="Role" required icon="Key" fullWidth defaultValue="editor" hint="Editors can create and change content; viewers only read." options={[{ value: 'admin', label: 'Admin', description: 'Full access, billing included' }, { value: 'editor', label: 'Editor', description: 'Create and edit content' }, { value: 'viewer', label: 'Viewer', description: 'Read only' }]} />
-                <Select id="team" label="Team" optional icon="Users" fullWidth placeholder="Choose a team" options={[{ value: 'design', label: 'Design' }, { value: 'product', label: 'Product' }, { value: 'eng', label: 'Engineering' }]} />
-              </div>
-            </PageSubsection>
-            <PageSubsection title="Access level">
-              <RadioGroup label="Which projects can this person open?">
-                <Radio name="access" label="All projects" description="Including the ones created later." defaultChecked />
-                <Radio name="access" label="Selected projects only" description="You pick them after the invitation is accepted." />
-                <Radio name="access" label="No project yet" description="The person joins the workspace without any project." />
-              </RadioGroup>
-            </PageSubsection>
+            <div className="rv-form-fields">
+              <Select id="role" label="Role" required icon="Key" defaultValue="editor" hint="Editors can create and change content; viewers only read." options={[{ value: 'admin', label: 'Admin', description: 'Full access, billing included' }, { value: 'editor', label: 'Editor', description: 'Create and edit content' }, { value: 'viewer', label: 'Viewer', description: 'Read only' }]} />
+              <Select id="team" label="Team" optional icon="Users" placeholder="Choose a team" options={[{ value: 'design', label: 'Design' }, { value: 'product', label: 'Product' }, { value: 'eng', label: 'Engineering' }]} />
+            </div>
+          </PageSection>
+
+          <PageSection title="Access level" description="Which projects this person can open. It applies to projects created later too.">
+            <RadioGroup label="Projects">
+              <Radio name="access" label="All projects" description="Including the ones created later." defaultChecked />
+              <Radio name="access" label="Selected projects only" description="You pick them after the invitation is accepted." />
+              <Radio name="access" label="No project yet" description="The person joins the workspace without any project." />
+            </RadioGroup>
           </PageSection>
 
           <PageSection title="Notifications" description="Default notification settings. The member can change them from their own account.">
@@ -67,7 +64,7 @@ export function FormPage() {
           </PageSection>
 
           <PageSection title="Invitation" description="A short note goes with the invitation email.">
-            <Input id="note" label="Message" optional icon={null} placeholder="Welcome to the team!" fullWidth hint="Up to 200 characters." />
+            <Input id="note" label="Message" optional icon={null} placeholder="Welcome to the team!" fullWidth hint="Up to 200 characters." className="form__message" />
             <div className="rv-form-actions">
               <Button htmlType="submit" label="Send invitation" iconLeft="Envelope" />
               <Button label="Cancel" variant="stroke" />

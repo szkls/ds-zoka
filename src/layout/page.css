@@ -6,7 +6,9 @@
 .rv-page__title { display: flex; flex-direction: column; gap: var(--rv-gap-sm); }   /* 8 */
 .rv-page__h1 { margin: 0; font-size: var(--rv-font-size-2xl); line-height: var(--rv-font-line-height-2xl); font-weight: var(--rv-font-weight-semibold); text-wrap: balance; }
 .rv-page__description { margin: 0; font-size: var(--rv-font-size-md); line-height: var(--rv-font-line-height-md); color: var(--rv-text-neutral-soft); max-width: 65ch; }
-.rv-page__sections { display: flex; flex-direction: column; gap: var(--rv-gap-4xl); margin-top: var(--rv-gap-4xl); }   /* 40 */
+.rv-page__sections { display: flex; flex-direction: column; margin-top: var(--rv-gap-4xl); }   /* 40 after the title block */
+/* between sections: 32, divider, 32 */
+.rv-section + .rv-section { margin-top: var(--rv-gap-3xl); padding-top: var(--rv-gap-3xl); box-shadow: inset 0 var(--rv-border-xs) 0 0 var(--rv-border-neutral-subtler); }
 .rv-section { display: flex; flex-direction: column; gap: var(--rv-gap-2xl); }      /* 24 */
 .rv-section__head { display: flex; flex-direction: column; gap: var(--rv-gap-sm); } /* 8 */
 .rv-section__h2 { margin: 0; font-size: var(--rv-font-size-lg); line-height: var(--rv-font-line-height-lg); font-weight: var(--rv-font-weight-semibold); }
@@ -16,7 +18,6 @@
 .rv-subsection { display: flex; flex-direction: column; gap: var(--rv-gap-lg); }    /* 16 */
 .rv-subsection__h3 { margin: 0; font-size: var(--rv-font-size-md); line-height: var(--rv-font-line-height-md); font-weight: var(--rv-font-weight-medium); }
 .rv-subsection__content { display: flex; flex-direction: column; gap: var(--rv-gap-lg); }
-/* form helpers: a row of fields (2 columns on desktop, 1 on mobile), 16 apart */
-.rv-form-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--rv-gap-lg); }
-[data-device="mobile"] .rv-form-row { grid-template-columns: 1fr; }
+/* forms: fields always stacked (never side by side), 16 apart; width follows the expected answer */
+.rv-form-fields { display: flex; flex-direction: column; align-items: flex-start; gap: var(--rv-gap-lg); }
 .rv-form-actions { display: flex; align-items: center; gap: var(--rv-gap-sm); flex-wrap: wrap; }

@@ -3,8 +3,9 @@ import './page.css';
 
 /**
  * Page layout — the validated page anatomy (see docs/guidelines/page-template.md).
- * Header (16) › Breadcrumb (40) › Title + description (8) › sections (40 between blocks).
- * Section: title (8) description (24) content; 16 between content blocks.
+ * Header (16) › Breadcrumb (40) › Title + description (8) › 40 › sections.
+ * Between sections: 32, a divider (border/neutral/subtler), 32. Section: title (8) description (24) content; 16 between content blocks.
+ * Forms: fields stacked, never side by side. Avoid sub-sections; prefer another section.
  */
 export interface PageProps extends Omit<HTMLAttributes<HTMLDivElement>, 'title'> {
   /** Rendered above the page padding (Header component) */
@@ -52,7 +53,7 @@ export function PageSection({ title, description, children, className, ...rest }
   );
 }
 
-/** Sub-section: md/medium title, content 16 below; 24 between sub-sections (to confirm). */
+/** Sub-section (avoid when possible, prefer a new section): md/medium title, content 16 below. */
 export function PageSubsection({ title, children, className, ...rest }: Omit<PageSectionProps, 'description'>) {
   return (
     <div className={['rv-subsection', className ?? ''].join(' ').trim()} {...rest}>
