@@ -30,7 +30,7 @@ export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(function Che
           id={inputId}
           type="checkbox"
           className="rv-checkbox__input"
-          checked={checked === true}
+          checked={checked === undefined ? undefined : checked === true}
           aria-checked={checked === 'indeterminate' ? 'mixed' : undefined}
           aria-readonly={readOnly || undefined}
           disabled={disabled}
