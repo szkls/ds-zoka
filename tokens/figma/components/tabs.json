@@ -1,0 +1,30 @@
+{
+  "_Tab item": {
+    "props": {"label": "Tab", "show-icon": true, "icon": "SquaresFour", "show-badge": false, "type": ["line", "segmented"], "size": ["sm", "md"], "selected": ["false", "true"], "state": ["default", "hover", "focus", "disabled"]},
+    "root": {"layout": "HORIZONTAL", "gap": "gap/xs", "align": "CENTER/CENTER", "radius": "radius/sm"},
+    "sizes": {
+      "line/sm": {"pad": "padding/none padding/2xs", "height": "size/md"},
+      "line/md": {"pad": "padding/none padding/2xs", "height": "size/xl"},
+      "segmented/sm": {"pad": "padding/none padding/sm", "height": "size/sm"},
+      "segmented/md": {"pad": "padding/none padding/md", "height": "size/lg"}
+    },
+    "Icon": {"size": "size/3xs", "strokeWeight": 1.5, "format": "Stroke Regular"},
+    "Label": {"style": "sm/medium"},
+    "Badge": "Badge status=information size=sm (hidden by default, after the label)",
+    "Indicator": {"onlyFor": "line", "position": "absolute, bottom, full width of the item", "height": "border/sm", "fill": "border/brand/base", "disabledFill": "border/neutral/soft", "visible": "selected only"},
+    "colors": {
+      "default": {"text": "text/neutral/soft", "icon": "icon/neutral/soft"},
+      "hover": {"text": "text/neutral/strongest", "icon": "icon/neutral/strongest", "segmentedBg": "background/neutral/alpha/black/4"},
+      "focus": {"bg": "background/neutral/extra-subtle", "effect": "focus-ring/neutral"},
+      "selected": {"text": "text/neutral/strongest", "icon": "icon/neutral/strongest", "segmentedBg": "background/neutral/extra-subtle", "segmentedEffect": "shadow/xs"},
+      "disabled": {"text": "text/neutral/subtler", "icon": "icon/neutral/subtler", "segmentedSelectedBg": "background/neutral/extra-subtle (no shadow)"}
+    }
+  },
+  "Tabs": {
+    "props": {"show-tab-3": true, "show-tab-4": true, "show-tab-5…8": false, "type": ["line", "segmented"], "size": ["sm", "md"]},
+    "line": {"layout": "HORIZONTAL", "gap": {"sm": "gap/md", "md": "gap/lg"}, "align": "MIN/CENTER", "Rule": {"position": "absolute bottom, full width", "height": "border/xs", "fill": "border/neutral/subtler"}},
+    "segmented": {"layout": "HORIZONTAL", "pad": "padding/3xs", "gap": "gap/3xs", "fill": "background/neutral/subtler", "radius": "radius/md", "selectedItem": "background/neutral/extra-subtle + shadow/xs"},
+    "defaultLabels": ["Overview", "Activity", "Members", "Settings", "Files", "Reports", "Billing", "Integrations"],
+    "note": "first tab selected by default"
+  }
+}

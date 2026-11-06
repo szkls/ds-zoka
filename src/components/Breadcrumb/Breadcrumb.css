@@ -1,0 +1,17 @@
+/* Breadcrumb — Figma "Breadcrumb", "_Breadcrumb item", "_Breadcrumb ellipsis" */
+.rv-breadcrumb { font-family: var(--rv-font-family-sans), system-ui, sans-serif; }
+.rv-breadcrumb__list { display: flex; align-items: center; gap: var(--rv-gap-2xs); margin: 0; padding: 0; list-style: none; flex-wrap: wrap; }
+.rv-breadcrumb__li { display: flex; align-items: center; gap: var(--rv-gap-2xs); }
+.rv-breadcrumb__separator { color: var(--rv-icon-neutral-subtler); }
+.rv-breadcrumb__item { display: inline-flex; align-items: center; gap: var(--rv-gap-2xs); padding: 0 var(--rv-padding-3xs); border-radius: var(--rv-radius-sm); font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); font-weight: var(--rv-font-weight-normal); color: var(--rv-text-neutral-soft); text-decoration: none; }
+.rv-breadcrumb__item .rv-icon { color: var(--rv-icon-neutral-soft); }
+a.rv-breadcrumb__item:hover { color: var(--rv-text-neutral-strongest); }
+a.rv-breadcrumb__item:hover .rv-icon { color: var(--rv-icon-neutral-strongest); }
+a.rv-breadcrumb__item:focus-visible { outline: none; background: var(--rv-background-neutral-extra-subtle); box-shadow: var(--rv-focus-ring-neutral); }
+.rv-breadcrumb__item[data-current] { font-weight: var(--rv-font-weight-medium); color: var(--rv-text-neutral-strongest); }
+.rv-breadcrumb__item[data-current] .rv-icon { color: var(--rv-icon-neutral-strongest); }
+.rv-breadcrumb__ellipsis-wrap { position: relative; display: inline-flex; }
+.rv-breadcrumb__ellipsis { display: inline-flex; padding: var(--rv-padding-3xs); border: 0; border-radius: var(--rv-radius-sm); background: transparent; color: var(--rv-icon-neutral-soft); cursor: pointer; }
+.rv-breadcrumb__ellipsis:hover, .rv-breadcrumb__ellipsis[data-open] { background: var(--rv-background-neutral-subtlest); color: var(--rv-icon-neutral-strongest); }
+.rv-breadcrumb__ellipsis:focus-visible { outline: none; background: var(--rv-background-neutral-extra-subtle); box-shadow: var(--rv-focus-ring-neutral); }
+.rv-breadcrumb__menu { position: absolute; top: calc(100% + var(--rv-gap-2xs)); left: 0; z-index: 10; }

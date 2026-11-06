@@ -1,0 +1,28 @@
+{
+  "name": "rv-design",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RV Design — React + TypeScript design system mirrored 1:1 from the Figma file \"DS - Test\" (tokens, components, usage guidelines).",
+  "type": "module",
+  "scripts": {
+    "tokens": "node scripts/build-tokens.mjs",
+    "icons": "node scripts/build-icons.mjs",
+    "registry": "node scripts/build-registry.mjs",
+    "prebuild": "npm run tokens && npm run icons && npm run registry",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

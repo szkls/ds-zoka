@@ -1,0 +1,31 @@
+{
+  "_Radio circle": {
+    "props": {"checked": ["false", "true"], "state": ["default", "hover", "focus", "read-only", "disabled"]},
+    "root": {"hitArea": "size/2xs × size/2xs, centered", "Circle": "size/3xs × size/3xs, radius/full, stroke 1 inside", "Dot": "6 × 6 px, radius/full, only when checked"},
+    "matrix": {
+      "false/default": {"bg": null, "border": "border/neutral/base"},
+      "false/hover": {"bg": null, "border": "border/neutral/strongest"},
+      "false/focus": {"bg": null, "border": "border/neutral/base", "effect": "focus-ring/brand"},
+      "false/read-only": {"bg": null, "border": "border/neutral/subtler"},
+      "false/disabled": {"bg": null, "border": "border/neutral/subtler"},
+      "true/default": {"bg": "background/brand/base", "border": null, "dot": "icon/neutral/extra-subtle"},
+      "true/hover": {"bg": "background/brand/bold", "border": null, "dot": "icon/neutral/extra-subtle"},
+      "true/focus": {"bg": "background/brand/base", "border": null, "dot": "icon/neutral/extra-subtle", "effect": "focus-ring/brand"},
+      "true/read-only": {"bg": "background/brand/base", "border": null, "dot": "icon/neutral/extra-subtle"},
+      "true/disabled": {"bg": "background/neutral/soft", "border": null, "dot": "icon/neutral/subtler"}
+    }
+  },
+  "Radio button": {
+    "props": {"show-label": true, "label": "Radio label", "show-description": false, "description": "Insert the radio description here.", "checked": ["false", "true"], "state": ["default", "hover", "focus", "read-only", "disabled"]},
+    "root": {"layout": "HORIZONTAL", "gap": "gap/2xs", "align": "MIN/MIN"},
+    "Circle": "_Radio circle instance (checked/state passed through)",
+    "Text": {"layout": "VERTICAL", "gap": "gap/3xs", "Label": {"style": "sm/medium", "color": "text/neutral/strongest"}, "Description": {"style": "sm/regular", "color": "text/neutral/soft", "hiddenByDefault": true}},
+    "disabled": {"Label": "text/neutral/subtler", "Description": "text/neutral/subtler"}
+  },
+  "Radio button group": {
+    "props": {"show-label": true, "label": "Group label", "orientation": ["vertical", "horizontal"]},
+    "root": {"layout": "VERTICAL", "gap": "gap/md"},
+    "Label": {"style": "sm/medium", "color": "text/neutral/strongest"},
+    "Options": {"layout": "VERTICAL (vertical) / HORIZONTAL (horizontal)", "gap": "gap/md", "slots": "Radio 1…10 (1-3 visible by default, Radio 1 checked)"}
+  }
+}

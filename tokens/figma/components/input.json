@@ -1,0 +1,38 @@
+{
+  "Label": {
+    "props": {"label": "Label", "show-required": true, "show-optional": true, "optional": "(Optional)", "show-info": true, "state": ["default", "disabled"]},
+    "root": {"layout": "HORIZONTAL", "gap": "gap/2xs", "align": "MIN/CENTER"},
+    "Label": {"style": "sm/medium", "color": "text/neutral/strongest", "disabled": "text/neutral/subtler"},
+    "Required": {"text": "*", "style": "sm/medium", "color": "text/brand/base", "disabled": "text/neutral/subtler"},
+    "Optional": {"style": "sm/regular", "color": "text/neutral/soft", "disabled": "text/neutral/subtler"},
+    "Info": {"icon": "Info (Stroke, Fill)", "size": "size/3xs", "color": "icon/neutral/subtler", "disabled": "icon/neutral/subtlest"}
+  },
+  "Hint": {
+    "props": {"hint": "Insert hint here.", "show-icon": true, "status": ["default", "error", "disabled"]},
+    "root": {"layout": "HORIZONTAL", "gap": "gap/2xs", "align": "MIN/MIN"},
+    "Icon": {"size": "size/3xs", "default": "Info (Stroke, Fill) icon/neutral/subtler", "error": "WarningCircle (Stroke, Fill) icon/system/error/base", "disabled": "Info icon/neutral/subtlest"},
+    "Hint": {"style": "xs/regular", "default": "text/neutral/soft", "error": "text/system/error/base", "disabled": "text/neutral/subtler"}
+  },
+  "Input": {
+    "props": {"show-label": true, "show-hint": true, "value": "Placeholder", "show-icon": true, "icon": "User", "show-info": false, "phone-number": "(555) 000-0000", "url": "www.example.com", "amount": "0.00", "search-query": "Search…", "password": "••••••••••", "share-url": "www.example.com/share", "type": ["basic", "phone", "website", "amount", "search", "password", "share-link"], "state": ["placeholder", "hover", "focus", "filled", "disabled"], "status": ["default", "error"]},
+    "root": {"layout": "VERTICAL", "gap": "gap/2xs", "width": 320, "children": ["Label", "Field", "Hint"]},
+    "Field": {"layout": "HORIZONTAL", "height": "size/xl", "fill": "background/neutral/extra-subtle", "stroke": "border/neutral/base", "sw": 1, "radius": "radius/md", "fillW": true,
+      "Content": {"pad": "0 padding/md", "gap": "gap/sm", "align": "MIN/CENTER", "fillW": true, "Icon": "size/3xs sw 1.5 icon/neutral/soft", "Value": {"style": "sm/regular", "color": "text/neutral/soft", "fillW": true}, "Info": "size/3xs Info icon/neutral/soft (hidden by default, trailing)"}},
+    "states": {
+      "placeholder": {},
+      "hover": {"Field.fill": "background/neutral/subtlest"},
+      "focus": {"Field.stroke": "border/neutral/strongest", "Field.effect": "focus-ring/neutral", "Icon": "icon/neutral/strongest", "Value": "text/neutral/strongest"},
+      "filled": {"Icon": "icon/neutral/strongest", "Value": "text/neutral/strongest"},
+      "disabled": {"Label": "state=disabled", "Field.fill": "background/neutral/subtlest", "Field.stroke": null, "Icon": "icon/neutral/subtlest", "Value": "text/neutral/subtler", "Info": "icon/neutral/subtlest", "Hint": "status=disabled"},
+      "error": {"Field.stroke": "border/system/error/base", "Hint": "status=error", "focusEffect": "focus-ring/error"}
+    },
+    "types": {
+      "phone": {"leadingAddon": "Country: pad 0 padding/md, gap gap/2xs, fillH, bg background/neutral/extra-subtle (subtlest when filled), right border border/neutral/base; Globe icon size/3xs icon/neutral/base, Code sm/regular text/neutral/base (e.g. US), CaretDown size/3xs icon/neutral/base", "noIcon": true},
+      "website": {"leadingAddon": "Prefix: pad 0 padding/md, fillH, bg background/neutral/subtlest, right border border/neutral/base; text 'https://' sm/regular text/neutral/base", "noIcon": true},
+      "amount": {"content": "Currency symbol sm/regular text/neutral/soft before the value", "trailingAddon": "Currency select: pad 0 padding/md, gap gap/2xs, fillH, bg background/neutral/subtlest, left border border/neutral/base; Code sm/regular text/neutral/base (USD) + CaretDown size/3xs icon/neutral/base", "noIcon": true},
+      "search": {"icon": "MagnifyingGlass", "trailing": "Shortcut: pad 0 padding/2xs, stroke border/neutral/subtler 1, radius/sm, Keys xs/medium text/neutral/soft (⌘K)"},
+      "password": {"icon": "Lock", "trailing": "Toggle Eye size/3xs icon/neutral/soft sw 1.5"},
+      "share-link": {"icon": "Link", "trailingAddon": "Copy: pad 0 padding/md, fillH, bg background/neutral/subtlest, left border border/neutral/base; Copy icon size/3xs icon/neutral/base"}
+    }
+  }
+}

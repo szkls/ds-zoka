@@ -1,0 +1,24 @@
+{
+  "Header": {
+    "props": {"device": ["desktop", "mobile"]},
+    "desktop": {
+      "layout": "HORIZONTAL", "pad": "0 padding/3xl", "gap": "gap/2xl", "align": "SPACE_BETWEEN/CENTER", "width": 1440, "height": "size/4xl", "fill": "background/neutral/extra-subtle",
+      "Rule": {"position": "absolute bottom, full width", "height": "border/xs", "fill": "border/neutral/subtler"},
+      "Left": {"layout": "HORIZONTAL", "gap": "gap/4xl", "align": "MIN/CENTER",
+        "Logo": {"layout": "HORIZONTAL", "gap": "gap/sm", "Mark": {"size": "size/sm", "fill": "background/brand/base", "radius": "radius/md", "icon": "Hexagon icon/static/light sw 1.5"}, "Wordmark": {"style": "md/semi-bold", "color": "text/neutral/strongest", "text": "Brand"}},
+        "Navigation": "Tabs type=line size=md, 4 tabs (Overview, Activity, Members, Settings)"},
+      "Right": {"layout": "HORIZONTAL", "gap": "gap/sm", "align": "MIN/CENTER",
+        "Search": "Button brand ghost md icon-only, icon MagnifyingGlass",
+        "Notifications": "Button brand ghost md icon-only, icon Bell",
+        "Profile": {"layout": "HORIZONTAL", "gap": "gap/2xs", "Avatar": "Avatar type=image size=md status=none", "Chevron": "CaretDown size/3xs icon/neutral/soft sw 1.5"}}
+    },
+    "mobile": {
+      "layout": "HORIZONTAL", "pad": "0 padding/lg", "gap": "gap/sm", "align": "SPACE_BETWEEN/CENTER", "width": 390, "height": "size/3xl", "fill": "background/neutral/extra-subtle",
+      "Rule": {"position": "absolute bottom, full width", "height": "border/xs", "fill": "border/neutral/subtler"},
+      "Menu": "Button brand ghost md icon-only, icon List (burger)",
+      "Logo": "same as desktop",
+      "Right": {"Avatar": "Avatar type=image size=md status=none"}
+    },
+    "switch": "device string variable (3c semantic.layout: Desktop=desktop / Mobile=mobile) bound to the variant; breakpoint 768"
+  }
+}

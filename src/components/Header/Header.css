@@ -1,0 +1,19 @@
+/* Header — Figma "Header" (device=desktop | mobile). The layout follows [data-device] on the header, else on the page (html). */
+.rv-header { position: relative; width: 100%; background: var(--rv-background-neutral-extra-subtle); font-family: var(--rv-font-family-sans), system-ui, sans-serif; }
+.rv-header__rule { position: absolute; left: 0; right: 0; bottom: 0; height: var(--rv-border-xs); background: var(--rv-border-neutral-subtler); }
+.rv-header__desktop { display: flex; align-items: center; justify-content: space-between; gap: var(--rv-gap-2xl); height: var(--rv-size-4xl); padding: 0 var(--rv-padding-3xl); }
+.rv-header__mobile { display: none; align-items: center; justify-content: space-between; gap: var(--rv-gap-sm); height: var(--rv-size-3xl); padding: 0 var(--rv-padding-lg); }
+/* device switch — mirrors the Figma `device` variable (3c. semantic.layout) */
+[data-device="mobile"] .rv-header__desktop, .rv-header[data-device="mobile"] .rv-header__desktop { display: none; }
+[data-device="mobile"] .rv-header__mobile, .rv-header[data-device="mobile"] .rv-header__mobile { display: flex; }
+.rv-header[data-device="desktop"] .rv-header__desktop { display: flex; }
+.rv-header[data-device="desktop"] .rv-header__mobile { display: none; }
+.rv-header__left { display: flex; align-items: center; gap: var(--rv-gap-4xl); min-width: 0; }
+.rv-header__right { display: flex; align-items: center; gap: var(--rv-gap-sm); }
+.rv-header__logo { display: inline-flex; align-items: center; gap: var(--rv-gap-sm); }
+.rv-header__mark { display: inline-flex; align-items: center; justify-content: center; width: var(--rv-size-sm); height: var(--rv-size-sm); border-radius: var(--rv-radius-md); background: var(--rv-background-brand-base); color: var(--rv-icon-static-light); }
+.rv-header__wordmark { font-size: var(--rv-font-size-md); line-height: var(--rv-font-line-height-md); font-weight: var(--rv-font-weight-semibold); color: var(--rv-text-neutral-strongest); }
+.rv-header__nav.rv-tabs { gap: var(--rv-gap-lg); }
+.rv-header__profile { display: inline-flex; align-items: center; gap: var(--rv-gap-2xs); padding: 0; border: 0; background: none; cursor: pointer; border-radius: var(--rv-radius-full); }
+.rv-header__profile:focus-visible { outline: none; box-shadow: var(--rv-focus-ring-neutral); }
+.rv-header__chevron { color: var(--rv-icon-neutral-soft); }

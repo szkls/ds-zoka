@@ -1,0 +1,9747 @@
+{
+ "1a": {
+  "modes": [
+   "value"
+  ],
+  "vars": {
+   "colors/red/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-50",
+    "values": [
+     "#fef2f2"
+    ]
+   },
+   "colors/red/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-100",
+    "values": [
+     "#fee2e2"
+    ]
+   },
+   "colors/red/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-200",
+    "values": [
+     "#fecaca"
+    ]
+   },
+   "colors/red/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-300",
+    "values": [
+     "#fca5a5"
+    ]
+   },
+   "colors/red/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-400",
+    "values": [
+     "#f87171"
+    ]
+   },
+   "colors/red/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-500",
+    "values": [
+     "#ef4444"
+    ]
+   },
+   "colors/red/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-600",
+    "values": [
+     "#dc2626"
+    ]
+   },
+   "colors/red/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-700",
+    "values": [
+     "#b91c1c"
+    ]
+   },
+   "colors/red/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-800",
+    "values": [
+     "#991b1b"
+    ]
+   },
+   "colors/red/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-900",
+    "values": [
+     "#7f1d1d"
+    ]
+   },
+   "colors/red/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-950",
+    "values": [
+     "#450a0a"
+    ]
+   },
+   "colors/orange/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-50",
+    "values": [
+     "#fff7ed"
+    ]
+   },
+   "colors/orange/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-100",
+    "values": [
+     "#ffedd5"
+    ]
+   },
+   "colors/orange/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-200",
+    "values": [
+     "#fed7aa"
+    ]
+   },
+   "colors/orange/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-300",
+    "values": [
+     "#fdba74"
+    ]
+   },
+   "colors/orange/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-400",
+    "values": [
+     "#fb923c"
+    ]
+   },
+   "colors/orange/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-500",
+    "values": [
+     "#f97316"
+    ]
+   },
+   "colors/orange/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-600",
+    "values": [
+     "#ea580c"
+    ]
+   },
+   "colors/orange/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-700",
+    "values": [
+     "#c2410c"
+    ]
+   },
+   "colors/orange/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-800",
+    "values": [
+     "#9a3412"
+    ]
+   },
+   "colors/orange/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-900",
+    "values": [
+     "#7c2d12"
+    ]
+   },
+   "colors/orange/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-orange-950",
+    "values": [
+     "#431407"
+    ]
+   },
+   "colors/amber/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-50",
+    "values": [
+     "#fffbeb"
+    ]
+   },
+   "colors/amber/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-100",
+    "values": [
+     "#fef3c7"
+    ]
+   },
+   "colors/amber/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-200",
+    "values": [
+     "#fde68a"
+    ]
+   },
+   "colors/amber/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-300",
+    "values": [
+     "#fcd34d"
+    ]
+   },
+   "colors/amber/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-400",
+    "values": [
+     "#fbbf24"
+    ]
+   },
+   "colors/amber/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-500",
+    "values": [
+     "#f59e0b"
+    ]
+   },
+   "colors/amber/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-600",
+    "values": [
+     "#d97706"
+    ]
+   },
+   "colors/amber/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-700",
+    "values": [
+     "#b45309"
+    ]
+   },
+   "colors/amber/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-800",
+    "values": [
+     "#92400e"
+    ]
+   },
+   "colors/amber/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-900",
+    "values": [
+     "#78350f"
+    ]
+   },
+   "colors/amber/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-950",
+    "values": [
+     "#451a03"
+    ]
+   },
+   "colors/yellow/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-50",
+    "values": [
+     "#fefce8"
+    ]
+   },
+   "colors/yellow/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-100",
+    "values": [
+     "#fef9c3"
+    ]
+   },
+   "colors/yellow/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-200",
+    "values": [
+     "#fef08a"
+    ]
+   },
+   "colors/yellow/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-300",
+    "values": [
+     "#fde047"
+    ]
+   },
+   "colors/yellow/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-400",
+    "values": [
+     "#facc15"
+    ]
+   },
+   "colors/yellow/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-500",
+    "values": [
+     "#eab308"
+    ]
+   },
+   "colors/yellow/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-600",
+    "values": [
+     "#ca8a04"
+    ]
+   },
+   "colors/yellow/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-700",
+    "values": [
+     "#a16207"
+    ]
+   },
+   "colors/yellow/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-800",
+    "values": [
+     "#854d0e"
+    ]
+   },
+   "colors/yellow/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-900",
+    "values": [
+     "#713f12"
+    ]
+   },
+   "colors/yellow/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-yellow-950",
+    "values": [
+     "#422006"
+    ]
+   },
+   "colors/lime/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-50",
+    "values": [
+     "#f7fee7"
+    ]
+   },
+   "colors/lime/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-100",
+    "values": [
+     "#ecfccb"
+    ]
+   },
+   "colors/lime/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-200",
+    "values": [
+     "#d9f99d"
+    ]
+   },
+   "colors/lime/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-300",
+    "values": [
+     "#bef264"
+    ]
+   },
+   "colors/lime/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-400",
+    "values": [
+     "#a3e635"
+    ]
+   },
+   "colors/lime/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-500",
+    "values": [
+     "#84cc16"
+    ]
+   },
+   "colors/lime/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-600",
+    "values": [
+     "#65a30d"
+    ]
+   },
+   "colors/lime/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-700",
+    "values": [
+     "#4d7c0f"
+    ]
+   },
+   "colors/lime/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-800",
+    "values": [
+     "#3f6212"
+    ]
+   },
+   "colors/lime/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-900",
+    "values": [
+     "#365314"
+    ]
+   },
+   "colors/lime/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-lime-950",
+    "values": [
+     "#1a2e05"
+    ]
+   },
+   "colors/green/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-50",
+    "values": [
+     "#f0fdf4"
+    ]
+   },
+   "colors/green/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-100",
+    "values": [
+     "#dcfce7"
+    ]
+   },
+   "colors/green/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-200",
+    "values": [
+     "#bbf7d0"
+    ]
+   },
+   "colors/green/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-300",
+    "values": [
+     "#86efac"
+    ]
+   },
+   "colors/green/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-400",
+    "values": [
+     "#4ade80"
+    ]
+   },
+   "colors/green/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-500",
+    "values": [
+     "#22c55e"
+    ]
+   },
+   "colors/green/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-600",
+    "values": [
+     "#16a34a"
+    ]
+   },
+   "colors/green/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-700",
+    "values": [
+     "#15803d"
+    ]
+   },
+   "colors/green/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-800",
+    "values": [
+     "#166534"
+    ]
+   },
+   "colors/green/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-900",
+    "values": [
+     "#14532d"
+    ]
+   },
+   "colors/green/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-950",
+    "values": [
+     "#052e16"
+    ]
+   },
+   "colors/emerald/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-50",
+    "values": [
+     "#ecfdf5"
+    ]
+   },
+   "colors/emerald/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-100",
+    "values": [
+     "#d1fae5"
+    ]
+   },
+   "colors/emerald/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-200",
+    "values": [
+     "#a7f3d0"
+    ]
+   },
+   "colors/emerald/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-300",
+    "values": [
+     "#6ee7b7"
+    ]
+   },
+   "colors/emerald/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-400",
+    "values": [
+     "#34d399"
+    ]
+   },
+   "colors/emerald/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-500",
+    "values": [
+     "#10b981"
+    ]
+   },
+   "colors/emerald/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-600",
+    "values": [
+     "#059669"
+    ]
+   },
+   "colors/emerald/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-700",
+    "values": [
+     "#047857"
+    ]
+   },
+   "colors/emerald/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-800",
+    "values": [
+     "#065f46"
+    ]
+   },
+   "colors/emerald/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-900",
+    "values": [
+     "#064e3b"
+    ]
+   },
+   "colors/emerald/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-950",
+    "values": [
+     "#022c22"
+    ]
+   },
+   "colors/teal/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-50",
+    "values": [
+     "#f0fdfa"
+    ]
+   },
+   "colors/teal/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-100",
+    "values": [
+     "#ccfbf1"
+    ]
+   },
+   "colors/teal/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-200",
+    "values": [
+     "#99f6e4"
+    ]
+   },
+   "colors/teal/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-300",
+    "values": [
+     "#5eead4"
+    ]
+   },
+   "colors/teal/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-400",
+    "values": [
+     "#2dd4bf"
+    ]
+   },
+   "colors/teal/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-500",
+    "values": [
+     "#14b8a6"
+    ]
+   },
+   "colors/teal/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-600",
+    "values": [
+     "#0d9488"
+    ]
+   },
+   "colors/teal/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-700",
+    "values": [
+     "#0f766e"
+    ]
+   },
+   "colors/teal/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-800",
+    "values": [
+     "#115e59"
+    ]
+   },
+   "colors/teal/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-900",
+    "values": [
+     "#134e4a"
+    ]
+   },
+   "colors/teal/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-teal-950",
+    "values": [
+     "#042f2e"
+    ]
+   },
+   "colors/cyan/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-50",
+    "values": [
+     "#ecfeff"
+    ]
+   },
+   "colors/cyan/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-100",
+    "values": [
+     "#cffafe"
+    ]
+   },
+   "colors/cyan/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-200",
+    "values": [
+     "#a5f3fc"
+    ]
+   },
+   "colors/cyan/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-300",
+    "values": [
+     "#67e8f9"
+    ]
+   },
+   "colors/cyan/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-400",
+    "values": [
+     "#22d3ee"
+    ]
+   },
+   "colors/cyan/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-500",
+    "values": [
+     "#06b6d4"
+    ]
+   },
+   "colors/cyan/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-600",
+    "values": [
+     "#0891b2"
+    ]
+   },
+   "colors/cyan/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-700",
+    "values": [
+     "#0e7490"
+    ]
+   },
+   "colors/cyan/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-800",
+    "values": [
+     "#155e75"
+    ]
+   },
+   "colors/cyan/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-900",
+    "values": [
+     "#164e63"
+    ]
+   },
+   "colors/cyan/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-cyan-950",
+    "values": [
+     "#083344"
+    ]
+   },
+   "colors/sky/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-50",
+    "values": [
+     "#f0f9ff"
+    ]
+   },
+   "colors/sky/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-100",
+    "values": [
+     "#e0f2fe"
+    ]
+   },
+   "colors/sky/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-200",
+    "values": [
+     "#bae6fd"
+    ]
+   },
+   "colors/sky/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-300",
+    "values": [
+     "#7dd3fc"
+    ]
+   },
+   "colors/sky/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-400",
+    "values": [
+     "#38bdf8"
+    ]
+   },
+   "colors/sky/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-500",
+    "values": [
+     "#0ea5e9"
+    ]
+   },
+   "colors/sky/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-600",
+    "values": [
+     "#0284c7"
+    ]
+   },
+   "colors/sky/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-700",
+    "values": [
+     "#0369a1"
+    ]
+   },
+   "colors/sky/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-800",
+    "values": [
+     "#075985"
+    ]
+   },
+   "colors/sky/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-900",
+    "values": [
+     "#0c4a6e"
+    ]
+   },
+   "colors/sky/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-sky-950",
+    "values": [
+     "#082f49"
+    ]
+   },
+   "colors/blue/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-50",
+    "values": [
+     "#eff6ff"
+    ]
+   },
+   "colors/blue/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-100",
+    "values": [
+     "#dbeafe"
+    ]
+   },
+   "colors/blue/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-200",
+    "values": [
+     "#bfdbfe"
+    ]
+   },
+   "colors/blue/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-300",
+    "values": [
+     "#93c5fd"
+    ]
+   },
+   "colors/blue/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-400",
+    "values": [
+     "#60a5fa"
+    ]
+   },
+   "colors/blue/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-500",
+    "values": [
+     "#3b82f6"
+    ]
+   },
+   "colors/blue/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-600",
+    "values": [
+     "#2563eb"
+    ]
+   },
+   "colors/blue/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-700",
+    "values": [
+     "#1d4ed8"
+    ]
+   },
+   "colors/blue/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-800",
+    "values": [
+     "#1e40af"
+    ]
+   },
+   "colors/blue/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-900",
+    "values": [
+     "#1e3a8a"
+    ]
+   },
+   "colors/blue/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-blue-950",
+    "values": [
+     "#172554"
+    ]
+   },
+   "colors/indigo/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-50",
+    "values": [
+     "#eef2ff"
+    ]
+   },
+   "colors/indigo/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-100",
+    "values": [
+     "#e0e7ff"
+    ]
+   },
+   "colors/indigo/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-200",
+    "values": [
+     "#c7d2fe"
+    ]
+   },
+   "colors/indigo/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-300",
+    "values": [
+     "#a5b4fc"
+    ]
+   },
+   "colors/indigo/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-400",
+    "values": [
+     "#818cf8"
+    ]
+   },
+   "colors/indigo/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-500",
+    "values": [
+     "#6366f1"
+    ]
+   },
+   "colors/indigo/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-600",
+    "values": [
+     "#4f46e5"
+    ]
+   },
+   "colors/indigo/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-700",
+    "values": [
+     "#4338ca"
+    ]
+   },
+   "colors/indigo/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-800",
+    "values": [
+     "#3730a3"
+    ]
+   },
+   "colors/indigo/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-900",
+    "values": [
+     "#312e81"
+    ]
+   },
+   "colors/indigo/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-indigo-950",
+    "values": [
+     "#1e1b4b"
+    ]
+   },
+   "colors/violet/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-50",
+    "values": [
+     "#f5f3ff"
+    ]
+   },
+   "colors/violet/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-100",
+    "values": [
+     "#ede9fe"
+    ]
+   },
+   "colors/violet/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-200",
+    "values": [
+     "#ddd6fe"
+    ]
+   },
+   "colors/violet/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-300",
+    "values": [
+     "#c4b5fd"
+    ]
+   },
+   "colors/violet/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-400",
+    "values": [
+     "#a78bfa"
+    ]
+   },
+   "colors/violet/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-500",
+    "values": [
+     "#8b5cf6"
+    ]
+   },
+   "colors/violet/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-600",
+    "values": [
+     "#7c3aed"
+    ]
+   },
+   "colors/violet/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-700",
+    "values": [
+     "#6d28d9"
+    ]
+   },
+   "colors/violet/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-800",
+    "values": [
+     "#5b21b6"
+    ]
+   },
+   "colors/violet/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-900",
+    "values": [
+     "#4c1d95"
+    ]
+   },
+   "colors/violet/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-violet-950",
+    "values": [
+     "#2e1065"
+    ]
+   },
+   "colors/purple/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-50",
+    "values": [
+     "#faf5ff"
+    ]
+   },
+   "colors/purple/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-100",
+    "values": [
+     "#f3e8ff"
+    ]
+   },
+   "colors/purple/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-200",
+    "values": [
+     "#e9d5ff"
+    ]
+   },
+   "colors/purple/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-300",
+    "values": [
+     "#d8b4fe"
+    ]
+   },
+   "colors/purple/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-400",
+    "values": [
+     "#c084fc"
+    ]
+   },
+   "colors/purple/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-500",
+    "values": [
+     "#a855f7"
+    ]
+   },
+   "colors/purple/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-600",
+    "values": [
+     "#9333ea"
+    ]
+   },
+   "colors/purple/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-700",
+    "values": [
+     "#7e22ce"
+    ]
+   },
+   "colors/purple/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-800",
+    "values": [
+     "#6b21a8"
+    ]
+   },
+   "colors/purple/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-900",
+    "values": [
+     "#581c87"
+    ]
+   },
+   "colors/purple/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-purple-950",
+    "values": [
+     "#3b0764"
+    ]
+   },
+   "colors/fuchsia/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-50",
+    "values": [
+     "#fdf4ff"
+    ]
+   },
+   "colors/fuchsia/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-100",
+    "values": [
+     "#fae8ff"
+    ]
+   },
+   "colors/fuchsia/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-200",
+    "values": [
+     "#f5d0fe"
+    ]
+   },
+   "colors/fuchsia/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-300",
+    "values": [
+     "#f0abfc"
+    ]
+   },
+   "colors/fuchsia/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-400",
+    "values": [
+     "#e879f9"
+    ]
+   },
+   "colors/fuchsia/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-500",
+    "values": [
+     "#d946ef"
+    ]
+   },
+   "colors/fuchsia/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-600",
+    "values": [
+     "#c026d3"
+    ]
+   },
+   "colors/fuchsia/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-700",
+    "values": [
+     "#a21caf"
+    ]
+   },
+   "colors/fuchsia/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-800",
+    "values": [
+     "#86198f"
+    ]
+   },
+   "colors/fuchsia/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-900",
+    "values": [
+     "#701a75"
+    ]
+   },
+   "colors/fuchsia/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-fuchsia-950",
+    "values": [
+     "#4a044e"
+    ]
+   },
+   "colors/pink/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-50",
+    "values": [
+     "#fdf2f8"
+    ]
+   },
+   "colors/pink/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-100",
+    "values": [
+     "#fce7f3"
+    ]
+   },
+   "colors/pink/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-200",
+    "values": [
+     "#fbcfe8"
+    ]
+   },
+   "colors/pink/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-300",
+    "values": [
+     "#f9a8d4"
+    ]
+   },
+   "colors/pink/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-400",
+    "values": [
+     "#f472b6"
+    ]
+   },
+   "colors/pink/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-500",
+    "values": [
+     "#ec4899"
+    ]
+   },
+   "colors/pink/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-600",
+    "values": [
+     "#db2777"
+    ]
+   },
+   "colors/pink/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-700",
+    "values": [
+     "#be185d"
+    ]
+   },
+   "colors/pink/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-800",
+    "values": [
+     "#9d174d"
+    ]
+   },
+   "colors/pink/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-900",
+    "values": [
+     "#831843"
+    ]
+   },
+   "colors/pink/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-pink-950",
+    "values": [
+     "#500724"
+    ]
+   },
+   "colors/rose/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-50",
+    "values": [
+     "#fff1f2"
+    ]
+   },
+   "colors/rose/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-100",
+    "values": [
+     "#ffe4e6"
+    ]
+   },
+   "colors/rose/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-200",
+    "values": [
+     "#fecdd3"
+    ]
+   },
+   "colors/rose/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-300",
+    "values": [
+     "#fda4af"
+    ]
+   },
+   "colors/rose/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-400",
+    "values": [
+     "#fb7185"
+    ]
+   },
+   "colors/rose/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-500",
+    "values": [
+     "#f43f5e"
+    ]
+   },
+   "colors/rose/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-600",
+    "values": [
+     "#e11d48"
+    ]
+   },
+   "colors/rose/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-700",
+    "values": [
+     "#be123c"
+    ]
+   },
+   "colors/rose/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-800",
+    "values": [
+     "#9f1239"
+    ]
+   },
+   "colors/rose/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-900",
+    "values": [
+     "#881337"
+    ]
+   },
+   "colors/rose/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-rose-950",
+    "values": [
+     "#4c0519"
+    ]
+   },
+   "colors/slate/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-50",
+    "values": [
+     "#f8fafc"
+    ]
+   },
+   "colors/slate/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-100",
+    "values": [
+     "#f1f5f9"
+    ]
+   },
+   "colors/slate/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-200",
+    "values": [
+     "#e2e8f0"
+    ]
+   },
+   "colors/slate/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-300",
+    "values": [
+     "#cbd5e1"
+    ]
+   },
+   "colors/slate/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-400",
+    "values": [
+     "#94a3b8"
+    ]
+   },
+   "colors/slate/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-500",
+    "values": [
+     "#64748b"
+    ]
+   },
+   "colors/slate/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-600",
+    "values": [
+     "#475569"
+    ]
+   },
+   "colors/slate/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-700",
+    "values": [
+     "#334155"
+    ]
+   },
+   "colors/slate/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-800",
+    "values": [
+     "#1e293b"
+    ]
+   },
+   "colors/slate/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-900",
+    "values": [
+     "#0f172a"
+    ]
+   },
+   "colors/slate/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-950",
+    "values": [
+     "#020617"
+    ]
+   },
+   "colors/gray/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-50",
+    "values": [
+     "#f9fafb"
+    ]
+   },
+   "colors/gray/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-100",
+    "values": [
+     "#f3f4f6"
+    ]
+   },
+   "colors/gray/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-200",
+    "values": [
+     "#e5e7eb"
+    ]
+   },
+   "colors/gray/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-300",
+    "values": [
+     "#d1d5db"
+    ]
+   },
+   "colors/gray/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-400",
+    "values": [
+     "#9ca3af"
+    ]
+   },
+   "colors/gray/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-500",
+    "values": [
+     "#6b7280"
+    ]
+   },
+   "colors/gray/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-600",
+    "values": [
+     "#4b5563"
+    ]
+   },
+   "colors/gray/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-700",
+    "values": [
+     "#374151"
+    ]
+   },
+   "colors/gray/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-800",
+    "values": [
+     "#1f2937"
+    ]
+   },
+   "colors/gray/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-900",
+    "values": [
+     "#111827"
+    ]
+   },
+   "colors/gray/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-950",
+    "values": [
+     "#030712"
+    ]
+   },
+   "colors/zinc/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-50",
+    "values": [
+     "#fafafa"
+    ]
+   },
+   "colors/zinc/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-100",
+    "values": [
+     "#f4f4f5"
+    ]
+   },
+   "colors/zinc/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-200",
+    "values": [
+     "#e4e4e7"
+    ]
+   },
+   "colors/zinc/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-300",
+    "values": [
+     "#d4d4d8"
+    ]
+   },
+   "colors/zinc/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-400",
+    "values": [
+     "#a1a1aa"
+    ]
+   },
+   "colors/zinc/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-500",
+    "values": [
+     "#71717a"
+    ]
+   },
+   "colors/zinc/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-600",
+    "values": [
+     "#52525b"
+    ]
+   },
+   "colors/zinc/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-700",
+    "values": [
+     "#3f3f46"
+    ]
+   },
+   "colors/zinc/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-800",
+    "values": [
+     "#27272a"
+    ]
+   },
+   "colors/zinc/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-900",
+    "values": [
+     "#18181b"
+    ]
+   },
+   "colors/zinc/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-zinc-950",
+    "values": [
+     "#09090b"
+    ]
+   },
+   "colors/neutral/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-50",
+    "values": [
+     "#fafafa"
+    ]
+   },
+   "colors/neutral/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-100",
+    "values": [
+     "#f5f5f5"
+    ]
+   },
+   "colors/neutral/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-200",
+    "values": [
+     "#e5e5e5"
+    ]
+   },
+   "colors/neutral/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-300",
+    "values": [
+     "#d4d4d4"
+    ]
+   },
+   "colors/neutral/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-400",
+    "values": [
+     "#a3a3a3"
+    ]
+   },
+   "colors/neutral/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-500",
+    "values": [
+     "#737373"
+    ]
+   },
+   "colors/neutral/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-600",
+    "values": [
+     "#525252"
+    ]
+   },
+   "colors/neutral/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-700",
+    "values": [
+     "#404040"
+    ]
+   },
+   "colors/neutral/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-800",
+    "values": [
+     "#262626"
+    ]
+   },
+   "colors/neutral/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-900",
+    "values": [
+     "#171717"
+    ]
+   },
+   "colors/neutral/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-neutral-950",
+    "values": [
+     "#0a0a0a"
+    ]
+   },
+   "colors/stone/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-50",
+    "values": [
+     "#fafaf9"
+    ]
+   },
+   "colors/stone/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-100",
+    "values": [
+     "#f5f5f4"
+    ]
+   },
+   "colors/stone/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-200",
+    "values": [
+     "#e7e5e4"
+    ]
+   },
+   "colors/stone/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-300",
+    "values": [
+     "#d6d3d1"
+    ]
+   },
+   "colors/stone/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-400",
+    "values": [
+     "#a8a29e"
+    ]
+   },
+   "colors/stone/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-500",
+    "values": [
+     "#78716c"
+    ]
+   },
+   "colors/stone/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-600",
+    "values": [
+     "#57534e"
+    ]
+   },
+   "colors/stone/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-700",
+    "values": [
+     "#44403c"
+    ]
+   },
+   "colors/stone/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-800",
+    "values": [
+     "#292524"
+    ]
+   },
+   "colors/stone/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-900",
+    "values": [
+     "#1c1917"
+    ]
+   },
+   "colors/stone/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-stone-950",
+    "values": [
+     "#0c0a09"
+    ]
+   },
+   "colors/taupe/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-50",
+    "values": [
+     "#faf9f7"
+    ]
+   },
+   "colors/taupe/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-100",
+    "values": [
+     "#f3f1ee"
+    ]
+   },
+   "colors/taupe/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-200",
+    "values": [
+     "#e6e3de"
+    ]
+   },
+   "colors/taupe/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-300",
+    "values": [
+     "#d6d2cc"
+    ]
+   },
+   "colors/taupe/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-400",
+    "values": [
+     "#ada59e"
+    ]
+   },
+   "colors/taupe/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-500",
+    "values": [
+     "#827a72"
+    ]
+   },
+   "colors/taupe/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-600",
+    "values": [
+     "#68615a"
+    ]
+   },
+   "colors/taupe/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-700",
+    "values": [
+     "#57504a"
+    ]
+   },
+   "colors/taupe/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-800",
+    "values": [
+     "#3e3834"
+    ]
+   },
+   "colors/taupe/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-900",
+    "values": [
+     "#312c29"
+    ]
+   },
+   "colors/taupe/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-taupe-950",
+    "values": [
+     "#211d1a"
+    ]
+   },
+   "colors/mauve/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-50",
+    "values": [
+     "#fafafb"
+    ]
+   },
+   "colors/mauve/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-100",
+    "values": [
+     "#f2f0f4"
+    ]
+   },
+   "colors/mauve/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-200",
+    "values": [
+     "#e5e2e8"
+    ]
+   },
+   "colors/mauve/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-300",
+    "values": [
+     "#d5d0d9"
+    ]
+   },
+   "colors/mauve/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-400",
+    "values": [
+     "#ada4ae"
+    ]
+   },
+   "colors/mauve/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-500",
+    "values": [
+     "#7f7589"
+    ]
+   },
+   "colors/mauve/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-600",
+    "values": [
+     "#665c6f"
+    ]
+   },
+   "colors/mauve/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-700",
+    "values": [
+     "#554b5d"
+    ]
+   },
+   "colors/mauve/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-800",
+    "values": [
+     "#3c3444"
+    ]
+   },
+   "colors/mauve/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-900",
+    "values": [
+     "#302a37"
+    ]
+   },
+   "colors/mauve/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-mauve-950",
+    "values": [
+     "#201c24"
+    ]
+   },
+   "colors/mist/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-50",
+    "values": [
+     "#f9fbfb"
+    ]
+   },
+   "colors/mist/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-100",
+    "values": [
+     "#f0f4f5"
+    ]
+   },
+   "colors/mist/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-200",
+    "values": [
+     "#e3e9eb"
+    ]
+   },
+   "colors/mist/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-300",
+    "values": [
+     "#d2dadd"
+    ]
+   },
+   "colors/mist/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-400",
+    "values": [
+     "#a5b2b7"
+    ]
+   },
+   "colors/mist/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-500",
+    "values": [
+     "#7d8e93"
+    ]
+   },
+   "colors/mist/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-600",
+    "values": [
+     "#647277"
+    ]
+   },
+   "colors/mist/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-700",
+    "values": [
+     "#546164"
+    ]
+   },
+   "colors/mist/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-800",
+    "values": [
+     "#3c484b"
+    ]
+   },
+   "colors/mist/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-900",
+    "values": [
+     "#303b3e"
+    ]
+   },
+   "colors/mist/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-mist-950",
+    "values": [
+     "#20292c"
+    ]
+   },
+   "colors/olive/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-50",
+    "values": [
+     "#fafbf3"
+    ]
+   },
+   "colors/olive/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-100",
+    "values": [
+     "#f3f5ea"
+    ]
+   },
+   "colors/olive/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-200",
+    "values": [
+     "#e7eade"
+    ]
+   },
+   "colors/olive/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-300",
+    "values": [
+     "#d8dccf"
+    ]
+   },
+   "colors/olive/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-400",
+    "values": [
+     "#b0b79f"
+    ]
+   },
+   "colors/olive/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-500",
+    "values": [
+     "#889175"
+    ]
+   },
+   "colors/olive/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-600",
+    "values": [
+     "#6e755f"
+    ]
+   },
+   "colors/olive/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-700",
+    "values": [
+     "#5c6350"
+    ]
+   },
+   "colors/olive/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-800",
+    "values": [
+     "#42483a"
+    ]
+   },
+   "colors/olive/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-900",
+    "values": [
+     "#353a2f"
+    ]
+   },
+   "colors/olive/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-olive-950",
+    "values": [
+     "#232720"
+    ]
+   },
+   "colors/white": {
+    "type": "COLOR",
+    "css": "--rv-colors-white",
+    "values": [
+     "#ffffff"
+    ]
+   },
+   "colors/black": {
+    "type": "COLOR",
+    "css": "--rv-colors-black",
+    "values": [
+     "#000000"
+    ]
+   },
+   "colors/cobalt/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-50",
+    "values": [
+     "#f0f6fe"
+    ]
+   },
+   "colors/cobalt/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-100",
+    "values": [
+     "#dae8fa"
+    ]
+   },
+   "colors/cobalt/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-200",
+    "values": [
+     "#bdd6f7"
+    ]
+   },
+   "colors/cobalt/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-300",
+    "values": [
+     "#90bbf6"
+    ]
+   },
+   "colors/cobalt/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-400",
+    "values": [
+     "#5195ee"
+    ]
+   },
+   "colors/cobalt/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-500",
+    "values": [
+     "#0073e6"
+    ]
+   },
+   "colors/cobalt/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-600",
+    "values": [
+     "#005adf"
+    ]
+   },
+   "colors/cobalt/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-700",
+    "values": [
+     "#004acd"
+    ]
+   },
+   "colors/cobalt/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-800",
+    "values": [
+     "#0040a6"
+    ]
+   },
+   "colors/cobalt/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-900",
+    "values": [
+     "#003b82"
+    ]
+   },
+   "colors/cobalt/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-950",
+    "values": [
+     "#082951"
+    ]
+   },
+   "colors/azure/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-50",
+    "values": [
+     "#eff6fa"
+    ]
+   },
+   "colors/azure/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-100",
+    "values": [
+     "#e1f1fa"
+    ]
+   },
+   "colors/azure/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-200",
+    "values": [
+     "#ccebfa"
+    ]
+   },
+   "colors/azure/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-300",
+    "values": [
+     "#aae1fd"
+    ]
+   },
+   "colors/azure/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-400",
+    "values": [
+     "#77d3ff"
+    ]
+   },
+   "colors/azure/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-500",
+    "values": [
+     "#3dc7ff"
+    ]
+   },
+   "colors/azure/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-600",
+    "values": [
+     "#00a4e3"
+    ]
+   },
+   "colors/azure/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-700",
+    "values": [
+     "#0089c6"
+    ]
+   },
+   "colors/azure/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-800",
+    "values": [
+     "#006b9b"
+    ]
+   },
+   "colors/azure/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-900",
+    "values": [
+     "#005678"
+    ]
+   },
+   "colors/azure/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-950",
+    "values": [
+     "#002e41"
+    ]
+   },
+   "colors/navy/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-50",
+    "values": [
+     "#f2f5fc"
+    ]
+   },
+   "colors/navy/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-100",
+    "values": [
+     "#d2dae9"
+    ]
+   },
+   "colors/navy/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-200",
+    "values": [
+     "#aab7d2"
+    ]
+   },
+   "colors/navy/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-300",
+    "values": [
+     "#7086b3"
+    ]
+   },
+   "colors/navy/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-400",
+    "values": [
+     "#264384"
+    ]
+   },
+   "colors/navy/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-500",
+    "values": [
+     "#00005c"
+    ]
+   },
+   "colors/navy/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-600",
+    "values": [
+     "#04005e"
+    ]
+   },
+   "colors/navy/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-700",
+    "values": [
+     "#060057"
+    ]
+   },
+   "colors/navy/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-800",
+    "values": [
+     "#030043"
+    ]
+   },
+   "colors/navy/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-900",
+    "values": [
+     "#000030"
+    ]
+   },
+   "colors/navy/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-navy-950",
+    "values": [
+     "#000119"
+    ]
+   },
+   "colors/fern/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-50",
+    "values": [
+     "#f1f7f0"
+    ]
+   },
+   "colors/fern/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-100",
+    "values": [
+     "#e0eedd"
+    ]
+   },
+   "colors/fern/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-200",
+    "values": [
+     "#cae3c4"
+    ]
+   },
+   "colors/fern/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-300",
+    "values": [
+     "#a7d39c"
+    ]
+   },
+   "colors/fern/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-400",
+    "values": [
+     "#76bc64"
+    ]
+   },
+   "colors/fern/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-500",
+    "values": [
+     "#4aa82d"
+    ]
+   },
+   "colors/fern/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-600",
+    "values": [
+     "#129000"
+    ]
+   },
+   "colors/fern/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-700",
+    "values": [
+     "#007d00"
+    ]
+   },
+   "colors/fern/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-800",
+    "values": [
+     "#006500"
+    ]
+   },
+   "colors/fern/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-900",
+    "values": [
+     "#175300"
+    ]
+   },
+   "colors/fern/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-fern-950",
+    "values": [
+     "#123208"
+    ]
+   },
+   "colors/tangerine/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-50",
+    "values": [
+     "#fdf3ee"
+    ]
+   },
+   "colors/tangerine/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-100",
+    "values": [
+     "#fce5db"
+    ]
+   },
+   "colors/tangerine/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-200",
+    "values": [
+     "#fcd3c0"
+    ]
+   },
+   "colors/tangerine/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-300",
+    "values": [
+     "#feb796"
+    ]
+   },
+   "colors/tangerine/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-400",
+    "values": [
+     "#fb8f58"
+    ]
+   },
+   "colors/tangerine/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-500",
+    "values": [
+     "#f56a00"
+    ]
+   },
+   "colors/tangerine/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-600",
+    "values": [
+     "#df3d00"
+    ]
+   },
+   "colors/tangerine/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-700",
+    "values": [
+     "#c62000"
+    ]
+   },
+   "colors/tangerine/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-800",
+    "values": [
+     "#9e1f00"
+    ]
+   },
+   "colors/tangerine/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-900",
+    "values": [
+     "#7c2700"
+    ]
+   },
+   "colors/tangerine/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-tangerine-950",
+    "values": [
+     "#481900"
+    ]
+   },
+   "colors/cerise/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-50",
+    "values": [
+     "#fdf2f3"
+    ]
+   },
+   "colors/cerise/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-100",
+    "values": [
+     "#fce3e7"
+    ]
+   },
+   "colors/cerise/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-200",
+    "values": [
+     "#fbd0d6"
+    ]
+   },
+   "colors/cerise/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-300",
+    "values": [
+     "#fcb1be"
+    ]
+   },
+   "colors/cerise/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-400",
+    "values": [
+     "#f6859c"
+    ]
+   },
+   "colors/cerise/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-500",
+    "values": [
+     "#ef5e82"
+    ]
+   },
+   "colors/cerise/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-600",
+    "values": [
+     "#d92e65"
+    ]
+   },
+   "colors/cerise/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-700",
+    "values": [
+     "#c00952"
+    ]
+   },
+   "colors/cerise/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-800",
+    "values": [
+     "#991242"
+    ]
+   },
+   "colors/cerise/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-900",
+    "values": [
+     "#792139"
+    ]
+   },
+   "colors/cerise/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-cerise-950",
+    "values": [
+     "#471622"
+    ]
+   },
+   "colors/grape/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-50",
+    "values": [
+     "#f6f4fa"
+    ]
+   },
+   "colors/grape/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-100",
+    "values": [
+     "#e5dfee"
+    ]
+   },
+   "colors/grape/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-200",
+    "values": [
+     "#cfc3df"
+    ]
+   },
+   "colors/grape/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-300",
+    "values": [
+     "#b09ccc"
+    ]
+   },
+   "colors/grape/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-400",
+    "values": [
+     "#8665ae"
+    ]
+   },
+   "colors/grape/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-500",
+    "values": [
+     "#663894"
+    ]
+   },
+   "colors/grape/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-600",
+    "values": [
+     "#5f2591"
+    ]
+   },
+   "colors/grape/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-700",
+    "values": [
+     "#571c88"
+    ]
+   },
+   "colors/grape/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-800",
+    "values": [
+     "#4b1f72"
+    ]
+   },
+   "colors/grape/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-900",
+    "values": [
+     "#40245e"
+    ]
+   },
+   "colors/grape/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-grape-950",
+    "values": [
+     "#302142"
+    ]
+   },
+   "colors/allports/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-50",
+    "values": [
+     "#f0f9ff"
+    ]
+   },
+   "colors/allports/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-100",
+    "values": [
+     "#ade1ff"
+    ]
+   },
+   "colors/allports/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-200",
+    "values": [
+     "#6ac8ff"
+    ]
+   },
+   "colors/allports/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-300",
+    "values": [
+     "#27b0ff"
+    ]
+   },
+   "colors/allports/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-400",
+    "values": [
+     "#0090e4"
+    ]
+   },
+   "colors/allports/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-500",
+    "values": [
+     "#0066a1"
+    ]
+   },
+   "colors/allports/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-600",
+    "values": [
+     "#005d92"
+    ]
+   },
+   "colors/allports/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-700",
+    "values": [
+     "#005383"
+    ]
+   },
+   "colors/allports/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-800",
+    "values": [
+     "#004a74"
+    ]
+   },
+   "colors/allports/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-900",
+    "values": [
+     "#004065"
+    ]
+   },
+   "colors/allports/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-allports-950",
+    "values": [
+     "#003756"
+    ]
+   },
+   "colors/tundora/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-50",
+    "values": [
+     "#f7f7f7"
+    ]
+   },
+   "colors/tundora/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-100",
+    "values": [
+     "#ededed"
+    ]
+   },
+   "colors/tundora/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-200",
+    "values": [
+     "#d9d9d9"
+    ]
+   },
+   "colors/tundora/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-300",
+    "values": [
+     "#bfbfbf"
+    ]
+   },
+   "colors/tundora/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-400",
+    "values": [
+     "#a6a6a6"
+    ]
+   },
+   "colors/tundora/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-500",
+    "values": [
+     "#8c8c8c"
+    ]
+   },
+   "colors/tundora/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-600",
+    "values": [
+     "#757575"
+    ]
+   },
+   "colors/tundora/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-700",
+    "values": [
+     "#616161"
+    ]
+   },
+   "colors/tundora/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-800",
+    "values": [
+     "#484848"
+    ]
+   },
+   "colors/tundora/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-900",
+    "values": [
+     "#383838"
+    ]
+   },
+   "colors/tundora/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-tundora-950",
+    "values": [
+     "#242424"
+    ]
+   },
+   "colors/ember/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-50",
+    "values": [
+     "#fff3f0"
+    ]
+   },
+   "colors/ember/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-100",
+    "values": [
+     "#ffd8cd"
+    ]
+   },
+   "colors/ember/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-200",
+    "values": [
+     "#ffbdab"
+    ]
+   },
+   "colors/ember/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-300",
+    "values": [
+     "#ffa388"
+    ]
+   },
+   "colors/ember/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-400",
+    "values": [
+     "#ff8866"
+    ]
+   },
+   "colors/ember/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-500",
+    "values": [
+     "#ff6d43"
+    ]
+   },
+   "colors/ember/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-600",
+    "values": [
+     "#ff4d19"
+    ]
+   },
+   "colors/ember/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-700",
+    "values": [
+     "#ee3500"
+    ]
+   },
+   "colors/ember/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-800",
+    "values": [
+     "#c52c00"
+    ]
+   },
+   "colors/ember/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-900",
+    "values": [
+     "#9b2300"
+    ]
+   },
+   "colors/ember/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-ember-950",
+    "values": [
+     "#711900"
+    ]
+   },
+   "colors/peach/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-50",
+    "values": [
+     "#fff6f0"
+    ]
+   },
+   "colors/peach/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-100",
+    "values": [
+     "#ffebdb"
+    ]
+   },
+   "colors/peach/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-200",
+    "values": [
+     "#ffc79d"
+    ]
+   },
+   "colors/peach/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-300",
+    "values": [
+     "#ffb680"
+    ]
+   },
+   "colors/peach/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-400",
+    "values": [
+     "#ff994d"
+    ]
+   },
+   "colors/peach/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-500",
+    "values": [
+     "#ff7c1a"
+    ]
+   },
+   "colors/peach/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-600",
+    "values": [
+     "#eb6500"
+    ]
+   },
+   "colors/peach/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-700",
+    "values": [
+     "#c25300"
+    ]
+   },
+   "colors/peach/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-800",
+    "values": [
+     "#994200"
+    ]
+   },
+   "colors/peach/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-900",
+    "values": [
+     "#703000"
+    ]
+   },
+   "colors/peach/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-peach-950",
+    "values": [
+     "#471f00"
+    ]
+   },
+   "colors/daintree/50": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-50",
+    "values": [
+     "#f0fbff"
+    ]
+   },
+   "colors/daintree/100": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-100",
+    "values": [
+     "#dbf6ff"
+    ]
+   },
+   "colors/daintree/200": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-200",
+    "values": [
+     "#b2ecff"
+    ]
+   },
+   "colors/daintree/300": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-300",
+    "values": [
+     "#80dfff"
+    ]
+   },
+   "colors/daintree/400": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-400",
+    "values": [
+     "#4dd2ff"
+    ]
+   },
+   "colors/daintree/500": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-500",
+    "values": [
+     "#1ac6ff"
+    ]
+   },
+   "colors/daintree/600": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-600",
+    "values": [
+     "#00b0eb"
+    ]
+   },
+   "colors/daintree/700": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-700",
+    "values": [
+     "#0091c2"
+    ]
+   },
+   "colors/daintree/800": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-800",
+    "values": [
+     "#007399"
+    ]
+   },
+   "colors/daintree/900": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-900",
+    "values": [
+     "#005470"
+    ]
+   },
+   "colors/daintree/950": {
+    "type": "COLOR",
+    "css": "--rv-colors-daintree-950",
+    "values": [
+     "#002d3c"
+    ]
+   },
+   "colors/cobalt/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-4",
+    "values": [
+     "#0073e60a"
+    ]
+   },
+   "colors/cobalt/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-8",
+    "values": [
+     "#0073e614"
+    ]
+   },
+   "colors/cobalt/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-12",
+    "values": [
+     "#0073e61f"
+    ]
+   },
+   "colors/cobalt/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-16",
+    "values": [
+     "#0073e629"
+    ]
+   },
+   "colors/cobalt/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-24",
+    "values": [
+     "#0073e63d"
+    ]
+   },
+   "colors/cobalt/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-32",
+    "values": [
+     "#0073e652"
+    ]
+   },
+   "colors/cobalt/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-48",
+    "values": [
+     "#0073e67a"
+    ]
+   },
+   "colors/cobalt/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-64",
+    "values": [
+     "#0073e6a3"
+    ]
+   },
+   "colors/cobalt/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-cobalt-alpha-80",
+    "values": [
+     "#0073e6cc"
+    ]
+   },
+   "colors/gray/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-4",
+    "values": [
+     "#0307120a"
+    ]
+   },
+   "colors/gray/alpha/4-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-4-light",
+    "values": [
+     "#ffffff0a"
+    ]
+   },
+   "colors/gray/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-8",
+    "values": [
+     "#03071214"
+    ]
+   },
+   "colors/gray/alpha/8-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-8-light",
+    "values": [
+     "#ffffff14"
+    ]
+   },
+   "colors/gray/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-12",
+    "values": [
+     "#0307121f"
+    ]
+   },
+   "colors/gray/alpha/12-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-12-light",
+    "values": [
+     "#ffffff1f"
+    ]
+   },
+   "colors/gray/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-16",
+    "values": [
+     "#03071229"
+    ]
+   },
+   "colors/gray/alpha/16-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-16-light",
+    "values": [
+     "#ffffff29"
+    ]
+   },
+   "colors/gray/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-24",
+    "values": [
+     "#0307123d"
+    ]
+   },
+   "colors/gray/alpha/24-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-24-light",
+    "values": [
+     "#ffffff3d"
+    ]
+   },
+   "colors/gray/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-32",
+    "values": [
+     "#03071252"
+    ]
+   },
+   "colors/gray/alpha/32-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-32-light",
+    "values": [
+     "#ffffff52"
+    ]
+   },
+   "colors/gray/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-48",
+    "values": [
+     "#0307127a"
+    ]
+   },
+   "colors/gray/alpha/48-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-48-light",
+    "values": [
+     "#ffffff7a"
+    ]
+   },
+   "colors/gray/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-64",
+    "values": [
+     "#030712a3"
+    ]
+   },
+   "colors/gray/alpha/64-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-64-light",
+    "values": [
+     "#ffffffa3"
+    ]
+   },
+   "colors/gray/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-80",
+    "values": [
+     "#030712cc"
+    ]
+   },
+   "colors/gray/alpha/80-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-gray-alpha-80-light",
+    "values": [
+     "#ffffffcc"
+    ]
+   },
+   "colors/red/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-4",
+    "values": [
+     "#ef44440a"
+    ]
+   },
+   "colors/red/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-8",
+    "values": [
+     "#ef444414"
+    ]
+   },
+   "colors/red/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-12",
+    "values": [
+     "#ef44441f"
+    ]
+   },
+   "colors/red/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-16",
+    "values": [
+     "#ef444429"
+    ]
+   },
+   "colors/red/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-24",
+    "values": [
+     "#ef44443d"
+    ]
+   },
+   "colors/red/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-32",
+    "values": [
+     "#ef444452"
+    ]
+   },
+   "colors/red/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-48",
+    "values": [
+     "#ef44447a"
+    ]
+   },
+   "colors/red/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-64",
+    "values": [
+     "#ef4444a3"
+    ]
+   },
+   "colors/red/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-red-alpha-80",
+    "values": [
+     "#ef4444cc"
+    ]
+   },
+   "colors/green/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-4",
+    "values": [
+     "#22c55e0a"
+    ]
+   },
+   "colors/green/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-8",
+    "values": [
+     "#22c55e14"
+    ]
+   },
+   "colors/green/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-12",
+    "values": [
+     "#22c55e1f"
+    ]
+   },
+   "colors/green/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-16",
+    "values": [
+     "#22c55e29"
+    ]
+   },
+   "colors/green/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-24",
+    "values": [
+     "#22c55e3d"
+    ]
+   },
+   "colors/green/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-32",
+    "values": [
+     "#22c55e52"
+    ]
+   },
+   "colors/green/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-48",
+    "values": [
+     "#22c55e7a"
+    ]
+   },
+   "colors/green/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-64",
+    "values": [
+     "#22c55ea3"
+    ]
+   },
+   "colors/green/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-green-alpha-80",
+    "values": [
+     "#22c55ecc"
+    ]
+   },
+   "colors/amber/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-4",
+    "values": [
+     "#f59e0b0a"
+    ]
+   },
+   "colors/amber/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-8",
+    "values": [
+     "#f59e0b14"
+    ]
+   },
+   "colors/amber/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-12",
+    "values": [
+     "#f59e0b1f"
+    ]
+   },
+   "colors/amber/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-16",
+    "values": [
+     "#f59e0b29"
+    ]
+   },
+   "colors/amber/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-24",
+    "values": [
+     "#f59e0b3d"
+    ]
+   },
+   "colors/amber/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-32",
+    "values": [
+     "#f59e0b52"
+    ]
+   },
+   "colors/amber/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-48",
+    "values": [
+     "#f59e0b7a"
+    ]
+   },
+   "colors/amber/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-64",
+    "values": [
+     "#f59e0ba3"
+    ]
+   },
+   "colors/amber/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-amber-alpha-80",
+    "values": [
+     "#f59e0bcc"
+    ]
+   },
+   "colors/azure/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-4",
+    "values": [
+     "#3dc7ff0a"
+    ]
+   },
+   "colors/azure/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-8",
+    "values": [
+     "#3dc7ff14"
+    ]
+   },
+   "colors/azure/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-12",
+    "values": [
+     "#3dc7ff1f"
+    ]
+   },
+   "colors/azure/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-16",
+    "values": [
+     "#3dc7ff29"
+    ]
+   },
+   "colors/azure/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-24",
+    "values": [
+     "#3dc7ff3d"
+    ]
+   },
+   "colors/azure/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-32",
+    "values": [
+     "#3dc7ff52"
+    ]
+   },
+   "colors/azure/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-48",
+    "values": [
+     "#3dc7ff7a"
+    ]
+   },
+   "colors/azure/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-64",
+    "values": [
+     "#3dc7ffa3"
+    ]
+   },
+   "colors/azure/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-azure-alpha-80",
+    "values": [
+     "#3dc7ffcc"
+    ]
+   },
+   "colors/black/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-4",
+    "values": [
+     "#0000000a"
+    ]
+   },
+   "colors/black/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-8",
+    "values": [
+     "#00000014"
+    ]
+   },
+   "colors/black/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-12",
+    "values": [
+     "#0000001f"
+    ]
+   },
+   "colors/black/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-16",
+    "values": [
+     "#00000029"
+    ]
+   },
+   "colors/black/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-24",
+    "values": [
+     "#0000003d"
+    ]
+   },
+   "colors/black/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-32",
+    "values": [
+     "#00000052"
+    ]
+   },
+   "colors/black/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-48",
+    "values": [
+     "#0000007a"
+    ]
+   },
+   "colors/slate/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-4",
+    "values": [
+     "#0206170a"
+    ]
+   },
+   "colors/slate/alpha/4-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-4-light",
+    "values": [
+     "#ffffff0a"
+    ]
+   },
+   "colors/slate/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-8",
+    "values": [
+     "#02061714"
+    ]
+   },
+   "colors/slate/alpha/8-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-8-light",
+    "values": [
+     "#ffffff14"
+    ]
+   },
+   "colors/slate/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-12",
+    "values": [
+     "#0206171f"
+    ]
+   },
+   "colors/slate/alpha/12-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-12-light",
+    "values": [
+     "#ffffff1f"
+    ]
+   },
+   "colors/slate/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-16",
+    "values": [
+     "#02061729"
+    ]
+   },
+   "colors/slate/alpha/16-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-16-light",
+    "values": [
+     "#ffffff29"
+    ]
+   },
+   "colors/slate/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-24",
+    "values": [
+     "#0206173d"
+    ]
+   },
+   "colors/slate/alpha/24-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-24-light",
+    "values": [
+     "#ffffff3d"
+    ]
+   },
+   "colors/slate/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-32",
+    "values": [
+     "#02061752"
+    ]
+   },
+   "colors/slate/alpha/32-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-32-light",
+    "values": [
+     "#ffffff52"
+    ]
+   },
+   "colors/slate/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-48",
+    "values": [
+     "#0206177a"
+    ]
+   },
+   "colors/slate/alpha/48-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-48-light",
+    "values": [
+     "#ffffff7a"
+    ]
+   },
+   "colors/slate/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-64",
+    "values": [
+     "#020617a3"
+    ]
+   },
+   "colors/slate/alpha/64-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-64-light",
+    "values": [
+     "#ffffffa3"
+    ]
+   },
+   "colors/slate/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-80",
+    "values": [
+     "#020617cc"
+    ]
+   },
+   "colors/slate/alpha/80-light": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-alpha-80-light",
+    "values": [
+     "#ffffffcc"
+    ]
+   },
+   "colors/white/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-4",
+    "values": [
+     "#ffffff0a"
+    ]
+   },
+   "colors/white/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-8",
+    "values": [
+     "#ffffff14"
+    ]
+   },
+   "colors/white/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-12",
+    "values": [
+     "#ffffff1f"
+    ]
+   },
+   "colors/white/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-16",
+    "values": [
+     "#ffffff29"
+    ]
+   },
+   "colors/white/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-24",
+    "values": [
+     "#ffffff3d"
+    ]
+   },
+   "colors/white/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-32",
+    "values": [
+     "#ffffff52"
+    ]
+   },
+   "colors/white/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-48",
+    "values": [
+     "#ffffff7a"
+    ]
+   },
+   "colors/white/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-64",
+    "values": [
+     "#ffffffa3"
+    ]
+   },
+   "colors/white/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-white-alpha-80",
+    "values": [
+     "#ffffffcc"
+    ]
+   },
+   "colors/black/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-64",
+    "values": [
+     "#000000a3"
+    ]
+   },
+   "colors/black/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-black-alpha-80",
+    "values": [
+     "#000000cc"
+    ]
+   },
+   "colors/slate/450": {
+    "type": "COLOR",
+    "css": "--rv-colors-slate-450",
+    "values": [
+     "#78879e"
+    ]
+   },
+   "colors/emerald/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-4",
+    "values": [
+     "#0478570a"
+    ]
+   },
+   "colors/emerald/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-8",
+    "values": [
+     "#04785714"
+    ]
+   },
+   "colors/emerald/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-12",
+    "values": [
+     "#0478571f"
+    ]
+   },
+   "colors/emerald/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-16",
+    "values": [
+     "#04785729"
+    ]
+   },
+   "colors/emerald/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-24",
+    "values": [
+     "#0478573d"
+    ]
+   },
+   "colors/emerald/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-32",
+    "values": [
+     "#04785752"
+    ]
+   },
+   "colors/emerald/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-48",
+    "values": [
+     "#0478577a"
+    ]
+   },
+   "colors/emerald/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-64",
+    "values": [
+     "#047857a3"
+    ]
+   },
+   "colors/emerald/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-colors-emerald-alpha-80",
+    "values": [
+     "#047857cc"
+    ]
+   }
+  }
+ },
+ "1b": {
+  "modes": [
+   "Mode 1"
+  ],
+  "vars": {
+   "letter-spacing/0": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing-0",
+    "values": [
+     0
+    ]
+   },
+   "letter-spacing/1": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing-1",
+    "values": [
+     1
+    ]
+   },
+   "letter-spacing/2": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing-2",
+    "values": [
+     2
+    ]
+   },
+   "letter-spacing/3": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing-3",
+    "values": [
+     3
+    ]
+   },
+   "letter-spacing/4": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing-4",
+    "values": [
+     4
+    ]
+   },
+   "letter-spacing/5": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing-5",
+    "values": [
+     5
+    ]
+   },
+   "letter-spacing/-5": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing--5",
+    "values": [
+     -5
+    ]
+   },
+   "letter-spacing/-4": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing--4",
+    "values": [
+     -4
+    ]
+   },
+   "letter-spacing/-3": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing--3",
+    "values": [
+     -3
+    ]
+   },
+   "letter-spacing/-2": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing--2",
+    "values": [
+     -2
+    ]
+   },
+   "letter-spacing/-1": {
+    "type": "FLOAT",
+    "css": "--rv-type-letter-spacing--1",
+    "values": [
+     -1
+    ]
+   },
+   "line-height/0": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-0",
+    "values": [
+     0
+    ]
+   },
+   "line-height/1": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-1",
+    "values": [
+     4
+    ]
+   },
+   "line-height/2": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-2",
+    "values": [
+     8
+    ]
+   },
+   "line-height/3": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-3",
+    "values": [
+     12
+    ]
+   },
+   "line-height/4": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-4",
+    "values": [
+     16
+    ]
+   },
+   "line-height/5": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-5",
+    "values": [
+     20
+    ]
+   },
+   "line-height/6": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-6",
+    "values": [
+     24
+    ]
+   },
+   "line-height/7": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-7",
+    "values": [
+     28
+    ]
+   },
+   "line-height/8": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-8",
+    "values": [
+     32
+    ]
+   },
+   "line-height/9": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-9",
+    "values": [
+     36
+    ]
+   },
+   "line-height/10": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-10",
+    "values": [
+     40
+    ]
+   },
+   "line-height/11": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-11",
+    "values": [
+     44
+    ]
+   },
+   "line-height/12": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-12",
+    "values": [
+     48
+    ]
+   },
+   "line-height/13": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-13",
+    "values": [
+     56
+    ]
+   },
+   "line-height/14": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-14",
+    "values": [
+     64
+    ]
+   },
+   "line-height/15": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-15",
+    "values": [
+     72
+    ]
+   },
+   "line-height/16": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-16",
+    "values": [
+     80
+    ]
+   },
+   "line-height/17": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-17",
+    "values": [
+     88
+    ]
+   },
+   "line-height/18": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-18",
+    "values": [
+     96
+    ]
+   },
+   "line-height/19": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-19",
+    "values": [
+     104
+    ]
+   },
+   "line-height/20": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-20",
+    "values": [
+     108
+    ]
+   },
+   "size/1": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-1",
+    "values": [
+     12
+    ]
+   },
+   "size/2": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-2",
+    "values": [
+     14
+    ]
+   },
+   "size/3": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-3",
+    "values": [
+     16
+    ]
+   },
+   "size/4": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-4",
+    "values": [
+     18
+    ]
+   },
+   "size/5": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-5",
+    "values": [
+     20
+    ]
+   },
+   "size/6": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-6",
+    "values": [
+     24
+    ]
+   },
+   "size/7": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-7",
+    "values": [
+     28
+    ]
+   },
+   "size/8": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-8",
+    "values": [
+     32
+    ]
+   },
+   "size/9": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-9",
+    "values": [
+     36
+    ]
+   },
+   "size/10": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-10",
+    "values": [
+     40
+    ]
+   },
+   "size/11": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-11",
+    "values": [
+     44
+    ]
+   },
+   "size/12": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-12",
+    "values": [
+     48
+    ]
+   },
+   "size/13": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-13",
+    "values": [
+     56
+    ]
+   },
+   "size/14": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-14",
+    "values": [
+     64
+    ]
+   },
+   "size/15": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-15",
+    "values": [
+     72
+    ]
+   },
+   "size/16": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-16",
+    "values": [
+     80
+    ]
+   },
+   "size/17": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-17",
+    "values": [
+     88
+    ]
+   },
+   "size/18": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-18",
+    "values": [
+     96
+    ]
+   },
+   "size/19": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-19",
+    "values": [
+     104
+    ]
+   },
+   "size/20": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-20",
+    "values": [
+     108
+    ]
+   },
+   "weight/0": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-0",
+    "values": [
+     0
+    ]
+   },
+   "weight/50": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-50",
+    "values": [
+     50
+    ]
+   },
+   "weight/100": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-100",
+    "values": [
+     100
+    ]
+   },
+   "weight/150": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-150",
+    "values": [
+     150
+    ]
+   },
+   "weight/200": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-200",
+    "values": [
+     200
+    ]
+   },
+   "weight/250": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-250",
+    "values": [
+     250
+    ]
+   },
+   "weight/300": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-300",
+    "values": [
+     300
+    ]
+   },
+   "weight/350": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-350",
+    "values": [
+     350
+    ]
+   },
+   "weight/400": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-400",
+    "values": [
+     400
+    ]
+   },
+   "weight/450": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-450",
+    "values": [
+     450
+    ]
+   },
+   "weight/500": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-500",
+    "values": [
+     500
+    ]
+   },
+   "weight/550": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-550",
+    "values": [
+     550
+    ]
+   },
+   "weight/600": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-600",
+    "values": [
+     600
+    ]
+   },
+   "weight/650": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-650",
+    "values": [
+     650
+    ]
+   },
+   "weight/700": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-700",
+    "values": [
+     700
+    ]
+   },
+   "weight/750": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-750",
+    "values": [
+     750
+    ]
+   },
+   "weight/800": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-800",
+    "values": [
+     800
+    ]
+   },
+   "weight/850": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-850",
+    "values": [
+     850
+    ]
+   },
+   "weight/900": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-900",
+    "values": [
+     900
+    ]
+   },
+   "weight/950": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-950",
+    "values": [
+     950
+    ]
+   },
+   "weight/1000": {
+    "type": "FLOAT",
+    "css": "--rv-type-weight-1000",
+    "values": [
+     1000
+    ]
+   },
+   "size/21": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-21",
+    "values": [
+     30
+    ]
+   },
+   "size/22": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-22",
+    "values": [
+     60
+    ]
+   },
+   "size/23": {
+    "type": "FLOAT",
+    "css": "--rv-type-size-23",
+    "values": [
+     128
+    ]
+   },
+   "line-height/21": {
+    "type": "FLOAT",
+    "css": "--rv-type-line-height-21",
+    "values": [
+     38
+    ]
+   },
+   "family/raleway": {
+    "type": "STRING",
+    "css": "--rv-type-family-raleway",
+    "values": [
+     "Raleway"
+    ]
+   },
+   "family/inter": {
+    "type": "STRING",
+    "css": "--rv-type-family-inter",
+    "values": [
+     "Inter"
+    ]
+   },
+   "family/satoshi": {
+    "type": "STRING",
+    "css": "--rv-type-family-satoshi",
+    "values": [
+     "Satoshi"
+    ]
+   }
+  }
+ },
+ "1c": {
+  "modes": [
+   "Value"
+  ],
+  "vars": {
+   "border-width/0": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-0",
+    "values": [
+     0
+    ]
+   },
+   "border-width/1": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-1",
+    "values": [
+     1
+    ]
+   },
+   "border-width/2": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-2",
+    "values": [
+     2
+    ]
+   },
+   "border-width/3": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-3",
+    "values": [
+     3
+    ]
+   },
+   "border-width/4": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-4",
+    "values": [
+     4
+    ]
+   },
+   "border-width/5": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-5",
+    "values": [
+     5
+    ]
+   },
+   "border-width/6": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-6",
+    "values": [
+     6
+    ]
+   },
+   "border-width/7": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-7",
+    "values": [
+     7
+    ]
+   },
+   "border-width/8": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-8",
+    "values": [
+     8
+    ]
+   },
+   "border-width/9": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-9",
+    "values": [
+     9
+    ]
+   },
+   "border-width/10": {
+    "type": "FLOAT",
+    "css": "--rv-layout-border-width-10",
+    "values": [
+     10
+    ]
+   },
+   "height/0": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-0",
+    "values": [
+     0
+    ]
+   },
+   "height/1": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-1",
+    "values": [
+     2
+    ]
+   },
+   "height/2": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-2",
+    "values": [
+     4
+    ]
+   },
+   "height/3": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-3",
+    "values": [
+     6
+    ]
+   },
+   "height/4": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-4",
+    "values": [
+     8
+    ]
+   },
+   "height/5": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-5",
+    "values": [
+     10
+    ]
+   },
+   "height/6": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-6",
+    "values": [
+     12
+    ]
+   },
+   "height/7": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-7",
+    "values": [
+     16
+    ]
+   },
+   "height/8": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-8",
+    "values": [
+     20
+    ]
+   },
+   "height/9": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-9",
+    "values": [
+     24
+    ]
+   },
+   "height/10": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-10",
+    "values": [
+     32
+    ]
+   },
+   "height/11": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-11",
+    "values": [
+     36
+    ]
+   },
+   "height/12": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-12",
+    "values": [
+     40
+    ]
+   },
+   "height/13": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-13",
+    "values": [
+     48
+    ]
+   },
+   "height/14": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-14",
+    "values": [
+     56
+    ]
+   },
+   "height/15": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-15",
+    "values": [
+     64
+    ]
+   },
+   "height/16": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-16",
+    "values": [
+     72
+    ]
+   },
+   "height/17": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-17",
+    "values": [
+     80
+    ]
+   },
+   "height/18": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-18",
+    "values": [
+     88
+    ]
+   },
+   "height/19": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-19",
+    "values": [
+     96
+    ]
+   },
+   "height/20": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-20",
+    "values": [
+     104
+    ]
+   },
+   "negative/0": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-0",
+    "values": [
+     0
+    ]
+   },
+   "negative/1": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-1",
+    "values": [
+     -1
+    ]
+   },
+   "negative/2": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-2",
+    "values": [
+     -2
+    ]
+   },
+   "negative/3": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-3",
+    "values": [
+     -3
+    ]
+   },
+   "negative/4": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-4",
+    "values": [
+     -4
+    ]
+   },
+   "negative/5": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-5",
+    "values": [
+     -5
+    ]
+   },
+   "negative/6": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-6",
+    "values": [
+     -6
+    ]
+   },
+   "negative/7": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-7",
+    "values": [
+     -7
+    ]
+   },
+   "negative/8": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-8",
+    "values": [
+     -8
+    ]
+   },
+   "negative/9": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-9",
+    "values": [
+     -9
+    ]
+   },
+   "negative/10": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-10",
+    "values": [
+     -10
+    ]
+   },
+   "negative/11": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-11",
+    "values": [
+     -11
+    ]
+   },
+   "negative/12": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-12",
+    "values": [
+     -12
+    ]
+   },
+   "negative/13": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-13",
+    "values": [
+     -13
+    ]
+   },
+   "negative/14": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-14",
+    "values": [
+     -14
+    ]
+   },
+   "negative/15": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-15",
+    "values": [
+     -15
+    ]
+   },
+   "negative/16": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-16",
+    "values": [
+     -16
+    ]
+   },
+   "negative/17": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-17",
+    "values": [
+     -17
+    ]
+   },
+   "negative/18": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-18",
+    "values": [
+     -18
+    ]
+   },
+   "negative/19": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-19",
+    "values": [
+     -19
+    ]
+   },
+   "negative/20": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-20",
+    "values": [
+     -20
+    ]
+   },
+   "positive/0": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-0",
+    "values": [
+     0
+    ]
+   },
+   "positive/1": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-1",
+    "values": [
+     1
+    ]
+   },
+   "positive/2": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-2",
+    "values": [
+     2
+    ]
+   },
+   "positive/3": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-3",
+    "values": [
+     3
+    ]
+   },
+   "positive/4": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-4",
+    "values": [
+     4
+    ]
+   },
+   "positive/5": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-5",
+    "values": [
+     5
+    ]
+   },
+   "positive/6": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-6",
+    "values": [
+     6
+    ]
+   },
+   "positive/7": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-7",
+    "values": [
+     7
+    ]
+   },
+   "positive/8": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-8",
+    "values": [
+     8
+    ]
+   },
+   "positive/9": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-9",
+    "values": [
+     9
+    ]
+   },
+   "positive/10": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-10",
+    "values": [
+     10
+    ]
+   },
+   "positive/11": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-11",
+    "values": [
+     11
+    ]
+   },
+   "positive/12": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-12",
+    "values": [
+     12
+    ]
+   },
+   "positive/13": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-13",
+    "values": [
+     13
+    ]
+   },
+   "positive/14": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-14",
+    "values": [
+     14
+    ]
+   },
+   "positive/15": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-15",
+    "values": [
+     15
+    ]
+   },
+   "positive/16": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-16",
+    "values": [
+     16
+    ]
+   },
+   "positive/17": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-17",
+    "values": [
+     17
+    ]
+   },
+   "positive/18": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-18",
+    "values": [
+     18
+    ]
+   },
+   "positive/19": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-19",
+    "values": [
+     19
+    ]
+   },
+   "positive/20": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-20",
+    "values": [
+     20
+    ]
+   },
+   "radius/0": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-0",
+    "values": [
+     0
+    ]
+   },
+   "radius/1": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-1",
+    "values": [
+     2
+    ]
+   },
+   "radius/2": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-2",
+    "values": [
+     4
+    ]
+   },
+   "radius/3": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-3",
+    "values": [
+     6
+    ]
+   },
+   "radius/4": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-4",
+    "values": [
+     8
+    ]
+   },
+   "radius/5": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-5",
+    "values": [
+     10
+    ]
+   },
+   "radius/6": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-6",
+    "values": [
+     12
+    ]
+   },
+   "radius/7": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-7",
+    "values": [
+     16
+    ]
+   },
+   "radius/8": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-8",
+    "values": [
+     20
+    ]
+   },
+   "radius/9": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-9",
+    "values": [
+     24
+    ]
+   },
+   "radius/10": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-10",
+    "values": [
+     32
+    ]
+   },
+   "radius/11": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-11",
+    "values": [
+     40
+    ]
+   },
+   "radius/12": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-12",
+    "values": [
+     48
+    ]
+   },
+   "radius/13": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-13",
+    "values": [
+     56
+    ]
+   },
+   "radius/14": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-14",
+    "values": [
+     64
+    ]
+   },
+   "radius/15": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-15",
+    "values": [
+     72
+    ]
+   },
+   "radius/16": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-16",
+    "values": [
+     80
+    ]
+   },
+   "radius/17": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-17",
+    "values": [
+     88
+    ]
+   },
+   "radius/18": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-18",
+    "values": [
+     96
+    ]
+   },
+   "radius/19": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-19",
+    "values": [
+     104
+    ]
+   },
+   "radius/20": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-20",
+    "values": [
+     9999
+    ]
+   },
+   "spacing/0": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-0",
+    "values": [
+     0
+    ]
+   },
+   "spacing/1": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-1",
+    "values": [
+     2
+    ]
+   },
+   "spacing/2": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-2",
+    "values": [
+     4
+    ]
+   },
+   "spacing/3": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-3",
+    "values": [
+     6
+    ]
+   },
+   "spacing/4": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-4",
+    "values": [
+     8
+    ]
+   },
+   "spacing/5": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-5",
+    "values": [
+     10
+    ]
+   },
+   "spacing/6": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-6",
+    "values": [
+     12
+    ]
+   },
+   "spacing/7": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-7",
+    "values": [
+     14
+    ]
+   },
+   "spacing/8": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-8",
+    "values": [
+     16
+    ]
+   },
+   "spacing/9": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-9",
+    "values": [
+     20
+    ]
+   },
+   "spacing/10": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-10",
+    "values": [
+     24
+    ]
+   },
+   "spacing/11": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-11",
+    "values": [
+     32
+    ]
+   },
+   "spacing/12": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-12",
+    "values": [
+     40
+    ]
+   },
+   "spacing/13": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-13",
+    "values": [
+     48
+    ]
+   },
+   "spacing/14": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-14",
+    "values": [
+     56
+    ]
+   },
+   "spacing/15": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-15",
+    "values": [
+     64
+    ]
+   },
+   "spacing/16": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-16",
+    "values": [
+     72
+    ]
+   },
+   "spacing/17": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-17",
+    "values": [
+     80
+    ]
+   },
+   "spacing/18": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-18",
+    "values": [
+     88
+    ]
+   },
+   "spacing/19": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-19",
+    "values": [
+     96
+    ]
+   },
+   "spacing/20": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-20",
+    "values": [
+     104
+    ]
+   },
+   "spacing/21": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-21",
+    "values": [
+     320
+    ]
+   },
+   "spacing/22": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-22",
+    "values": [
+     384
+    ]
+   },
+   "spacing/23": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-23",
+    "values": [
+     448
+    ]
+   },
+   "spacing/24": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-24",
+    "values": [
+     512
+    ]
+   },
+   "spacing/25": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-25",
+    "values": [
+     576
+    ]
+   },
+   "spacing/26": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-26",
+    "values": [
+     672
+    ]
+   },
+   "spacing/27": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-27",
+    "values": [
+     768
+    ]
+   },
+   "spacing/28": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-28",
+    "values": [
+     896
+    ]
+   },
+   "spacing/29": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-29",
+    "values": [
+     1024
+    ]
+   },
+   "spacing/30": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-30",
+    "values": [
+     1152
+    ]
+   },
+   "spacing/31": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-31",
+    "values": [
+     1280
+    ]
+   },
+   "spacing/32": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-32",
+    "values": [
+     640
+    ]
+   },
+   "spacing/33": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-33",
+    "values": [
+     1536
+    ]
+   },
+   "positive/21": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-21",
+    "values": [
+     100
+    ]
+   },
+   "positive/22": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-22",
+    "values": [
+     200
+    ]
+   },
+   "positive/23": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-23",
+    "values": [
+     300
+    ]
+   },
+   "positive/24": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-24",
+    "values": [
+     400
+    ]
+   },
+   "positive/25": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-25",
+    "values": [
+     500
+    ]
+   },
+   "spacing/34": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-34",
+    "values": [
+     112
+    ]
+   },
+   "spacing/35": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-35",
+    "values": [
+     128
+    ]
+   },
+   "spacing/36": {
+    "type": "FLOAT",
+    "css": "--rv-layout-spacing-36",
+    "values": [
+     160
+    ]
+   },
+   "negative/21": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-21",
+    "values": [
+     -24
+    ]
+   },
+   "negative/22": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-22",
+    "values": [
+     -32
+    ]
+   },
+   "negative/23": {
+    "type": "FLOAT",
+    "css": "--rv-layout-negative-23",
+    "values": [
+     -48
+    ]
+   },
+   "blur/1": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-1",
+    "values": [
+     0
+    ]
+   },
+   "blur/2": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-2",
+    "values": [
+     2
+    ]
+   },
+   "blur/3": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-3",
+    "values": [
+     4
+    ]
+   },
+   "blur/4": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-4",
+    "values": [
+     8
+    ]
+   },
+   "blur/5": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-5",
+    "values": [
+     16
+    ]
+   },
+   "blur/6": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-6",
+    "values": [
+     24
+    ]
+   },
+   "blur/7": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-7",
+    "values": [
+     32
+    ]
+   },
+   "blur/8": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-8",
+    "values": [
+     48
+    ]
+   },
+   "blur/9": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-9",
+    "values": [
+     64
+    ]
+   },
+   "blur/10": {
+    "type": "FLOAT",
+    "css": "--rv-layout-blur-10",
+    "values": [
+     96
+    ]
+   },
+   "positive/26": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-26",
+    "values": [
+     24
+    ]
+   },
+   "positive/27": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-27",
+    "values": [
+     32
+    ]
+   },
+   "positive/28": {
+    "type": "FLOAT",
+    "css": "--rv-layout-positive-28",
+    "values": [
+     48
+    ]
+   },
+   "height/21": {
+    "type": "FLOAT",
+    "css": "--rv-layout-height-21",
+    "values": [
+     28
+    ]
+   },
+   "opacity/38": {
+    "type": "FLOAT",
+    "css": "--rv-layout-opacity-38",
+    "values": [
+     38
+    ]
+   },
+   "radius/0-5": {
+    "type": "FLOAT",
+    "css": "--rv-layout-radius-0-5",
+    "values": [
+     1
+    ]
+   }
+  }
+ },
+ "2a": {
+  "modes": [
+   "Boreal",
+   "Sylva"
+  ],
+  "vars": {
+   "color/alpha/4": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-4",
+    "values": [
+     "{colors/cobalt/alpha/4}",
+     "{colors/emerald/alpha/4}"
+    ]
+   },
+   "color/alpha/8": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-8",
+    "values": [
+     "{colors/cobalt/alpha/8}",
+     "{colors/emerald/alpha/8}"
+    ]
+   },
+   "color/alpha/12": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-12",
+    "values": [
+     "{colors/cobalt/alpha/12}",
+     "{colors/emerald/alpha/12}"
+    ]
+   },
+   "color/alpha/16": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-16",
+    "values": [
+     "{colors/cobalt/alpha/16}",
+     "{colors/emerald/alpha/16}"
+    ]
+   },
+   "color/alpha/24": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-24",
+    "values": [
+     "{colors/cobalt/alpha/24}",
+     "{colors/emerald/alpha/24}"
+    ]
+   },
+   "color/alpha/32": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-32",
+    "values": [
+     "{colors/cobalt/alpha/32}",
+     "{colors/emerald/alpha/32}"
+    ]
+   },
+   "color/alpha/48": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-48",
+    "values": [
+     "{colors/cobalt/alpha/48}",
+     "{colors/emerald/alpha/48}"
+    ]
+   },
+   "color/alpha/64": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-64",
+    "values": [
+     "{colors/cobalt/alpha/64}",
+     "{colors/emerald/alpha/64}"
+    ]
+   },
+   "color/alpha/80": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-alpha-80",
+    "values": [
+     "{colors/cobalt/alpha/80}",
+     "{colors/emerald/alpha/80}"
+    ]
+   },
+   "color/extra-subtle": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-extra-subtle",
+    "values": [
+     "{colors/cobalt/50}",
+     "{colors/emerald/50}"
+    ]
+   },
+   "color/subtlest": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-subtlest",
+    "values": [
+     "{colors/cobalt/100}",
+     "{colors/emerald/100}"
+    ]
+   },
+   "color/subtler": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-subtler",
+    "values": [
+     "{colors/cobalt/200}",
+     "{colors/emerald/200}"
+    ]
+   },
+   "color/soft": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-soft",
+    "values": [
+     "{colors/cobalt/400}",
+     "{colors/emerald/500}"
+    ]
+   },
+   "color/base": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-base",
+    "values": [
+     "{colors/cobalt/500}",
+     "{colors/emerald/700}"
+    ]
+   },
+   "color/bold": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-bold",
+    "values": [
+     "{colors/cobalt/600}",
+     "{colors/emerald/800}"
+    ]
+   },
+   "color/stronger": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-stronger",
+    "values": [
+     "{colors/cobalt/800}",
+     "{colors/emerald/800}"
+    ]
+   },
+   "color/strongest": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-strongest",
+    "values": [
+     "{colors/cobalt/900}",
+     "{colors/emerald/900}"
+    ]
+   },
+   "color/extra-strong": {
+    "type": "COLOR",
+    "css": "--rv-brand-color-extra-strong",
+    "values": [
+     "{colors/cobalt/950}",
+     "{colors/emerald/950}"
+    ]
+   },
+   "typography/family": {
+    "type": "STRING",
+    "css": "--rv-brand-typography-family",
+    "values": [
+     "{family/inter}",
+     "{family/raleway}"
+    ]
+   },
+   "layout/radius/xs": {
+    "type": "FLOAT",
+    "css": "--rv-brand-layout-radius-xs",
+    "values": [
+     "{radius/1}",
+     "{radius/0-5}"
+    ]
+   },
+   "layout/radius/sm": {
+    "type": "FLOAT",
+    "css": "--rv-brand-layout-radius-sm",
+    "values": [
+     "{radius/2}",
+     "{radius/0-5}"
+    ]
+   },
+   "layout/radius/md": {
+    "type": "FLOAT",
+    "css": "--rv-brand-layout-radius-md",
+    "values": [
+     "{radius/3}",
+     "{radius/0-5}"
+    ]
+   },
+   "layout/radius/lg": {
+    "type": "FLOAT",
+    "css": "--rv-brand-layout-radius-lg",
+    "values": [
+     "{radius/4}",
+     "{radius/0-5}"
+    ]
+   },
+   "layout/radius/xl": {
+    "type": "FLOAT",
+    "css": "--rv-brand-layout-radius-xl",
+    "values": [
+     "{radius/6}",
+     "{radius/0-5}"
+    ]
+   }
+  }
+ },
+ "3a": {
+  "modes": [
+   "Light",
+   "Dark"
+  ],
+  "vars": {
+   "background/neutral/extra-subtle": {
+    "type": null,
+    "css": "--rv-background-neutral-extra-subtle",
+    "values": [
+     "{colors/white}",
+     "{colors/black}"
+    ]
+   },
+   "background/neutral/subtlest": {
+    "type": null,
+    "css": "--rv-background-neutral-subtlest",
+    "values": [
+     "{colors/neutral/50}",
+     "{colors/neutral/950}"
+    ]
+   },
+   "background/neutral/subtler": {
+    "type": null,
+    "css": "--rv-background-neutral-subtler",
+    "values": [
+     "{colors/neutral/100}",
+     "{colors/neutral/900}"
+    ]
+   },
+   "background/neutral/soft": {
+    "type": null,
+    "css": "--rv-background-neutral-soft",
+    "values": [
+     "{colors/neutral/200}",
+     "{colors/neutral/700}"
+    ]
+   },
+   "background/neutral/base": {
+    "type": null,
+    "css": "--rv-background-neutral-base",
+    "values": [
+     "{colors/neutral/500}",
+     "{colors/neutral/500}"
+    ]
+   },
+   "background/brand/subtlest": {
+    "type": null,
+    "css": "--rv-background-brand-subtlest",
+    "values": [
+     "{color/extra-subtle}",
+     "{color/extra-strong}"
+    ]
+   },
+   "background/brand/subtler": {
+    "type": null,
+    "css": "--rv-background-brand-subtler",
+    "values": [
+     "{color/subtlest}",
+     "{color/strongest}"
+    ]
+   },
+   "background/brand/soft": {
+    "type": null,
+    "css": "--rv-background-brand-soft",
+    "values": [
+     "{color/subtler}",
+     "{color/stronger}"
+    ]
+   },
+   "background/brand/base": {
+    "type": null,
+    "css": "--rv-background-brand-base",
+    "values": [
+     "{color/base}",
+     "{color/base}"
+    ]
+   },
+   "background/system/error/subtlest": {
+    "type": null,
+    "css": "--rv-background-system-error-subtlest",
+    "values": [
+     "{colors/red/50}",
+     "{colors/red/950}"
+    ]
+   },
+   "background/system/error/subtler": {
+    "type": null,
+    "css": "--rv-background-system-error-subtler",
+    "values": [
+     "{colors/red/100}",
+     "{colors/red/900}"
+    ]
+   },
+   "background/system/error/soft": {
+    "type": null,
+    "css": "--rv-background-system-error-soft",
+    "values": [
+     "{colors/red/200}",
+     "{colors/red/700}"
+    ]
+   },
+   "background/system/success/subtlest": {
+    "type": null,
+    "css": "--rv-background-system-success-subtlest",
+    "values": [
+     "{colors/green/50}",
+     "{colors/green/950}"
+    ]
+   },
+   "background/system/success/subtler": {
+    "type": null,
+    "css": "--rv-background-system-success-subtler",
+    "values": [
+     "{colors/green/100}",
+     "{colors/green/900}"
+    ]
+   },
+   "background/system/success/soft": {
+    "type": null,
+    "css": "--rv-background-system-success-soft",
+    "values": [
+     "{colors/green/200}",
+     "{colors/green/700}"
+    ]
+   },
+   "background/system/warning/subtlest": {
+    "type": null,
+    "css": "--rv-background-system-warning-subtlest",
+    "values": [
+     "{colors/amber/50}",
+     "{colors/amber/950}"
+    ]
+   },
+   "background/system/warning/subtler": {
+    "type": null,
+    "css": "--rv-background-system-warning-subtler",
+    "values": [
+     "{colors/amber/100}",
+     "{colors/amber/900}"
+    ]
+   },
+   "background/system/warning/soft": {
+    "type": null,
+    "css": "--rv-background-system-warning-soft",
+    "values": [
+     "{colors/amber/200}",
+     "{colors/amber/700}"
+    ]
+   },
+   "background/system/information/subtlest": {
+    "type": null,
+    "css": "--rv-background-system-information-subtlest",
+    "values": [
+     "{colors/azure/50}",
+     "{colors/azure/950}"
+    ]
+   },
+   "background/system/information/subtler": {
+    "type": null,
+    "css": "--rv-background-system-information-subtler",
+    "values": [
+     "{colors/azure/100}",
+     "{colors/azure/900}"
+    ]
+   },
+   "background/system/information/soft": {
+    "type": null,
+    "css": "--rv-background-system-information-soft",
+    "values": [
+     "{colors/azure/200}",
+     "{colors/azure/700}"
+    ]
+   },
+   "text/neutral/extra-subtle": {
+    "type": null,
+    "css": "--rv-text-neutral-extra-subtle",
+    "values": [
+     "{colors/white}",
+     "{colors/black}"
+    ]
+   },
+   "text/neutral/subtler": {
+    "type": null,
+    "css": "--rv-text-neutral-subtler",
+    "values": [
+     "{colors/neutral/400}",
+     "{colors/neutral/600}"
+    ]
+   },
+   "text/neutral/soft": {
+    "type": null,
+    "css": "--rv-text-neutral-soft",
+    "values": [
+     "{colors/neutral/600}",
+     "{colors/neutral/400}"
+    ]
+   },
+   "text/neutral/base": {
+    "type": null,
+    "css": "--rv-text-neutral-base",
+    "values": [
+     "{colors/neutral/700}",
+     "{colors/neutral/300}"
+    ]
+   },
+   "text/brand/subtlest": {
+    "type": null,
+    "css": "--rv-text-brand-subtlest",
+    "values": [
+     "{color/subtler}",
+     "{color/stronger}"
+    ]
+   },
+   "text/brand/subtler": {
+    "type": null,
+    "css": "--rv-text-brand-subtler",
+    "values": [
+     "{color/subtler}",
+     "{color/stronger}"
+    ]
+   },
+   "text/brand/soft": {
+    "type": null,
+    "css": "--rv-text-brand-soft",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "text/system/error/subtlest": {
+    "type": null,
+    "css": "--rv-text-system-error-subtlest",
+    "values": [
+     "{colors/red/200}",
+     "{colors/red/800}"
+    ]
+   },
+   "text/system/error/subtler": {
+    "type": null,
+    "css": "--rv-text-system-error-subtler",
+    "values": [
+     "{colors/red/300}",
+     "{colors/red/700}"
+    ]
+   },
+   "text/system/error/soft": {
+    "type": null,
+    "css": "--rv-text-system-error-soft",
+    "values": [
+     "{colors/red/500}",
+     "{colors/red/500}"
+    ]
+   },
+   "text/system/success/subtlest": {
+    "type": null,
+    "css": "--rv-text-system-success-subtlest",
+    "values": [
+     "{colors/green/200}",
+     "{colors/green/800}"
+    ]
+   },
+   "text/system/success/subtler": {
+    "type": null,
+    "css": "--rv-text-system-success-subtler",
+    "values": [
+     "{colors/green/300}",
+     "{colors/green/700}"
+    ]
+   },
+   "text/system/success/soft": {
+    "type": null,
+    "css": "--rv-text-system-success-soft",
+    "values": [
+     "{colors/green/500}",
+     "{colors/green/500}"
+    ]
+   },
+   "text/system/warning/subtlest": {
+    "type": null,
+    "css": "--rv-text-system-warning-subtlest",
+    "values": [
+     "{colors/amber/200}",
+     "{colors/amber/800}"
+    ]
+   },
+   "text/system/warning/subtler": {
+    "type": null,
+    "css": "--rv-text-system-warning-subtler",
+    "values": [
+     "{colors/amber/300}",
+     "{colors/amber/700}"
+    ]
+   },
+   "text/system/warning/soft": {
+    "type": null,
+    "css": "--rv-text-system-warning-soft",
+    "values": [
+     "{colors/amber/500}",
+     "{colors/amber/500}"
+    ]
+   },
+   "text/system/information/subtlest": {
+    "type": null,
+    "css": "--rv-text-system-information-subtlest",
+    "values": [
+     "{colors/azure/200}",
+     "{colors/azure/800}"
+    ]
+   },
+   "text/system/information/subtler": {
+    "type": null,
+    "css": "--rv-text-system-information-subtler",
+    "values": [
+     "{colors/azure/300}",
+     "{colors/azure/700}"
+    ]
+   },
+   "text/system/information/soft": {
+    "type": null,
+    "css": "--rv-text-system-information-soft",
+    "values": [
+     "{colors/azure/500}",
+     "{colors/azure/500}"
+    ]
+   },
+   "icon/neutral/extra-subtle": {
+    "type": null,
+    "css": "--rv-icon-neutral-extra-subtle",
+    "values": [
+     "{colors/white}",
+     "{colors/black}"
+    ]
+   },
+   "icon/neutral/subtlest": {
+    "type": null,
+    "css": "--rv-icon-neutral-subtlest",
+    "values": [
+     "{colors/neutral/300}",
+     "{colors/neutral/700}"
+    ]
+   },
+   "icon/neutral/subtler": {
+    "type": null,
+    "css": "--rv-icon-neutral-subtler",
+    "values": [
+     "{colors/neutral/400}",
+     "{colors/neutral/600}"
+    ]
+   },
+   "icon/neutral/soft": {
+    "type": null,
+    "css": "--rv-icon-neutral-soft",
+    "values": [
+     "{colors/neutral/600}",
+     "{colors/neutral/400}"
+    ]
+   },
+   "icon/brand/subtlest": {
+    "type": null,
+    "css": "--rv-icon-brand-subtlest",
+    "values": [
+     "{color/subtler}",
+     "{color/stronger}"
+    ]
+   },
+   "icon/brand/subtler": {
+    "type": null,
+    "css": "--rv-icon-brand-subtler",
+    "values": [
+     "{color/subtler}",
+     "{color/stronger}"
+    ]
+   },
+   "icon/brand/soft": {
+    "type": null,
+    "css": "--rv-icon-brand-soft",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "icon/brand/base": {
+    "type": null,
+    "css": "--rv-icon-brand-base",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "icon/system/error/subtlest": {
+    "type": null,
+    "css": "--rv-icon-system-error-subtlest",
+    "values": [
+     "{colors/red/200}",
+     "{colors/red/800}"
+    ]
+   },
+   "icon/system/error/subtler": {
+    "type": null,
+    "css": "--rv-icon-system-error-subtler",
+    "values": [
+     "{colors/red/300}",
+     "{colors/red/700}"
+    ]
+   },
+   "icon/system/error/soft": {
+    "type": null,
+    "css": "--rv-icon-system-error-soft",
+    "values": [
+     "{colors/red/500}",
+     "{colors/red/500}"
+    ]
+   },
+   "icon/system/success/subtlest": {
+    "type": null,
+    "css": "--rv-icon-system-success-subtlest",
+    "values": [
+     "{colors/green/200}",
+     "{colors/green/800}"
+    ]
+   },
+   "icon/system/success/subtler": {
+    "type": null,
+    "css": "--rv-icon-system-success-subtler",
+    "values": [
+     "{colors/green/300}",
+     "{colors/green/700}"
+    ]
+   },
+   "icon/system/success/soft": {
+    "type": null,
+    "css": "--rv-icon-system-success-soft",
+    "values": [
+     "{colors/green/500}",
+     "{colors/green/500}"
+    ]
+   },
+   "icon/system/warning/subtlest": {
+    "type": null,
+    "css": "--rv-icon-system-warning-subtlest",
+    "values": [
+     "{colors/amber/200}",
+     "{colors/amber/800}"
+    ]
+   },
+   "icon/system/warning/subtler": {
+    "type": null,
+    "css": "--rv-icon-system-warning-subtler",
+    "values": [
+     "{colors/amber/300}",
+     "{colors/amber/700}"
+    ]
+   },
+   "icon/system/warning/soft": {
+    "type": null,
+    "css": "--rv-icon-system-warning-soft",
+    "values": [
+     "{colors/amber/500}",
+     "{colors/amber/500}"
+    ]
+   },
+   "icon/system/information/subtlest": {
+    "type": null,
+    "css": "--rv-icon-system-information-subtlest",
+    "values": [
+     "{colors/azure/200}",
+     "{colors/azure/800}"
+    ]
+   },
+   "icon/system/information/subtler": {
+    "type": null,
+    "css": "--rv-icon-system-information-subtler",
+    "values": [
+     "{colors/azure/300}",
+     "{colors/azure/700}"
+    ]
+   },
+   "icon/system/information/soft": {
+    "type": null,
+    "css": "--rv-icon-system-information-soft",
+    "values": [
+     "{colors/azure/500}",
+     "{colors/azure/500}"
+    ]
+   },
+   "border/neutral/extra-subtle": {
+    "type": null,
+    "css": "--rv-border-neutral-extra-subtle",
+    "values": [
+     "{colors/white}",
+     "{colors/black}"
+    ]
+   },
+   "border/neutral/subtlest": {
+    "type": null,
+    "css": "--rv-border-neutral-subtlest",
+    "values": [
+     "{colors/neutral/100}",
+     "{colors/neutral/900}"
+    ]
+   },
+   "border/neutral/subtler": {
+    "type": null,
+    "css": "--rv-border-neutral-subtler",
+    "values": [
+     "{colors/neutral/200}",
+     "{colors/neutral/800}"
+    ]
+   },
+   "border/brand/subtlest": {
+    "type": null,
+    "css": "--rv-border-brand-subtlest",
+    "values": [
+     "{color/subtlest}",
+     "{color/strongest}"
+    ]
+   },
+   "border/brand/subtler": {
+    "type": null,
+    "css": "--rv-border-brand-subtler",
+    "values": [
+     "{color/subtler}",
+     "{color/stronger}"
+    ]
+   },
+   "border/brand/soft": {
+    "type": null,
+    "css": "--rv-border-brand-soft",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "border/system/error/subtlest": {
+    "type": null,
+    "css": "--rv-border-system-error-subtlest",
+    "values": [
+     "{colors/red/100}",
+     "{colors/red/900}"
+    ]
+   },
+   "border/system/error/subtler": {
+    "type": null,
+    "css": "--rv-border-system-error-subtler",
+    "values": [
+     "{colors/red/200}",
+     "{colors/red/800}"
+    ]
+   },
+   "border/system/error/soft": {
+    "type": null,
+    "css": "--rv-border-system-error-soft",
+    "values": [
+     "{colors/red/400}",
+     "{colors/red/600}"
+    ]
+   },
+   "border/system/success/subtlest": {
+    "type": null,
+    "css": "--rv-border-system-success-subtlest",
+    "values": [
+     "{colors/green/100}",
+     "{colors/green/900}"
+    ]
+   },
+   "border/system/success/subtler": {
+    "type": null,
+    "css": "--rv-border-system-success-subtler",
+    "values": [
+     "{colors/green/200}",
+     "{colors/green/800}"
+    ]
+   },
+   "border/system/success/soft": {
+    "type": null,
+    "css": "--rv-border-system-success-soft",
+    "values": [
+     "{colors/green/400}",
+     "{colors/green/600}"
+    ]
+   },
+   "border/system/warning/subtlest": {
+    "type": null,
+    "css": "--rv-border-system-warning-subtlest",
+    "values": [
+     "{colors/amber/100}",
+     "{colors/amber/900}"
+    ]
+   },
+   "border/system/warning/subtler": {
+    "type": null,
+    "css": "--rv-border-system-warning-subtler",
+    "values": [
+     "{colors/amber/200}",
+     "{colors/amber/800}"
+    ]
+   },
+   "border/system/warning/soft": {
+    "type": null,
+    "css": "--rv-border-system-warning-soft",
+    "values": [
+     "{colors/amber/400}",
+     "{colors/amber/600}"
+    ]
+   },
+   "border/system/information/subtlest": {
+    "type": null,
+    "css": "--rv-border-system-information-subtlest",
+    "values": [
+     "{colors/azure/100}",
+     "{colors/azure/900}"
+    ]
+   },
+   "border/system/information/subtler": {
+    "type": null,
+    "css": "--rv-border-system-information-subtler",
+    "values": [
+     "{colors/azure/200}",
+     "{colors/azure/800}"
+    ]
+   },
+   "border/system/information/soft": {
+    "type": null,
+    "css": "--rv-border-system-information-soft",
+    "values": [
+     "{colors/azure/400}",
+     "{colors/azure/600}"
+    ]
+   },
+   "background/brand/alpha/4": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-4",
+    "values": [
+     "{color/alpha/4}",
+     "{color/alpha/4}"
+    ]
+   },
+   "background/brand/alpha/8": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-8",
+    "values": [
+     "{color/alpha/8}",
+     "{color/alpha/8}"
+    ]
+   },
+   "background/brand/alpha/12": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-12",
+    "values": [
+     "{color/alpha/12}",
+     "{color/alpha/12}"
+    ]
+   },
+   "background/brand/alpha/16": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-16",
+    "values": [
+     "{color/alpha/16}",
+     "{color/alpha/16}"
+    ]
+   },
+   "background/brand/alpha/24": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-24",
+    "values": [
+     "{color/alpha/24}",
+     "{color/alpha/24}"
+    ]
+   },
+   "background/brand/alpha/32": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-32",
+    "values": [
+     "{color/alpha/32}",
+     "{color/alpha/32}"
+    ]
+   },
+   "background/brand/alpha/48": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-48",
+    "values": [
+     "{color/alpha/48}",
+     "{color/alpha/48}"
+    ]
+   },
+   "background/brand/alpha/64": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-64",
+    "values": [
+     "{color/alpha/64}",
+     "{color/alpha/64}"
+    ]
+   },
+   "background/brand/alpha/80": {
+    "type": null,
+    "css": "--rv-background-brand-alpha-80",
+    "values": [
+     "{color/alpha/80}",
+     "{color/alpha/80}"
+    ]
+   },
+   "background/system/error/alpha/4": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-4",
+    "values": [
+     "{colors/red/alpha/4}",
+     "{colors/red/alpha/4}"
+    ]
+   },
+   "background/system/error/alpha/8": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-8",
+    "values": [
+     "{colors/red/alpha/8}",
+     "{colors/red/alpha/8}"
+    ]
+   },
+   "background/system/error/alpha/12": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-12",
+    "values": [
+     "{colors/red/alpha/12}",
+     "{colors/red/alpha/12}"
+    ]
+   },
+   "background/system/error/alpha/16": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-16",
+    "values": [
+     "{colors/red/alpha/16}",
+     "{colors/red/alpha/16}"
+    ]
+   },
+   "background/system/error/alpha/24": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-24",
+    "values": [
+     "{colors/red/alpha/24}",
+     "{colors/red/alpha/24}"
+    ]
+   },
+   "background/system/error/alpha/32": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-32",
+    "values": [
+     "{colors/red/alpha/32}",
+     "{colors/red/alpha/32}"
+    ]
+   },
+   "background/system/error/alpha/48": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-48",
+    "values": [
+     "{colors/red/alpha/48}",
+     "{colors/red/alpha/48}"
+    ]
+   },
+   "background/system/error/alpha/64": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-64",
+    "values": [
+     "{colors/red/alpha/64}",
+     "{colors/red/alpha/64}"
+    ]
+   },
+   "background/system/error/alpha/80": {
+    "type": null,
+    "css": "--rv-background-system-error-alpha-80",
+    "values": [
+     "{colors/red/alpha/80}",
+     "{colors/red/alpha/80}"
+    ]
+   },
+   "background/system/success/alpha/4": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-4",
+    "values": [
+     "{colors/green/alpha/4}",
+     "{colors/green/alpha/4}"
+    ]
+   },
+   "background/system/success/alpha/8": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-8",
+    "values": [
+     "{colors/green/alpha/8}",
+     "{colors/green/alpha/8}"
+    ]
+   },
+   "background/system/success/alpha/12": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-12",
+    "values": [
+     "{colors/green/alpha/12}",
+     "{colors/green/alpha/12}"
+    ]
+   },
+   "background/system/success/alpha/16": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-16",
+    "values": [
+     "{colors/green/alpha/16}",
+     "{colors/green/alpha/16}"
+    ]
+   },
+   "background/system/success/alpha/24": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-24",
+    "values": [
+     "{colors/green/alpha/24}",
+     "{colors/green/alpha/24}"
+    ]
+   },
+   "background/system/success/alpha/32": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-32",
+    "values": [
+     "{colors/green/alpha/32}",
+     "{colors/green/alpha/32}"
+    ]
+   },
+   "background/system/success/alpha/48": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-48",
+    "values": [
+     "{colors/green/alpha/48}",
+     "{colors/green/alpha/48}"
+    ]
+   },
+   "background/system/success/alpha/64": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-64",
+    "values": [
+     "{colors/green/alpha/64}",
+     "{colors/green/alpha/64}"
+    ]
+   },
+   "background/system/success/alpha/80": {
+    "type": null,
+    "css": "--rv-background-system-success-alpha-80",
+    "values": [
+     "{colors/green/alpha/80}",
+     "{colors/green/alpha/80}"
+    ]
+   },
+   "background/system/warning/alpha/4": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-4",
+    "values": [
+     "{colors/amber/alpha/4}",
+     "{colors/amber/alpha/4}"
+    ]
+   },
+   "background/system/warning/alpha/8": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-8",
+    "values": [
+     "{colors/amber/alpha/8}",
+     "{colors/amber/alpha/8}"
+    ]
+   },
+   "background/system/warning/alpha/12": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-12",
+    "values": [
+     "{colors/amber/alpha/12}",
+     "{colors/amber/alpha/12}"
+    ]
+   },
+   "background/system/warning/alpha/16": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-16",
+    "values": [
+     "{colors/amber/alpha/16}",
+     "{colors/amber/alpha/16}"
+    ]
+   },
+   "background/system/warning/alpha/24": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-24",
+    "values": [
+     "{colors/amber/alpha/24}",
+     "{colors/amber/alpha/24}"
+    ]
+   },
+   "background/system/warning/alpha/32": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-32",
+    "values": [
+     "{colors/amber/alpha/32}",
+     "{colors/amber/alpha/32}"
+    ]
+   },
+   "background/system/warning/alpha/48": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-48",
+    "values": [
+     "{colors/amber/alpha/48}",
+     "{colors/amber/alpha/48}"
+    ]
+   },
+   "background/system/warning/alpha/64": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-64",
+    "values": [
+     "{colors/amber/alpha/64}",
+     "{colors/amber/alpha/64}"
+    ]
+   },
+   "background/system/warning/alpha/80": {
+    "type": null,
+    "css": "--rv-background-system-warning-alpha-80",
+    "values": [
+     "{colors/amber/alpha/80}",
+     "{colors/amber/alpha/80}"
+    ]
+   },
+   "background/system/information/alpha/4": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-4",
+    "values": [
+     "{colors/azure/alpha/4}",
+     "{colors/azure/alpha/4}"
+    ]
+   },
+   "background/system/information/alpha/8": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-8",
+    "values": [
+     "{colors/azure/alpha/8}",
+     "{colors/azure/alpha/8}"
+    ]
+   },
+   "background/system/information/alpha/12": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-12",
+    "values": [
+     "{colors/azure/alpha/12}",
+     "{colors/azure/alpha/12}"
+    ]
+   },
+   "background/system/information/alpha/16": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-16",
+    "values": [
+     "{colors/azure/alpha/16}",
+     "{colors/azure/alpha/16}"
+    ]
+   },
+   "background/system/information/alpha/24": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-24",
+    "values": [
+     "{colors/azure/alpha/24}",
+     "{colors/azure/alpha/24}"
+    ]
+   },
+   "background/system/information/alpha/32": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-32",
+    "values": [
+     "{colors/azure/alpha/32}",
+     "{colors/azure/alpha/32}"
+    ]
+   },
+   "background/system/information/alpha/48": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-48",
+    "values": [
+     "{colors/azure/alpha/48}",
+     "{colors/azure/alpha/48}"
+    ]
+   },
+   "background/system/information/alpha/64": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-64",
+    "values": [
+     "{colors/azure/alpha/64}",
+     "{colors/azure/alpha/64}"
+    ]
+   },
+   "background/system/information/alpha/80": {
+    "type": null,
+    "css": "--rv-background-system-information-alpha-80",
+    "values": [
+     "{colors/azure/alpha/80}",
+     "{colors/azure/alpha/80}"
+    ]
+   },
+   "border/neutral/alpha/4": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-4",
+    "values": [
+     "{colors/black/alpha/4}",
+     "{colors/white/alpha/4}"
+    ]
+   },
+   "border/neutral/alpha/8": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-8",
+    "values": [
+     "{colors/black/alpha/8}",
+     "{colors/white/alpha/8}"
+    ]
+   },
+   "border/neutral/alpha/12": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-12",
+    "values": [
+     "{colors/black/alpha/12}",
+     "{colors/white/alpha/12}"
+    ]
+   },
+   "border/neutral/alpha/16": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-16",
+    "values": [
+     "{colors/black/alpha/16}",
+     "{colors/white/alpha/16}"
+    ]
+   },
+   "border/neutral/alpha/24": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-24",
+    "values": [
+     "{colors/black/alpha/24}",
+     "{colors/white/alpha/24}"
+    ]
+   },
+   "border/neutral/alpha/32": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-32",
+    "values": [
+     "{colors/black/alpha/32}",
+     "{colors/white/alpha/32}"
+    ]
+   },
+   "border/neutral/alpha/48": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-48",
+    "values": [
+     "{colors/black/alpha/48}",
+     "{colors/white/alpha/48}"
+    ]
+   },
+   "border/neutral/alpha/64": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-64",
+    "values": [
+     "{colors/black/alpha/64}",
+     "{colors/white/alpha/64}"
+    ]
+   },
+   "border/neutral/alpha/80": {
+    "type": null,
+    "css": "--rv-border-neutral-alpha-80",
+    "values": [
+     "{colors/black/alpha/80}",
+     "{colors/white/alpha/80}"
+    ]
+   },
+   "border/brand/alpha/4": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-4",
+    "values": [
+     "{color/alpha/4}",
+     "{color/alpha/4}"
+    ]
+   },
+   "border/brand/alpha/8": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-8",
+    "values": [
+     "{color/alpha/8}",
+     "{color/alpha/8}"
+    ]
+   },
+   "border/brand/alpha/12": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-12",
+    "values": [
+     "{color/alpha/12}",
+     "{color/alpha/12}"
+    ]
+   },
+   "border/brand/alpha/16": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-16",
+    "values": [
+     "{color/alpha/16}",
+     "{color/alpha/16}"
+    ]
+   },
+   "border/brand/alpha/24": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-24",
+    "values": [
+     "{color/alpha/24}",
+     "{color/alpha/24}"
+    ]
+   },
+   "border/brand/alpha/32": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-32",
+    "values": [
+     "{color/alpha/32}",
+     "{color/alpha/32}"
+    ]
+   },
+   "border/brand/alpha/48": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-48",
+    "values": [
+     "{color/alpha/48}",
+     "{color/alpha/48}"
+    ]
+   },
+   "border/brand/alpha/64": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-64",
+    "values": [
+     "{color/alpha/64}",
+     "{color/alpha/64}"
+    ]
+   },
+   "border/brand/alpha/80": {
+    "type": null,
+    "css": "--rv-border-brand-alpha-80",
+    "values": [
+     "{color/alpha/80}",
+     "{color/alpha/80}"
+    ]
+   },
+   "border/system/error/alpha/4": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-4",
+    "values": [
+     "{colors/red/alpha/4}",
+     "{colors/red/alpha/4}"
+    ]
+   },
+   "border/system/error/alpha/8": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-8",
+    "values": [
+     "{colors/red/alpha/8}",
+     "{colors/red/alpha/8}"
+    ]
+   },
+   "border/system/error/alpha/12": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-12",
+    "values": [
+     "{colors/red/alpha/12}",
+     "{colors/red/alpha/12}"
+    ]
+   },
+   "border/system/error/alpha/16": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-16",
+    "values": [
+     "{colors/red/alpha/16}",
+     "{colors/red/alpha/16}"
+    ]
+   },
+   "border/system/error/alpha/24": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-24",
+    "values": [
+     "{colors/red/alpha/24}",
+     "{colors/red/alpha/24}"
+    ]
+   },
+   "border/system/error/alpha/32": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-32",
+    "values": [
+     "{colors/red/alpha/32}",
+     "{colors/red/alpha/32}"
+    ]
+   },
+   "border/system/error/alpha/48": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-48",
+    "values": [
+     "{colors/red/alpha/48}",
+     "{colors/red/alpha/48}"
+    ]
+   },
+   "border/system/error/alpha/64": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-64",
+    "values": [
+     "{colors/red/alpha/64}",
+     "{colors/red/alpha/64}"
+    ]
+   },
+   "border/system/error/alpha/80": {
+    "type": null,
+    "css": "--rv-border-system-error-alpha-80",
+    "values": [
+     "{colors/red/alpha/80}",
+     "{colors/red/alpha/80}"
+    ]
+   },
+   "border/system/success/alpha/4": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-4",
+    "values": [
+     "{colors/green/alpha/4}",
+     "{colors/green/alpha/4}"
+    ]
+   },
+   "border/system/success/alpha/8": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-8",
+    "values": [
+     "{colors/green/alpha/8}",
+     "{colors/green/alpha/8}"
+    ]
+   },
+   "border/system/success/alpha/12": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-12",
+    "values": [
+     "{colors/green/alpha/12}",
+     "{colors/green/alpha/12}"
+    ]
+   },
+   "border/system/success/alpha/16": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-16",
+    "values": [
+     "{colors/green/alpha/16}",
+     "{colors/green/alpha/16}"
+    ]
+   },
+   "border/system/success/alpha/24": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-24",
+    "values": [
+     "{colors/green/alpha/24}",
+     "{colors/green/alpha/24}"
+    ]
+   },
+   "border/system/success/alpha/32": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-32",
+    "values": [
+     "{colors/green/alpha/32}",
+     "{colors/green/alpha/32}"
+    ]
+   },
+   "border/system/success/alpha/48": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-48",
+    "values": [
+     "{colors/green/alpha/48}",
+     "{colors/green/alpha/48}"
+    ]
+   },
+   "border/system/success/alpha/64": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-64",
+    "values": [
+     "{colors/green/alpha/64}",
+     "{colors/green/alpha/64}"
+    ]
+   },
+   "border/system/success/alpha/80": {
+    "type": null,
+    "css": "--rv-border-system-success-alpha-80",
+    "values": [
+     "{colors/green/alpha/80}",
+     "{colors/green/alpha/80}"
+    ]
+   },
+   "border/system/warning/alpha/4": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-4",
+    "values": [
+     "{colors/amber/alpha/4}",
+     "{colors/amber/alpha/4}"
+    ]
+   },
+   "border/system/warning/alpha/8": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-8",
+    "values": [
+     "{colors/amber/alpha/8}",
+     "{colors/amber/alpha/8}"
+    ]
+   },
+   "border/system/warning/alpha/12": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-12",
+    "values": [
+     "{colors/amber/alpha/12}",
+     "{colors/amber/alpha/12}"
+    ]
+   },
+   "border/system/warning/alpha/16": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-16",
+    "values": [
+     "{colors/amber/alpha/16}",
+     "{colors/amber/alpha/16}"
+    ]
+   },
+   "border/system/warning/alpha/24": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-24",
+    "values": [
+     "{colors/amber/alpha/24}",
+     "{colors/amber/alpha/24}"
+    ]
+   },
+   "border/system/warning/alpha/32": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-32",
+    "values": [
+     "{colors/amber/alpha/32}",
+     "{colors/amber/alpha/32}"
+    ]
+   },
+   "border/system/warning/alpha/48": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-48",
+    "values": [
+     "{colors/amber/alpha/48}",
+     "{colors/amber/alpha/48}"
+    ]
+   },
+   "border/system/warning/alpha/64": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-64",
+    "values": [
+     "{colors/amber/alpha/64}",
+     "{colors/amber/alpha/64}"
+    ]
+   },
+   "border/system/warning/alpha/80": {
+    "type": null,
+    "css": "--rv-border-system-warning-alpha-80",
+    "values": [
+     "{colors/amber/alpha/80}",
+     "{colors/amber/alpha/80}"
+    ]
+   },
+   "border/system/information/alpha/4": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-4",
+    "values": [
+     "{colors/azure/alpha/4}",
+     "{colors/azure/alpha/4}"
+    ]
+   },
+   "border/system/information/alpha/8": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-8",
+    "values": [
+     "{colors/azure/alpha/8}",
+     "{colors/azure/alpha/8}"
+    ]
+   },
+   "border/system/information/alpha/12": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-12",
+    "values": [
+     "{colors/azure/alpha/12}",
+     "{colors/azure/alpha/12}"
+    ]
+   },
+   "border/system/information/alpha/16": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-16",
+    "values": [
+     "{colors/azure/alpha/16}",
+     "{colors/azure/alpha/16}"
+    ]
+   },
+   "border/system/information/alpha/24": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-24",
+    "values": [
+     "{colors/azure/alpha/24}",
+     "{colors/azure/alpha/24}"
+    ]
+   },
+   "border/system/information/alpha/32": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-32",
+    "values": [
+     "{colors/azure/alpha/32}",
+     "{colors/azure/alpha/32}"
+    ]
+   },
+   "border/system/information/alpha/48": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-48",
+    "values": [
+     "{colors/azure/alpha/48}",
+     "{colors/azure/alpha/48}"
+    ]
+   },
+   "border/system/information/alpha/64": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-64",
+    "values": [
+     "{colors/azure/alpha/64}",
+     "{colors/azure/alpha/64}"
+    ]
+   },
+   "border/system/information/alpha/80": {
+    "type": null,
+    "css": "--rv-border-system-information-alpha-80",
+    "values": [
+     "{colors/azure/alpha/80}",
+     "{colors/azure/alpha/80}"
+    ]
+   },
+   "effect/focus-ring/brand": {
+    "type": null,
+    "css": "--rv-effect-focus-ring-brand",
+    "values": [
+     "{color/base}",
+     "{color/soft}"
+    ]
+   },
+   "effect/focus-ring/neutral": {
+    "type": null,
+    "css": "--rv-effect-focus-ring-neutral",
+    "values": [
+     "{colors/black/alpha/24}",
+     "{colors/white/alpha/32}"
+    ]
+   },
+   "effect/focus-ring/error": {
+    "type": null,
+    "css": "--rv-effect-focus-ring-error",
+    "values": [
+     "{colors/red/alpha/24}",
+     "{colors/red/alpha/32}"
+    ]
+   },
+   "effect/focus-ring/gap": {
+    "type": null,
+    "css": "--rv-effect-focus-ring-gap",
+    "values": [
+     "{colors/white}",
+     "{colors/neutral/950}"
+    ]
+   },
+   "effect/shadow/neutral/subtler": {
+    "type": null,
+    "css": "--rv-effect-shadow-neutral-subtler",
+    "values": [
+     "{colors/black/alpha/4}",
+     "{colors/black/alpha/16}"
+    ]
+   },
+   "effect/shadow/neutral/soft": {
+    "type": null,
+    "css": "--rv-effect-shadow-neutral-soft",
+    "values": [
+     "{colors/black/alpha/8}",
+     "{colors/black/alpha/24}"
+    ]
+   },
+   "effect/shadow/neutral/base": {
+    "type": null,
+    "css": "--rv-effect-shadow-neutral-base",
+    "values": [
+     "{colors/black/alpha/12}",
+     "{colors/black/alpha/32}"
+    ]
+   },
+   "effect/shadow/neutral/stronger": {
+    "type": null,
+    "css": "--rv-effect-shadow-neutral-stronger",
+    "values": [
+     "{colors/black/alpha/32}",
+     "{colors/black/alpha/64}"
+    ]
+   },
+   "effect/shadow/neutral/bold": {
+    "type": null,
+    "css": "--rv-effect-shadow-neutral-bold",
+    "values": [
+     "{colors/black/alpha/24}",
+     "{colors/black/alpha/48}"
+    ]
+   },
+   "effect/shadow/brand/subtler": {
+    "type": null,
+    "css": "--rv-effect-shadow-brand-subtler",
+    "values": [
+     "{color/alpha/4}",
+     "{color/alpha/16}"
+    ]
+   },
+   "effect/shadow/brand/soft": {
+    "type": null,
+    "css": "--rv-effect-shadow-brand-soft",
+    "values": [
+     "{color/alpha/8}",
+     "{color/alpha/24}"
+    ]
+   },
+   "effect/shadow/brand/base": {
+    "type": null,
+    "css": "--rv-effect-shadow-brand-base",
+    "values": [
+     "{color/alpha/12}",
+     "{color/alpha/32}"
+    ]
+   },
+   "effect/shadow/brand/stronger": {
+    "type": null,
+    "css": "--rv-effect-shadow-brand-stronger",
+    "values": [
+     "{color/alpha/32}",
+     "{color/alpha/64}"
+    ]
+   },
+   "effect/shadow/brand/bold": {
+    "type": null,
+    "css": "--rv-effect-shadow-brand-bold",
+    "values": [
+     "{color/alpha/24}",
+     "{color/alpha/48}"
+    ]
+   },
+   "effect/shadow/error/subtler": {
+    "type": null,
+    "css": "--rv-effect-shadow-error-subtler",
+    "values": [
+     "{colors/red/alpha/4}",
+     "{colors/red/alpha/16}"
+    ]
+   },
+   "effect/shadow/error/soft": {
+    "type": null,
+    "css": "--rv-effect-shadow-error-soft",
+    "values": [
+     "{colors/red/alpha/8}",
+     "{colors/red/alpha/24}"
+    ]
+   },
+   "effect/shadow/error/base": {
+    "type": null,
+    "css": "--rv-effect-shadow-error-base",
+    "values": [
+     "{colors/red/alpha/12}",
+     "{colors/red/alpha/32}"
+    ]
+   },
+   "effect/shadow/error/stronger": {
+    "type": null,
+    "css": "--rv-effect-shadow-error-stronger",
+    "values": [
+     "{colors/red/alpha/32}",
+     "{colors/red/alpha/64}"
+    ]
+   },
+   "effect/shadow/error/bold": {
+    "type": null,
+    "css": "--rv-effect-shadow-error-bold",
+    "values": [
+     "{colors/red/alpha/24}",
+     "{colors/red/alpha/48}"
+    ]
+   },
+   "effect/shadow/warning/subtler": {
+    "type": null,
+    "css": "--rv-effect-shadow-warning-subtler",
+    "values": [
+     "{colors/amber/alpha/4}",
+     "{colors/amber/alpha/16}"
+    ]
+   },
+   "effect/shadow/warning/soft": {
+    "type": null,
+    "css": "--rv-effect-shadow-warning-soft",
+    "values": [
+     "{colors/amber/alpha/8}",
+     "{colors/amber/alpha/24}"
+    ]
+   },
+   "effect/shadow/warning/base": {
+    "type": null,
+    "css": "--rv-effect-shadow-warning-base",
+    "values": [
+     "{colors/amber/alpha/12}",
+     "{colors/amber/alpha/32}"
+    ]
+   },
+   "effect/shadow/warning/stronger": {
+    "type": null,
+    "css": "--rv-effect-shadow-warning-stronger",
+    "values": [
+     "{colors/amber/alpha/32}",
+     "{colors/amber/alpha/64}"
+    ]
+   },
+   "effect/shadow/warning/bold": {
+    "type": null,
+    "css": "--rv-effect-shadow-warning-bold",
+    "values": [
+     "{colors/amber/alpha/24}",
+     "{colors/amber/alpha/48}"
+    ]
+   },
+   "effect/shadow/success/subtler": {
+    "type": null,
+    "css": "--rv-effect-shadow-success-subtler",
+    "values": [
+     "{colors/green/alpha/4}",
+     "{colors/green/alpha/16}"
+    ]
+   },
+   "effect/shadow/success/soft": {
+    "type": null,
+    "css": "--rv-effect-shadow-success-soft",
+    "values": [
+     "{colors/green/alpha/8}",
+     "{colors/green/alpha/24}"
+    ]
+   },
+   "effect/shadow/success/base": {
+    "type": null,
+    "css": "--rv-effect-shadow-success-base",
+    "values": [
+     "{colors/green/alpha/12}",
+     "{colors/green/alpha/32}"
+    ]
+   },
+   "effect/shadow/success/stronger": {
+    "type": null,
+    "css": "--rv-effect-shadow-success-stronger",
+    "values": [
+     "{colors/green/alpha/32}",
+     "{colors/green/alpha/64}"
+    ]
+   },
+   "effect/shadow/success/bold": {
+    "type": null,
+    "css": "--rv-effect-shadow-success-bold",
+    "values": [
+     "{colors/green/alpha/24}",
+     "{colors/green/alpha/48}"
+    ]
+   },
+   "background/system/error/base": {
+    "type": null,
+    "css": "--rv-background-system-error-base",
+    "values": [
+     "{colors/red/500}",
+     "{colors/red/500}"
+    ]
+   },
+   "background/system/success/base": {
+    "type": null,
+    "css": "--rv-background-system-success-base",
+    "values": [
+     "{colors/green/500}",
+     "{colors/green/500}"
+    ]
+   },
+   "background/system/warning/base": {
+    "type": null,
+    "css": "--rv-background-system-warning-base",
+    "values": [
+     "{colors/amber/500}",
+     "{colors/amber/500}"
+    ]
+   },
+   "background/system/information/base": {
+    "type": null,
+    "css": "--rv-background-system-information-base",
+    "values": [
+     "{colors/azure/500}",
+     "{colors/azure/500}"
+    ]
+   },
+   "text/brand/base": {
+    "type": null,
+    "css": "--rv-text-brand-base",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "text/system/error/base": {
+    "type": null,
+    "css": "--rv-text-system-error-base",
+    "values": [
+     "{colors/red/600}",
+     "{colors/red/400}"
+    ]
+   },
+   "text/system/success/base": {
+    "type": null,
+    "css": "--rv-text-system-success-base",
+    "values": [
+     "{colors/green/600}",
+     "{colors/green/400}"
+    ]
+   },
+   "text/system/warning/base": {
+    "type": null,
+    "css": "--rv-text-system-warning-base",
+    "values": [
+     "{colors/amber/600}",
+     "{colors/amber/400}"
+    ]
+   },
+   "text/system/information/base": {
+    "type": null,
+    "css": "--rv-text-system-information-base",
+    "values": [
+     "{colors/azure/600}",
+     "{colors/azure/400}"
+    ]
+   },
+   "icon/system/error/base": {
+    "type": null,
+    "css": "--rv-icon-system-error-base",
+    "values": [
+     "{colors/red/600}",
+     "{colors/red/400}"
+    ]
+   },
+   "icon/system/success/base": {
+    "type": null,
+    "css": "--rv-icon-system-success-base",
+    "values": [
+     "{colors/green/600}",
+     "{colors/green/400}"
+    ]
+   },
+   "icon/system/warning/base": {
+    "type": null,
+    "css": "--rv-icon-system-warning-base",
+    "values": [
+     "{colors/amber/600}",
+     "{colors/amber/400}"
+    ]
+   },
+   "icon/system/information/base": {
+    "type": null,
+    "css": "--rv-icon-system-information-base",
+    "values": [
+     "{colors/azure/600}",
+     "{colors/azure/400}"
+    ]
+   },
+   "border/neutral/soft": {
+    "type": null,
+    "css": "--rv-border-neutral-soft",
+    "values": [
+     "{colors/neutral/400}",
+     "{colors/neutral/600}"
+    ]
+   },
+   "border/brand/base": {
+    "type": null,
+    "css": "--rv-border-brand-base",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "border/system/error/base": {
+    "type": null,
+    "css": "--rv-border-system-error-base",
+    "values": [
+     "{colors/red/500}",
+     "{colors/red/500}"
+    ]
+   },
+   "border/system/success/base": {
+    "type": null,
+    "css": "--rv-border-system-success-base",
+    "values": [
+     "{colors/green/500}",
+     "{colors/green/500}"
+    ]
+   },
+   "border/system/warning/base": {
+    "type": null,
+    "css": "--rv-border-system-warning-base",
+    "values": [
+     "{colors/amber/500}",
+     "{colors/amber/500}"
+    ]
+   },
+   "border/system/information/base": {
+    "type": null,
+    "css": "--rv-border-system-information-base",
+    "values": [
+     "{colors/azure/500}",
+     "{colors/azure/500}"
+    ]
+   },
+   "background/brand/bold": {
+    "type": null,
+    "css": "--rv-background-brand-bold",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "background/system/error/bold": {
+    "type": null,
+    "css": "--rv-background-system-error-bold",
+    "values": [
+     "{colors/red/600}",
+     "{colors/red/400}"
+    ]
+   },
+   "background/system/success/bold": {
+    "type": null,
+    "css": "--rv-background-system-success-bold",
+    "values": [
+     "{colors/green/600}",
+     "{colors/green/400}"
+    ]
+   },
+   "background/system/warning/bold": {
+    "type": null,
+    "css": "--rv-background-system-warning-bold",
+    "values": [
+     "{colors/amber/600}",
+     "{colors/amber/400}"
+    ]
+   },
+   "background/system/information/bold": {
+    "type": null,
+    "css": "--rv-background-system-information-bold",
+    "values": [
+     "{colors/azure/600}",
+     "{colors/azure/400}"
+    ]
+   },
+   "text/brand/bold": {
+    "type": null,
+    "css": "--rv-text-brand-bold",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "text/system/error/bold": {
+    "type": null,
+    "css": "--rv-text-system-error-bold",
+    "values": [
+     "{colors/red/700}",
+     "{colors/red/300}"
+    ]
+   },
+   "text/system/success/bold": {
+    "type": null,
+    "css": "--rv-text-system-success-bold",
+    "values": [
+     "{colors/green/700}",
+     "{colors/green/300}"
+    ]
+   },
+   "text/system/warning/bold": {
+    "type": null,
+    "css": "--rv-text-system-warning-bold",
+    "values": [
+     "{colors/amber/700}",
+     "{colors/amber/300}"
+    ]
+   },
+   "text/system/information/bold": {
+    "type": null,
+    "css": "--rv-text-system-information-bold",
+    "values": [
+     "{colors/azure/700}",
+     "{colors/azure/300}"
+    ]
+   },
+   "icon/neutral/base": {
+    "type": null,
+    "css": "--rv-icon-neutral-base",
+    "values": [
+     "{colors/neutral/700}",
+     "{colors/neutral/300}"
+    ]
+   },
+   "icon/brand/bold": {
+    "type": null,
+    "css": "--rv-icon-brand-bold",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "icon/system/error/bold": {
+    "type": null,
+    "css": "--rv-icon-system-error-bold",
+    "values": [
+     "{colors/red/700}",
+     "{colors/red/300}"
+    ]
+   },
+   "icon/system/success/bold": {
+    "type": null,
+    "css": "--rv-icon-system-success-bold",
+    "values": [
+     "{colors/green/700}",
+     "{colors/green/300}"
+    ]
+   },
+   "icon/system/warning/bold": {
+    "type": null,
+    "css": "--rv-icon-system-warning-bold",
+    "values": [
+     "{colors/amber/700}",
+     "{colors/amber/300}"
+    ]
+   },
+   "icon/system/information/bold": {
+    "type": null,
+    "css": "--rv-icon-system-information-bold",
+    "values": [
+     "{colors/azure/700}",
+     "{colors/azure/300}"
+    ]
+   },
+   "border/neutral/base": {
+    "type": null,
+    "css": "--rv-border-neutral-base",
+    "values": [
+     "{colors/neutral/500}",
+     "{colors/neutral/500}"
+    ]
+   },
+   "border/brand/bold": {
+    "type": null,
+    "css": "--rv-border-brand-bold",
+    "values": [
+     "{color/bold}",
+     "{color/soft}"
+    ]
+   },
+   "border/system/error/bold": {
+    "type": null,
+    "css": "--rv-border-system-error-bold",
+    "values": [
+     "{colors/red/600}",
+     "{colors/red/400}"
+    ]
+   },
+   "border/system/success/bold": {
+    "type": null,
+    "css": "--rv-border-system-success-bold",
+    "values": [
+     "{colors/green/600}",
+     "{colors/green/400}"
+    ]
+   },
+   "border/system/warning/bold": {
+    "type": null,
+    "css": "--rv-border-system-warning-bold",
+    "values": [
+     "{colors/amber/600}",
+     "{colors/amber/400}"
+    ]
+   },
+   "border/system/information/bold": {
+    "type": null,
+    "css": "--rv-border-system-information-bold",
+    "values": [
+     "{colors/azure/600}",
+     "{colors/azure/400}"
+    ]
+   },
+   "background/neutral/bold": {
+    "type": null,
+    "css": "--rv-background-neutral-bold",
+    "values": [
+     "{colors/neutral/700}",
+     "{colors/neutral/300}"
+    ]
+   },
+   "background/neutral/stronger": {
+    "type": null,
+    "css": "--rv-background-neutral-stronger",
+    "values": [
+     "{colors/neutral/900}",
+     "{colors/neutral/100}"
+    ]
+   },
+   "background/brand/stronger": {
+    "type": null,
+    "css": "--rv-background-brand-stronger",
+    "values": [
+     "{color/strongest}",
+     "{color/subtlest}"
+    ]
+   },
+   "background/brand/strongest": {
+    "type": null,
+    "css": "--rv-background-brand-strongest",
+    "values": [
+     "{color/extra-strong}",
+     "{color/extra-subtle}"
+    ]
+   },
+   "background/system/error/stronger": {
+    "type": null,
+    "css": "--rv-background-system-error-stronger",
+    "values": [
+     "{colors/red/800}",
+     "{colors/red/200}"
+    ]
+   },
+   "background/system/error/strongest": {
+    "type": null,
+    "css": "--rv-background-system-error-strongest",
+    "values": [
+     "{colors/red/900}",
+     "{colors/red/100}"
+    ]
+   },
+   "background/system/success/stronger": {
+    "type": null,
+    "css": "--rv-background-system-success-stronger",
+    "values": [
+     "{colors/green/800}",
+     "{colors/green/200}"
+    ]
+   },
+   "background/system/success/strongest": {
+    "type": null,
+    "css": "--rv-background-system-success-strongest",
+    "values": [
+     "{colors/green/900}",
+     "{colors/green/100}"
+    ]
+   },
+   "background/system/warning/stronger": {
+    "type": null,
+    "css": "--rv-background-system-warning-stronger",
+    "values": [
+     "{colors/amber/800}",
+     "{colors/amber/200}"
+    ]
+   },
+   "background/system/warning/strongest": {
+    "type": null,
+    "css": "--rv-background-system-warning-strongest",
+    "values": [
+     "{colors/amber/900}",
+     "{colors/amber/100}"
+    ]
+   },
+   "background/system/information/stronger": {
+    "type": null,
+    "css": "--rv-background-system-information-stronger",
+    "values": [
+     "{colors/azure/800}",
+     "{colors/azure/200}"
+    ]
+   },
+   "background/system/information/strongest": {
+    "type": null,
+    "css": "--rv-background-system-information-strongest",
+    "values": [
+     "{colors/azure/900}",
+     "{colors/azure/100}"
+    ]
+   },
+   "text/neutral/bold": {
+    "type": null,
+    "css": "--rv-text-neutral-bold",
+    "values": [
+     "{colors/neutral/800}",
+     "{colors/neutral/200}"
+    ]
+   },
+   "text/neutral/stronger": {
+    "type": null,
+    "css": "--rv-text-neutral-stronger",
+    "values": [
+     "{colors/neutral/900}",
+     "{colors/neutral/100}"
+    ]
+   },
+   "text/brand/stronger": {
+    "type": null,
+    "css": "--rv-text-brand-stronger",
+    "values": [
+     "{color/strongest}",
+     "{color/subtlest}"
+    ]
+   },
+   "text/brand/strongest": {
+    "type": null,
+    "css": "--rv-text-brand-strongest",
+    "values": [
+     "{color/extra-strong}",
+     "{color/extra-subtle}"
+    ]
+   },
+   "text/system/error/stronger": {
+    "type": null,
+    "css": "--rv-text-system-error-stronger",
+    "values": [
+     "{colors/red/900}",
+     "{colors/red/100}"
+    ]
+   },
+   "text/system/error/strongest": {
+    "type": null,
+    "css": "--rv-text-system-error-strongest",
+    "values": [
+     "{colors/red/950}",
+     "{colors/red/50}"
+    ]
+   },
+   "text/system/success/stronger": {
+    "type": null,
+    "css": "--rv-text-system-success-stronger",
+    "values": [
+     "{colors/green/900}",
+     "{colors/green/100}"
+    ]
+   },
+   "text/system/success/strongest": {
+    "type": null,
+    "css": "--rv-text-system-success-strongest",
+    "values": [
+     "{colors/green/950}",
+     "{colors/green/50}"
+    ]
+   },
+   "text/system/warning/stronger": {
+    "type": null,
+    "css": "--rv-text-system-warning-stronger",
+    "values": [
+     "{colors/amber/900}",
+     "{colors/amber/100}"
+    ]
+   },
+   "text/system/warning/strongest": {
+    "type": null,
+    "css": "--rv-text-system-warning-strongest",
+    "values": [
+     "{colors/amber/950}",
+     "{colors/amber/50}"
+    ]
+   },
+   "text/system/information/stronger": {
+    "type": null,
+    "css": "--rv-text-system-information-stronger",
+    "values": [
+     "{colors/azure/900}",
+     "{colors/azure/100}"
+    ]
+   },
+   "text/system/information/strongest": {
+    "type": null,
+    "css": "--rv-text-system-information-strongest",
+    "values": [
+     "{colors/azure/950}",
+     "{colors/azure/50}"
+    ]
+   },
+   "border/neutral/bold": {
+    "type": null,
+    "css": "--rv-border-neutral-bold",
+    "values": [
+     "{colors/neutral/600}",
+     "{colors/neutral/400}"
+    ]
+   },
+   "border/neutral/stronger": {
+    "type": null,
+    "css": "--rv-border-neutral-stronger",
+    "values": [
+     "{colors/neutral/800}",
+     "{colors/neutral/200}"
+    ]
+   },
+   "border/brand/stronger": {
+    "type": null,
+    "css": "--rv-border-brand-stronger",
+    "values": [
+     "{color/strongest}",
+     "{color/subtlest}"
+    ]
+   },
+   "border/brand/strongest": {
+    "type": null,
+    "css": "--rv-border-brand-strongest",
+    "values": [
+     "{color/extra-strong}",
+     "{color/extra-subtle}"
+    ]
+   },
+   "border/system/error/stronger": {
+    "type": null,
+    "css": "--rv-border-system-error-stronger",
+    "values": [
+     "{colors/red/800}",
+     "{colors/red/200}"
+    ]
+   },
+   "border/system/error/strongest": {
+    "type": null,
+    "css": "--rv-border-system-error-strongest",
+    "values": [
+     "{colors/red/900}",
+     "{colors/red/100}"
+    ]
+   },
+   "border/system/success/stronger": {
+    "type": null,
+    "css": "--rv-border-system-success-stronger",
+    "values": [
+     "{colors/green/800}",
+     "{colors/green/200}"
+    ]
+   },
+   "border/system/success/strongest": {
+    "type": null,
+    "css": "--rv-border-system-success-strongest",
+    "values": [
+     "{colors/green/900}",
+     "{colors/green/100}"
+    ]
+   },
+   "border/system/warning/stronger": {
+    "type": null,
+    "css": "--rv-border-system-warning-stronger",
+    "values": [
+     "{colors/amber/800}",
+     "{colors/amber/200}"
+    ]
+   },
+   "border/system/warning/strongest": {
+    "type": null,
+    "css": "--rv-border-system-warning-strongest",
+    "values": [
+     "{colors/amber/900}",
+     "{colors/amber/100}"
+    ]
+   },
+   "border/system/information/stronger": {
+    "type": null,
+    "css": "--rv-border-system-information-stronger",
+    "values": [
+     "{colors/azure/800}",
+     "{colors/azure/200}"
+    ]
+   },
+   "border/system/information/strongest": {
+    "type": null,
+    "css": "--rv-border-system-information-strongest",
+    "values": [
+     "{colors/azure/900}",
+     "{colors/azure/100}"
+    ]
+   },
+   "icon/neutral/bold": {
+    "type": null,
+    "css": "--rv-icon-neutral-bold",
+    "values": [
+     "{colors/neutral/800}",
+     "{colors/neutral/200}"
+    ]
+   },
+   "icon/neutral/stronger": {
+    "type": null,
+    "css": "--rv-icon-neutral-stronger",
+    "values": [
+     "{colors/neutral/900}",
+     "{colors/neutral/100}"
+    ]
+   },
+   "icon/brand/stronger": {
+    "type": null,
+    "css": "--rv-icon-brand-stronger",
+    "values": [
+     "{color/strongest}",
+     "{color/subtlest}"
+    ]
+   },
+   "icon/brand/strongest": {
+    "type": null,
+    "css": "--rv-icon-brand-strongest",
+    "values": [
+     "{color/extra-strong}",
+     "{color/extra-subtle}"
+    ]
+   },
+   "icon/system/error/stronger": {
+    "type": null,
+    "css": "--rv-icon-system-error-stronger",
+    "values": [
+     "{colors/red/900}",
+     "{colors/red/100}"
+    ]
+   },
+   "icon/system/error/strongest": {
+    "type": null,
+    "css": "--rv-icon-system-error-strongest",
+    "values": [
+     "{colors/red/950}",
+     "{colors/red/50}"
+    ]
+   },
+   "icon/system/success/stronger": {
+    "type": null,
+    "css": "--rv-icon-system-success-stronger",
+    "values": [
+     "{colors/green/900}",
+     "{colors/green/100}"
+    ]
+   },
+   "icon/system/success/strongest": {
+    "type": null,
+    "css": "--rv-icon-system-success-strongest",
+    "values": [
+     "{colors/green/950}",
+     "{colors/green/50}"
+    ]
+   },
+   "icon/system/warning/stronger": {
+    "type": null,
+    "css": "--rv-icon-system-warning-stronger",
+    "values": [
+     "{colors/amber/900}",
+     "{colors/amber/100}"
+    ]
+   },
+   "icon/system/warning/strongest": {
+    "type": null,
+    "css": "--rv-icon-system-warning-strongest",
+    "values": [
+     "{colors/amber/950}",
+     "{colors/amber/50}"
+    ]
+   },
+   "icon/system/information/stronger": {
+    "type": null,
+    "css": "--rv-icon-system-information-stronger",
+    "values": [
+     "{colors/azure/900}",
+     "{colors/azure/100}"
+    ]
+   },
+   "icon/system/information/strongest": {
+    "type": null,
+    "css": "--rv-icon-system-information-strongest",
+    "values": [
+     "{colors/azure/950}",
+     "{colors/azure/50}"
+    ]
+   },
+   "background/neutral/strongest": {
+    "type": null,
+    "css": "--rv-background-neutral-strongest",
+    "values": [
+     "{colors/neutral/950}",
+     "{colors/neutral/50}"
+    ]
+   },
+   "background/neutral/extra-strong": {
+    "type": null,
+    "css": "--rv-background-neutral-extra-strong",
+    "values": [
+     "{colors/black}",
+     "{colors/white}"
+    ]
+   },
+   "text/neutral/strongest": {
+    "type": null,
+    "css": "--rv-text-neutral-strongest",
+    "values": [
+     "{colors/neutral/950}",
+     "{colors/neutral/50}"
+    ]
+   },
+   "text/neutral/extra-strong": {
+    "type": null,
+    "css": "--rv-text-neutral-extra-strong",
+    "values": [
+     "{colors/black}",
+     "{colors/white}"
+    ]
+   },
+   "icon/neutral/strongest": {
+    "type": null,
+    "css": "--rv-icon-neutral-strongest",
+    "values": [
+     "{colors/neutral/950}",
+     "{colors/neutral/50}"
+    ]
+   },
+   "icon/neutral/extra-strong": {
+    "type": null,
+    "css": "--rv-icon-neutral-extra-strong",
+    "values": [
+     "{colors/black}",
+     "{colors/white}"
+    ]
+   },
+   "border/neutral/strongest": {
+    "type": null,
+    "css": "--rv-border-neutral-strongest",
+    "values": [
+     "{colors/neutral/900}",
+     "{colors/neutral/100}"
+    ]
+   },
+   "border/neutral/extra-strong": {
+    "type": null,
+    "css": "--rv-border-neutral-extra-strong",
+    "values": [
+     "{colors/black}",
+     "{colors/white}"
+    ]
+   },
+   "background/neutral/alpha/white/4": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-4",
+    "values": [
+     "{colors/white/alpha/4}",
+     "{colors/white/alpha/4}"
+    ]
+   },
+   "background/neutral/alpha/white/8": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-8",
+    "values": [
+     "{colors/white/alpha/8}",
+     "{colors/white/alpha/8}"
+    ]
+   },
+   "background/neutral/alpha/white/12": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-12",
+    "values": [
+     "{colors/white/alpha/12}",
+     "{colors/white/alpha/12}"
+    ]
+   },
+   "background/neutral/alpha/white/16": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-16",
+    "values": [
+     "{colors/white/alpha/16}",
+     "{colors/white/alpha/16}"
+    ]
+   },
+   "background/neutral/alpha/white/24": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-24",
+    "values": [
+     "{colors/white/alpha/24}",
+     "{colors/white/alpha/24}"
+    ]
+   },
+   "background/neutral/alpha/white/32": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-32",
+    "values": [
+     "{colors/white/alpha/32}",
+     "{colors/white/alpha/32}"
+    ]
+   },
+   "background/neutral/alpha/white/48": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-48",
+    "values": [
+     "{colors/white/alpha/48}",
+     "{colors/white/alpha/48}"
+    ]
+   },
+   "background/neutral/alpha/white/64": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-64",
+    "values": [
+     "{colors/white/alpha/64}",
+     "{colors/white/alpha/64}"
+    ]
+   },
+   "background/neutral/alpha/white/80": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-white-80",
+    "values": [
+     "{colors/white/alpha/80}",
+     "{colors/white/alpha/80}"
+    ]
+   },
+   "background/neutral/alpha/black/4": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-4",
+    "values": [
+     "{colors/black/alpha/4}",
+     "{colors/black/alpha/4}"
+    ]
+   },
+   "background/neutral/alpha/black/8": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-8",
+    "values": [
+     "{colors/black/alpha/8}",
+     "{colors/black/alpha/8}"
+    ]
+   },
+   "background/neutral/alpha/black/12": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-12",
+    "values": [
+     "{colors/black/alpha/12}",
+     "{colors/black/alpha/12}"
+    ]
+   },
+   "background/neutral/alpha/black/16": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-16",
+    "values": [
+     "{colors/black/alpha/16}",
+     "{colors/black/alpha/16}"
+    ]
+   },
+   "background/neutral/alpha/black/24": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-24",
+    "values": [
+     "{colors/black/alpha/24}",
+     "{colors/black/alpha/24}"
+    ]
+   },
+   "background/neutral/alpha/black/32": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-32",
+    "values": [
+     "{colors/black/alpha/32}",
+     "{colors/black/alpha/32}"
+    ]
+   },
+   "background/neutral/alpha/black/48": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-48",
+    "values": [
+     "{colors/black/alpha/48}",
+     "{colors/black/alpha/48}"
+    ]
+   },
+   "background/neutral/alpha/black/64": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-64",
+    "values": [
+     "{colors/black/alpha/64}",
+     "{colors/black/alpha/64}"
+    ]
+   },
+   "background/neutral/alpha/black/80": {
+    "type": null,
+    "css": "--rv-background-neutral-alpha-black-80",
+    "values": [
+     "{colors/black/alpha/80}",
+     "{colors/black/alpha/80}"
+    ]
+   },
+   "background/decorative/1/subtler": {
+    "type": null,
+    "css": "--rv-background-decorative-1-subtler",
+    "values": [
+     "{colors/fern/100}",
+     "{colors/fern/900}"
+    ]
+   },
+   "text/decorative/1/stronger": {
+    "type": null,
+    "css": "--rv-text-decorative-1-stronger",
+    "values": [
+     "{colors/fern/900}",
+     "{colors/fern/100}"
+    ]
+   },
+   "border/decorative/1/subtler": {
+    "type": null,
+    "css": "--rv-border-decorative-1-subtler",
+    "values": [
+     "{colors/fern/200}",
+     "{colors/fern/800}"
+    ]
+   },
+   "background/decorative/2/subtler": {
+    "type": null,
+    "css": "--rv-background-decorative-2-subtler",
+    "values": [
+     "{colors/tangerine/100}",
+     "{colors/tangerine/900}"
+    ]
+   },
+   "text/decorative/2/stronger": {
+    "type": null,
+    "css": "--rv-text-decorative-2-stronger",
+    "values": [
+     "{colors/tangerine/900}",
+     "{colors/tangerine/100}"
+    ]
+   },
+   "border/decorative/2/subtler": {
+    "type": null,
+    "css": "--rv-border-decorative-2-subtler",
+    "values": [
+     "{colors/tangerine/200}",
+     "{colors/tangerine/800}"
+    ]
+   },
+   "background/decorative/3/subtler": {
+    "type": null,
+    "css": "--rv-background-decorative-3-subtler",
+    "values": [
+     "{colors/cerise/100}",
+     "{colors/cerise/900}"
+    ]
+   },
+   "text/decorative/3/stronger": {
+    "type": null,
+    "css": "--rv-text-decorative-3-stronger",
+    "values": [
+     "{colors/cerise/900}",
+     "{colors/cerise/100}"
+    ]
+   },
+   "border/decorative/3/subtler": {
+    "type": null,
+    "css": "--rv-border-decorative-3-subtler",
+    "values": [
+     "{colors/cerise/200}",
+     "{colors/cerise/800}"
+    ]
+   },
+   "background/decorative/4/subtler": {
+    "type": null,
+    "css": "--rv-background-decorative-4-subtler",
+    "values": [
+     "{colors/grape/100}",
+     "{colors/grape/900}"
+    ]
+   },
+   "text/decorative/4/stronger": {
+    "type": null,
+    "css": "--rv-text-decorative-4-stronger",
+    "values": [
+     "{colors/grape/900}",
+     "{colors/grape/100}"
+    ]
+   },
+   "border/decorative/4/subtler": {
+    "type": null,
+    "css": "--rv-border-decorative-4-subtler",
+    "values": [
+     "{colors/grape/200}",
+     "{colors/grape/800}"
+    ]
+   },
+   "background/decorative/5/subtler": {
+    "type": null,
+    "css": "--rv-background-decorative-5-subtler",
+    "values": [
+     "{colors/navy/100}",
+     "{colors/navy/900}"
+    ]
+   },
+   "text/decorative/5/stronger": {
+    "type": null,
+    "css": "--rv-text-decorative-5-stronger",
+    "values": [
+     "{colors/navy/900}",
+     "{colors/navy/100}"
+    ]
+   },
+   "border/decorative/5/subtler": {
+    "type": null,
+    "css": "--rv-border-decorative-5-subtler",
+    "values": [
+     "{colors/navy/200}",
+     "{colors/navy/800}"
+    ]
+   },
+   "icon/decorative/1/stronger": {
+    "type": null,
+    "css": "--rv-icon-decorative-1-stronger",
+    "values": [
+     "{colors/fern/900}",
+     "{colors/fern/100}"
+    ]
+   },
+   "icon/decorative/2/stronger": {
+    "type": null,
+    "css": "--rv-icon-decorative-2-stronger",
+    "values": [
+     "{colors/tangerine/900}",
+     "{colors/tangerine/100}"
+    ]
+   },
+   "icon/decorative/3/stronger": {
+    "type": null,
+    "css": "--rv-icon-decorative-3-stronger",
+    "values": [
+     "{colors/cerise/900}",
+     "{colors/cerise/100}"
+    ]
+   },
+   "icon/decorative/4/stronger": {
+    "type": null,
+    "css": "--rv-icon-decorative-4-stronger",
+    "values": [
+     "{colors/grape/900}",
+     "{colors/grape/100}"
+    ]
+   },
+   "icon/decorative/5/stronger": {
+    "type": null,
+    "css": "--rv-icon-decorative-5-stronger",
+    "values": [
+     "{colors/navy/900}",
+     "{colors/navy/100}"
+    ]
+   },
+   "background/static/light/base": {
+    "type": null,
+    "css": "--rv-background-static-light-base",
+    "values": [
+     "{colors/white}",
+     "{colors/white}"
+    ]
+   },
+   "background/static/light/hover": {
+    "type": null,
+    "css": "--rv-background-static-light-hover",
+    "values": [
+     "{colors/neutral/50}",
+     "{colors/neutral/50}"
+    ]
+   },
+   "background/static/light/pressed": {
+    "type": null,
+    "css": "--rv-background-static-light-pressed",
+    "values": [
+     "{colors/neutral/100}",
+     "{colors/neutral/100}"
+    ]
+   },
+   "text/static/light": {
+    "type": null,
+    "css": "--rv-text-static-light",
+    "values": [
+     "{colors/white}",
+     "{colors/white}"
+    ]
+   },
+   "text/static/dark": {
+    "type": null,
+    "css": "--rv-text-static-dark",
+    "values": [
+     "{colors/neutral/700}",
+     "{colors/neutral/700}"
+    ]
+   },
+   "icon/static/light": {
+    "type": null,
+    "css": "--rv-icon-static-light",
+    "values": [
+     "{colors/white}",
+     "{colors/white}"
+    ]
+   },
+   "icon/static/dark": {
+    "type": null,
+    "css": "--rv-icon-static-dark",
+    "values": [
+     "{colors/neutral/700}",
+     "{colors/neutral/700}"
+    ]
+   },
+   "border/static/light": {
+    "type": null,
+    "css": "--rv-border-static-light",
+    "values": [
+     "{colors/white}",
+     "{colors/white}"
+    ]
+   },
+   "background/static/dark/base": {
+    "type": null,
+    "css": "--rv-background-static-dark-base",
+    "values": [
+     "{colors/neutral/950}",
+     "{colors/neutral/950}"
+    ]
+   },
+   "background/static/dark/hover": {
+    "type": null,
+    "css": "--rv-background-static-dark-hover",
+    "values": [
+     "{colors/neutral/800}",
+     "{colors/neutral/800}"
+    ]
+   },
+   "background/static/dark/pressed": {
+    "type": null,
+    "css": "--rv-background-static-dark-pressed",
+    "values": [
+     "{colors/neutral/900}",
+     "{colors/neutral/900}"
+    ]
+   },
+   "border/static/dark": {
+    "type": null,
+    "css": "--rv-border-static-dark",
+    "values": [
+     "{colors/neutral/700}",
+     "{colors/neutral/700}"
+    ]
+   }
+  }
+ },
+ "3b": {
+  "modes": [
+   "Value"
+  ],
+  "vars": {
+   "family/sans": {
+    "type": "STRING",
+    "css": "--rv-font-family-sans",
+    "values": [
+     "{typography/family}"
+    ]
+   },
+   "letter-spacing/tighter": {
+    "type": "FLOAT",
+    "css": "--rv-font-letter-spacing-tighter",
+    "values": [
+     "{letter-spacing/-2}"
+    ]
+   },
+   "letter-spacing/tight": {
+    "type": "FLOAT",
+    "css": "--rv-font-letter-spacing-tight",
+    "values": [
+     "{letter-spacing/-1}"
+    ]
+   },
+   "letter-spacing/normal": {
+    "type": "FLOAT",
+    "css": "--rv-font-letter-spacing-normal",
+    "values": [
+     "{letter-spacing/0}"
+    ]
+   },
+   "letter-spacing/wide": {
+    "type": "FLOAT",
+    "css": "--rv-font-letter-spacing-wide",
+    "values": [
+     "{letter-spacing/1}"
+    ]
+   },
+   "letter-spacing/wider": {
+    "type": "FLOAT",
+    "css": "--rv-font-letter-spacing-wider",
+    "values": [
+     "{letter-spacing/2}"
+    ]
+   },
+   "letter-spacing/widest": {
+    "type": "FLOAT",
+    "css": "--rv-font-letter-spacing-widest",
+    "values": [
+     "{letter-spacing/3}"
+    ]
+   },
+   "line-height/xs": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-xs",
+    "values": [
+     "{line-height/4}"
+    ]
+   },
+   "line-height/sm": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-sm",
+    "values": [
+     "{line-height/5}"
+    ]
+   },
+   "line-height/md": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-md",
+    "values": [
+     "{line-height/6}"
+    ]
+   },
+   "line-height/lg": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-lg",
+    "values": [
+     "{line-height/7}"
+    ]
+   },
+   "line-height/xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-xl",
+    "values": [
+     "{line-height/8}"
+    ]
+   },
+   "line-height/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-2xl",
+    "values": [
+     "{line-height/9}"
+    ]
+   },
+   "line-height/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-3xl",
+    "values": [
+     "{line-height/10}"
+    ]
+   },
+   "line-height/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-4xl",
+    "values": [
+     "{line-height/11}"
+    ]
+   },
+   "line-height/5xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-5xl",
+    "values": [
+     "{line-height/12}"
+    ]
+   },
+   "line-height/6xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-6xl",
+    "values": [
+     "{line-height/13}"
+    ]
+   },
+   "line-height/7xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-7xl",
+    "values": [
+     "{line-height/14}"
+    ]
+   },
+   "line-height/8xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-8xl",
+    "values": [
+     "{line-height/15}"
+    ]
+   },
+   "line-height/9xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-9xl",
+    "values": [
+     "{line-height/16}"
+    ]
+   },
+   "line-height/10xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-10xl",
+    "values": [
+     "{line-height/17}"
+    ]
+   },
+   "line-height/11xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-line-height-11xl",
+    "values": [
+     "{line-height/18}"
+    ]
+   },
+   "size/xs": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-xs",
+    "values": [
+     "{size/1}"
+    ]
+   },
+   "size/sm": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-sm",
+    "values": [
+     "{size/2}"
+    ]
+   },
+   "size/md": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-md",
+    "values": [
+     "{size/3}"
+    ]
+   },
+   "size/lg": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-lg",
+    "values": [
+     "{size/4}"
+    ]
+   },
+   "size/xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-xl",
+    "values": [
+     "{size/5}"
+    ]
+   },
+   "size/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-2xl",
+    "values": [
+     "{size/6}"
+    ]
+   },
+   "size/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-3xl",
+    "values": [
+     "{size/7}"
+    ]
+   },
+   "size/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-4xl",
+    "values": [
+     "{size/8}"
+    ]
+   },
+   "size/5xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-5xl",
+    "values": [
+     "{size/9}"
+    ]
+   },
+   "size/6xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-6xl",
+    "values": [
+     "{size/10}"
+    ]
+   },
+   "size/7xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-7xl",
+    "values": [
+     "{size/11}"
+    ]
+   },
+   "size/8xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-8xl",
+    "values": [
+     "{size/12}"
+    ]
+   },
+   "size/9xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-9xl",
+    "values": [
+     "{size/13}"
+    ]
+   },
+   "weight/light": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-light",
+    "values": [
+     "{weight/300}"
+    ]
+   },
+   "weight/normal": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-normal",
+    "values": [
+     "{weight/400}"
+    ]
+   },
+   "weight/medium": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-medium",
+    "values": [
+     "{weight/500}"
+    ]
+   },
+   "weight/semibold": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-semibold",
+    "values": [
+     "{weight/600}"
+    ]
+   },
+   "weight/bold": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-bold",
+    "values": [
+     "{weight/700}"
+    ]
+   },
+   "weight/thin": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-thin",
+    "values": [
+     "{weight/100}"
+    ]
+   },
+   "weight/extralight": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-extralight",
+    "values": [
+     "{weight/200}"
+    ]
+   },
+   "weight/extrabold": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-extrabold",
+    "values": [
+     "{weight/800}"
+    ]
+   },
+   "weight/black": {
+    "type": "FLOAT",
+    "css": "--rv-font-weight-black",
+    "values": [
+     "{weight/900}"
+    ]
+   },
+   "size/10xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-10xl",
+    "values": [
+     "{size/14}"
+    ]
+   },
+   "size/11xl": {
+    "type": "FLOAT",
+    "css": "--rv-font-size-11xl",
+    "values": [
+     "{size/15}"
+    ]
+   }
+  }
+ },
+ "3c": {
+  "modes": [
+   "Desktop",
+   "Mobile"
+  ],
+  "vars": {
+   "border/none": {
+    "type": "FLOAT",
+    "css": "--rv-border-none",
+    "values": [
+     "{border-width/0}",
+     "{border-width/0}"
+    ]
+   },
+   "breakpoint/sm": {
+    "type": "FLOAT",
+    "css": "--rv-breakpoint-sm",
+    "values": [
+     "{spacing/32}",
+     "{spacing/32}"
+    ]
+   },
+   "breakpoint/md": {
+    "type": "FLOAT",
+    "css": "--rv-breakpoint-md",
+    "values": [
+     "{spacing/27}",
+     "{spacing/27}"
+    ]
+   },
+   "breakpoint/lg": {
+    "type": "FLOAT",
+    "css": "--rv-breakpoint-lg",
+    "values": [
+     "{spacing/29}",
+     "{spacing/29}"
+    ]
+   },
+   "breakpoint/xl": {
+    "type": "FLOAT",
+    "css": "--rv-breakpoint-xl",
+    "values": [
+     "{spacing/31}",
+     "{spacing/31}"
+    ]
+   },
+   "breakpoint/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-breakpoint-2xl",
+    "values": [
+     "{spacing/33}",
+     "{spacing/33}"
+    ]
+   },
+   "border/xs": {
+    "type": "FLOAT",
+    "css": "--rv-border-xs",
+    "values": [
+     "{border-width/1}",
+     "{border-width/1}"
+    ]
+   },
+   "border/sm": {
+    "type": "FLOAT",
+    "css": "--rv-border-sm",
+    "values": [
+     "{border-width/2}",
+     "{border-width/2}"
+    ]
+   },
+   "border/md": {
+    "type": "FLOAT",
+    "css": "--rv-border-md",
+    "values": [
+     "{border-width/3}",
+     "{border-width/3}"
+    ]
+   },
+   "border/lg": {
+    "type": "FLOAT",
+    "css": "--rv-border-lg",
+    "values": [
+     "{border-width/4}",
+     "{border-width/4}"
+    ]
+   },
+   "border/xl": {
+    "type": "FLOAT",
+    "css": "--rv-border-xl",
+    "values": [
+     "{border-width/5}",
+     "{border-width/5}"
+    ]
+   },
+   "container/xs": {
+    "type": "FLOAT",
+    "css": "--rv-container-xs",
+    "values": [
+     "{spacing/21}",
+     "{spacing/21}"
+    ]
+   },
+   "container/sm": {
+    "type": "FLOAT",
+    "css": "--rv-container-sm",
+    "values": [
+     "{spacing/22}",
+     "{spacing/22}"
+    ]
+   },
+   "container/md": {
+    "type": "FLOAT",
+    "css": "--rv-container-md",
+    "values": [
+     "{spacing/23}",
+     "{spacing/23}"
+    ]
+   },
+   "container/lg": {
+    "type": "FLOAT",
+    "css": "--rv-container-lg",
+    "values": [
+     "{spacing/24}",
+     "{spacing/24}"
+    ]
+   },
+   "container/xl": {
+    "type": "FLOAT",
+    "css": "--rv-container-xl",
+    "values": [
+     "{spacing/25}",
+     "{spacing/25}"
+    ]
+   },
+   "container/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-container-2xl",
+    "values": [
+     "{spacing/26}",
+     "{spacing/26}"
+    ]
+   },
+   "container/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-container-3xl",
+    "values": [
+     "{spacing/27}",
+     "{spacing/27}"
+    ]
+   },
+   "container/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-container-4xl",
+    "values": [
+     "{spacing/28}",
+     "{spacing/28}"
+    ]
+   },
+   "container/5xl": {
+    "type": "FLOAT",
+    "css": "--rv-container-5xl",
+    "values": [
+     "{spacing/29}",
+     "{spacing/29}"
+    ]
+   },
+   "container/6xl": {
+    "type": "FLOAT",
+    "css": "--rv-container-6xl",
+    "values": [
+     "{spacing/30}",
+     "{spacing/30}"
+    ]
+   },
+   "container/7xl": {
+    "type": "FLOAT",
+    "css": "--rv-container-7xl",
+    "values": [
+     "{spacing/31}",
+     "{spacing/31}"
+    ]
+   },
+   "gap/3xs": {
+    "type": "FLOAT",
+    "css": "--rv-gap-3xs",
+    "values": [
+     "{spacing/1}",
+     "{spacing/1}"
+    ]
+   },
+   "gap/2xs": {
+    "type": "FLOAT",
+    "css": "--rv-gap-2xs",
+    "values": [
+     "{spacing/2}",
+     "{spacing/2}"
+    ]
+   },
+   "gap/sm": {
+    "type": "FLOAT",
+    "css": "--rv-gap-sm",
+    "values": [
+     "{spacing/4}",
+     "{spacing/4}"
+    ]
+   },
+   "gap/md": {
+    "type": "FLOAT",
+    "css": "--rv-gap-md",
+    "values": [
+     "{spacing/6}",
+     "{spacing/6}"
+    ]
+   },
+   "gap/lg": {
+    "type": "FLOAT",
+    "css": "--rv-gap-lg",
+    "values": [
+     "{spacing/8}",
+     "{spacing/8}"
+    ]
+   },
+   "gap/xl": {
+    "type": "FLOAT",
+    "css": "--rv-gap-xl",
+    "values": [
+     "{spacing/9}",
+     "{spacing/8}"
+    ]
+   },
+   "gap/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-gap-2xl",
+    "values": [
+     "{spacing/10}",
+     "{spacing/8}"
+    ]
+   },
+   "padding/3xs": {
+    "type": "FLOAT",
+    "css": "--rv-padding-3xs",
+    "values": [
+     "{spacing/1}",
+     "{spacing/1}"
+    ]
+   },
+   "padding/2xs": {
+    "type": "FLOAT",
+    "css": "--rv-padding-2xs",
+    "values": [
+     "{spacing/2}",
+     "{spacing/2}"
+    ]
+   },
+   "padding/sm": {
+    "type": "FLOAT",
+    "css": "--rv-padding-sm",
+    "values": [
+     "{spacing/4}",
+     "{spacing/4}"
+    ]
+   },
+   "padding/md": {
+    "type": "FLOAT",
+    "css": "--rv-padding-md",
+    "values": [
+     "{spacing/6}",
+     "{spacing/6}"
+    ]
+   },
+   "padding/lg": {
+    "type": "FLOAT",
+    "css": "--rv-padding-lg",
+    "values": [
+     "{spacing/8}",
+     "{spacing/8}"
+    ]
+   },
+   "padding/xl": {
+    "type": "FLOAT",
+    "css": "--rv-padding-xl",
+    "values": [
+     "{spacing/9}",
+     "{spacing/8}"
+    ]
+   },
+   "padding/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-padding-2xl",
+    "values": [
+     "{spacing/10}",
+     "{spacing/8}"
+    ]
+   },
+   "padding/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-padding-3xl",
+    "values": [
+     "{spacing/11}",
+     "{spacing/8}"
+    ]
+   },
+   "padding/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-padding-4xl",
+    "values": [
+     "{spacing/12}",
+     "{spacing/10}"
+    ]
+   },
+   "padding/5xl": {
+    "type": "FLOAT",
+    "css": "--rv-padding-5xl",
+    "values": [
+     "{spacing/13}",
+     "{spacing/10}"
+    ]
+   },
+   "radius/none": {
+    "type": "FLOAT",
+    "css": "--rv-radius-none",
+    "values": [
+     "{radius/0}",
+     "{radius/0}"
+    ]
+   },
+   "radius/xs": {
+    "type": "FLOAT",
+    "css": "--rv-radius-xs",
+    "values": [
+     "{layout/radius/xs}",
+     "{layout/radius/xs}"
+    ]
+   },
+   "radius/sm": {
+    "type": "FLOAT",
+    "css": "--rv-radius-sm",
+    "values": [
+     "{layout/radius/sm}",
+     "{layout/radius/sm}"
+    ]
+   },
+   "radius/md": {
+    "type": "FLOAT",
+    "css": "--rv-radius-md",
+    "values": [
+     "{layout/radius/md}",
+     "{layout/radius/md}"
+    ]
+   },
+   "radius/lg": {
+    "type": "FLOAT",
+    "css": "--rv-radius-lg",
+    "values": [
+     "{layout/radius/lg}",
+     "{layout/radius/lg}"
+    ]
+   },
+   "radius/xl": {
+    "type": "FLOAT",
+    "css": "--rv-radius-xl",
+    "values": [
+     "{layout/radius/xl}",
+     "{layout/radius/xl}"
+    ]
+   },
+   "radius/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-radius-2xl",
+    "values": [
+     "{radius/7}",
+     "{radius/7}"
+    ]
+   },
+   "radius/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-radius-3xl",
+    "values": [
+     "{radius/9}",
+     "{radius/9}"
+    ]
+   },
+   "radius/full": {
+    "type": "FLOAT",
+    "css": "--rv-radius-full",
+    "values": [
+     "{radius/20}",
+     "{radius/20}"
+    ]
+   },
+   "radius/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-radius-4xl",
+    "values": [
+     "{radius/10}",
+     "{radius/10}"
+    ]
+   },
+   "radius/5xl": {
+    "type": "FLOAT",
+    "css": "--rv-radius-5xl",
+    "values": [
+     "{radius/11}",
+     "{radius/11}"
+    ]
+   },
+   "size/4xs": {
+    "type": "FLOAT",
+    "css": "--rv-size-4xs",
+    "values": [
+     "{height/6}",
+     "{height/6}"
+    ]
+   },
+   "size/3xs": {
+    "type": "FLOAT",
+    "css": "--rv-size-3xs",
+    "values": [
+     "{height/7}",
+     "{height/7}"
+    ]
+   },
+   "size/2xs": {
+    "type": "FLOAT",
+    "css": "--rv-size-2xs",
+    "values": [
+     "{height/8}",
+     "{height/8}"
+    ]
+   },
+   "size/xs": {
+    "type": "FLOAT",
+    "css": "--rv-size-xs",
+    "values": [
+     "{height/9}",
+     "{height/9}"
+    ]
+   },
+   "size/md": {
+    "type": "FLOAT",
+    "css": "--rv-size-md",
+    "values": [
+     "{height/10}",
+     "{height/11}"
+    ]
+   },
+   "size/xl": {
+    "type": "FLOAT",
+    "css": "--rv-size-xl",
+    "values": [
+     "{height/12}",
+     "{height/13}"
+    ]
+   },
+   "size/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-size-2xl",
+    "values": [
+     "{height/13}",
+     "{height/14}"
+    ]
+   },
+   "size/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-size-3xl",
+    "values": [
+     "{height/14}",
+     "{height/14}"
+    ]
+   },
+   "size/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-size-4xl",
+    "values": [
+     "{height/15}",
+     "{height/15}"
+    ]
+   },
+   "size/5xl": {
+    "type": "FLOAT",
+    "css": "--rv-size-5xl",
+    "values": [
+     "{height/17}",
+     "{height/17}"
+    ]
+   },
+   "border/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-border-2xl",
+    "values": [
+     "{border-width/8}",
+     "{border-width/8}"
+    ]
+   },
+   "spacing/none": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-none",
+    "values": [
+     "{spacing/0}",
+     "{spacing/0}"
+    ]
+   },
+   "spacing/3xs": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-3xs",
+    "values": [
+     "{spacing/1}",
+     "{spacing/1}"
+    ]
+   },
+   "spacing/2xs": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-2xs",
+    "values": [
+     "{spacing/2}",
+     "{spacing/2}"
+    ]
+   },
+   "spacing/xs": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-xs",
+    "values": [
+     "{spacing/4}",
+     "{spacing/4}"
+    ]
+   },
+   "spacing/sm": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-sm",
+    "values": [
+     "{spacing/6}",
+     "{spacing/6}"
+    ]
+   },
+   "spacing/md": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-md",
+    "values": [
+     "{spacing/8}",
+     "{spacing/8}"
+    ]
+   },
+   "spacing/lg": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-lg",
+    "values": [
+     "{spacing/9}",
+     "{spacing/8}"
+    ]
+   },
+   "spacing/xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-xl",
+    "values": [
+     "{spacing/10}",
+     "{spacing/9}"
+    ]
+   },
+   "spacing/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-2xl",
+    "values": [
+     "{spacing/11}",
+     "{spacing/10}"
+    ]
+   },
+   "spacing/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-3xl",
+    "values": [
+     "{height/11}",
+     "{spacing/10}"
+    ]
+   },
+   "spacing/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-4xl",
+    "values": [
+     "{height/12}",
+     "{spacing/11}"
+    ]
+   },
+   "spacing/5xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-5xl",
+    "values": [
+     "{height/13}",
+     "{spacing/11}"
+    ]
+   },
+   "spacing/6xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-6xl",
+    "values": [
+     "{height/14}",
+     "{spacing/12}"
+    ]
+   },
+   "spacing/7xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-7xl",
+    "values": [
+     "{spacing/15}",
+     "{spacing/12}"
+    ]
+   },
+   "spacing/8xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-8xl",
+    "values": [
+     "{spacing/17}",
+     "{spacing/13}"
+    ]
+   },
+   "spacing/9xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-9xl",
+    "values": [
+     "{spacing/19}",
+     "{spacing/14}"
+    ]
+   },
+   "spacing/10xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-10xl",
+    "values": [
+     "{spacing/34}",
+     "{spacing/15}"
+    ]
+   },
+   "spacing/11xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-11xl",
+    "values": [
+     "{spacing/35}",
+     "{spacing/15}"
+    ]
+   },
+   "spacing/12xl": {
+    "type": "FLOAT",
+    "css": "--rv-spacing-12xl",
+    "values": [
+     "{spacing/36}",
+     "{spacing/17}"
+    ]
+   },
+   "effect/blur/none": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-none",
+    "values": [
+     "{blur/1}",
+     "{blur/1}"
+    ]
+   },
+   "effect/blur/xs": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-xs",
+    "values": [
+     "{blur/2}",
+     "{blur/2}"
+    ]
+   },
+   "effect/blur/sm": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-sm",
+    "values": [
+     "{blur/3}",
+     "{blur/3}"
+    ]
+   },
+   "effect/blur/md": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-md",
+    "values": [
+     "{blur/4}",
+     "{blur/4}"
+    ]
+   },
+   "effect/blur/lg": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-lg",
+    "values": [
+     "{blur/5}",
+     "{blur/5}"
+    ]
+   },
+   "effect/blur/xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-xl",
+    "values": [
+     "{blur/6}",
+     "{blur/6}"
+    ]
+   },
+   "effect/blur/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-2xl",
+    "values": [
+     "{blur/7}",
+     "{blur/7}"
+    ]
+   },
+   "effect/blur/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-3xl",
+    "values": [
+     "{blur/8}",
+     "{blur/8}"
+    ]
+   },
+   "effect/blur/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-blur-4xl",
+    "values": [
+     "{blur/9}",
+     "{blur/9}"
+    ]
+   },
+   "effect/spread/positive/none": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-positive-none",
+    "values": [
+     "{positive/0}",
+     "{positive/0}"
+    ]
+   },
+   "effect/spread/positive/xs": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-positive-xs",
+    "values": [
+     "{positive/1}",
+     "{positive/1}"
+    ]
+   },
+   "effect/spread/positive/sm": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-positive-sm",
+    "values": [
+     "{positive/2}",
+     "{positive/2}"
+    ]
+   },
+   "effect/spread/positive/md": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-positive-md",
+    "values": [
+     "{positive/4}",
+     "{positive/4}"
+    ]
+   },
+   "effect/spread/positive/lg": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-positive-lg",
+    "values": [
+     "{positive/8}",
+     "{positive/8}"
+    ]
+   },
+   "effect/spread/negative/xs": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-negative-xs",
+    "values": [
+     "{negative/1}",
+     "{negative/1}"
+    ]
+   },
+   "effect/spread/negative/sm": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-negative-sm",
+    "values": [
+     "{negative/2}",
+     "{negative/2}"
+    ]
+   },
+   "effect/spread/negative/md": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-negative-md",
+    "values": [
+     "{negative/4}",
+     "{negative/4}"
+    ]
+   },
+   "effect/spread/negative/lg": {
+    "type": "FLOAT",
+    "css": "--rv-effect-spread-negative-lg",
+    "values": [
+     "{negative/8}",
+     "{negative/8}"
+    ]
+   },
+   "effect/offset/positive/none": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-none",
+    "values": [
+     "{positive/0}",
+     "{positive/0}"
+    ]
+   },
+   "effect/offset/positive/xs": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-xs",
+    "values": [
+     "{positive/1}",
+     "{positive/1}"
+    ]
+   },
+   "effect/offset/positive/sm": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-sm",
+    "values": [
+     "{positive/2}",
+     "{positive/2}"
+    ]
+   },
+   "effect/offset/positive/md": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-md",
+    "values": [
+     "{positive/4}",
+     "{positive/4}"
+    ]
+   },
+   "effect/offset/positive/lg": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-lg",
+    "values": [
+     "{positive/8}",
+     "{positive/8}"
+    ]
+   },
+   "effect/offset/positive/xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-xl",
+    "values": [
+     "{positive/16}",
+     "{positive/16}"
+    ]
+   },
+   "effect/offset/positive/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-2xl",
+    "values": [
+     "{positive/26}",
+     "{positive/26}"
+    ]
+   },
+   "effect/offset/positive/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-3xl",
+    "values": [
+     "{positive/27}",
+     "{positive/27}"
+    ]
+   },
+   "effect/offset/positive/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-positive-4xl",
+    "values": [
+     "{positive/28}",
+     "{positive/28}"
+    ]
+   },
+   "effect/offset/negative/xs": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-negative-xs",
+    "values": [
+     "{negative/1}",
+     "{negative/1}"
+    ]
+   },
+   "effect/offset/negative/sm": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-negative-sm",
+    "values": [
+     "{negative/2}",
+     "{negative/2}"
+    ]
+   },
+   "effect/offset/negative/md": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-negative-md",
+    "values": [
+     "{negative/4}",
+     "{negative/4}"
+    ]
+   },
+   "effect/offset/negative/lg": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-negative-lg",
+    "values": [
+     "{negative/8}",
+     "{negative/8}"
+    ]
+   },
+   "effect/offset/negative/xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-negative-xl",
+    "values": [
+     "{negative/16}",
+     "{negative/16}"
+    ]
+   },
+   "effect/offset/negative/2xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-negative-2xl",
+    "values": [
+     "{negative/21}",
+     "{negative/21}"
+    ]
+   },
+   "effect/offset/negative/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-negative-3xl",
+    "values": [
+     "{negative/22}",
+     "{negative/22}"
+    ]
+   },
+   "effect/offset/negative/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-effect-offset-negative-4xl",
+    "values": [
+     "{negative/23}",
+     "{negative/23}"
+    ]
+   },
+   "size/sm": {
+    "type": "FLOAT",
+    "css": "--rv-size-sm",
+    "values": [
+     "{height/21}",
+     "{height/10}"
+    ]
+   },
+   "size/lg": {
+    "type": "FLOAT",
+    "css": "--rv-size-lg",
+    "values": [
+     "{height/11}",
+     "{height/12}"
+    ]
+   },
+   "opacity/disabled": {
+    "type": "FLOAT",
+    "css": "--rv-opacity-disabled",
+    "values": [
+     "{opacity/38}",
+     "{opacity/38}"
+    ]
+   },
+   "padding/none": {
+    "type": "FLOAT",
+    "css": "--rv-padding-none",
+    "values": [
+     "{spacing/0}",
+     "{spacing/0}"
+    ]
+   },
+   "padding/xs": {
+    "type": "FLOAT",
+    "css": "--rv-padding-xs",
+    "values": [
+     "{spacing/3}",
+     "{spacing/3}"
+    ]
+   },
+   "gap/none": {
+    "type": "FLOAT",
+    "css": "--rv-gap-none",
+    "values": [
+     "{spacing/0}",
+     "{spacing/0}"
+    ]
+   },
+   "gap/xs": {
+    "type": "FLOAT",
+    "css": "--rv-gap-xs",
+    "values": [
+     "{spacing/3}",
+     "{spacing/3}"
+    ]
+   },
+   "gap/3xl": {
+    "type": "FLOAT",
+    "css": "--rv-gap-3xl",
+    "values": [
+     "{spacing/11}",
+     "{spacing/10}"
+    ]
+   },
+   "gap/4xl": {
+    "type": "FLOAT",
+    "css": "--rv-gap-4xl",
+    "values": [
+     "{spacing/12}",
+     "{spacing/10}"
+    ]
+   },
+   "device": {
+    "type": "STRING",
+    "css": "--rv-device",
+    "values": [
+     "desktop",
+     "mobile"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Accordion",
+  "figmaPage": "↳ Accordion",
+  "figmaSet": "Accordion ",
+  "props": {
+    "heading": {"type": "TEXT", "default": "Accordion title"},
+    "description": {"type": "TEXT", "default": "Insert the accordion description here."},
+    "show-icon": {"type": "BOOLEAN", "default": true},
+    "icon": {"type": "INSTANCE_SWAP", "default": "Sun"},
+    "focus": {"type": "BOOLEAN", "default": false},
+    "state": {"type": "VARIANT", "options": ["default", "hover"], "default": "default"},
+    "grouped": {"type": "VARIANT", "options": ["False", "True"], "default": "False"},
+    "open": {"type": "VARIANT", "options": ["False", "True"], "default": "False"}
+  },
+  "anatomy": {
+    "root": {"layout": "HORIZONTAL", "pad": "padding/md padding/lg padding/md padding/lg", "gap": "gap/sm", "align": "MIN/MIN", "minHeight": "size/xl", "standalone": {"stroke": "border/neutral/subtler", "strokeWeight": "border/xs", "radius": "radius/md"}, "grouped": {"stroke": null, "radius": "radius/none", "bottomRule": {"height": "border/xs", "fill": "border/neutral/subtler"}}},
+    "Header": {"layout": "HORIZONTAL", "gap": "gap/sm", "fillW": true},
+    "Icon wrap": {"height": "size/xs", "align": "MIN/CENTER", "Icon": {"size": "14 px (no token)", "strokeWeight": 1.4, "color": "icon/neutral/strongest"}},
+    "Texts": {"layout": "VERTICAL", "gap": "gap/3xs", "fillW": true, "Title row": {"minHeight": "size/xs", "Heading": {"textStyle": "sm/medium", "color": "text/neutral/strongest"}}, "Description": {"textStyle": "sm/regular", "color": "text/neutral/soft", "visible": "open=True only"}},
+    "Indicator wrap": {"height": "size/xs", "Indicator": {"icon": "Plus (closed) / Minus (open)", "size": "14 px", "strokeWeight": 1.4, "color": "icon/neutral/soft"}},
+    "Focus ring": {"visible": "focus=true", "ring": {"stroke": "effect/focus-ring/brand", "strokeWeight": "border/sm", "outside": true, "radius": "radius/md (none when grouped)"}, "gap": {"stroke": "effect/focus-ring/gap", "strokeWeight": "border/sm"}}
+  },
+  "states": {
+    "default": {"bg": null},
+    "hover": {"bg": "background/neutral/subtlest"}
+  },
+  "block": {
+    "figmaSet": "Accordion_block",
+    "root": {"layout": "VERTICAL", "gap": 0, "width": 400, "fill": "background/neutral/extra-subtle", "stroke": "border/neutral/subtler", "strokeWeight": "border/xs", "radius": "radius/lg", "effect": "shadow/xs"},
+    "children": "5 × Accordion (grouped=True), the 2nd open by default in Figma; each grouped accordion draws its bottom rule (the last rule sits on the block border)"
+  }
+}

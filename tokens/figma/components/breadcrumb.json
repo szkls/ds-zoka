@@ -1,0 +1,23 @@
+{
+  "_Breadcrumb item": {
+    "props": {"label": {"type": "TEXT", "default": "Page"}, "show-icon": {"type": "BOOLEAN", "default": false}, "icon": {"type": "INSTANCE_SWAP", "default": "House"}, "state": {"type": "VARIANT", "options": ["default", "hover", "focus", "current"]}},
+    "root": {"layout": "HORIZONTAL", "pad": "padding/none padding/3xs padding/none padding/3xs", "gap": "gap/2xs", "align": "MIN/CENTER", "radius": "radius/sm", "height": "20 px (text line height, no vertical padding)"},
+    "Icon": {"size": "size/3xs", "strokeWeight": "1.2 (regular label) / 1.5 (current, medium label)"},
+    "states": {
+      "default": {"label": "sm/regular", "text": "text/neutral/soft", "icon": "icon/neutral/soft"},
+      "hover": {"label": "sm/regular", "text": "text/neutral/strongest", "icon": "icon/neutral/strongest"},
+      "focus": {"bg": "background/neutral/extra-subtle", "effect": "focus-ring/neutral", "text": "text/neutral/soft"},
+      "current": {"label": "sm/medium", "text": "text/neutral/strongest", "icon": "icon/neutral/strongest", "notALink": true}
+    }
+  },
+  "_Breadcrumb ellipsis": {
+    "props": {"state": {"type": "VARIANT", "options": ["default", "hover", "focus", "open"]}},
+    "Trigger": {"pad": "padding/3xs", "radius": "radius/sm", "icon": "DotsThree size/3xs", "states": {"default": {"icon": "icon/neutral/soft"}, "hover": {"bg": "background/neutral/subtlest", "icon": "icon/neutral/strongest"}, "focus": {"bg": "background/neutral/extra-subtle", "effect": "focus-ring/neutral"}, "open": {"bg": "background/neutral/subtlest", "icon": "icon/neutral/strongest", "panel": "Dropdown size=sm, absolute below the trigger, 3 items leading=none (Section, Subsection, Page)"}}}
+  },
+  "Breadcrumb": {
+    "props": {"items": {"type": "VARIANT", "options": ["2", "3", "4", "5+"], "default": "2"}},
+    "root": {"layout": "HORIZONTAL", "gap": "gap/2xs", "align": "MIN/CENTER"},
+    "Separator": {"icon": "CaretRight", "size": "size/3xs", "color": "icon/neutral/subtler", "strokeWeight": 1.5},
+    "items": {"first": "House icon, label Home", "middle": "Folder icon, label Section / Subsection", "last": "state=current, FileText icon, label Current page", "5+": "Link 1 › Separator › Ellipsis › Separator › Current page"}
+  }
+}

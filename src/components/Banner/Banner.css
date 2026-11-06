@@ -1,0 +1,19 @@
+/* Banner — Figma "Banner" (status), Light mode locked */
+.rv-banner {
+  --_fg: var(--rv-text-static-light); --_icon: var(--rv-icon-static-light);
+  display: flex; align-items: center; gap: var(--rv-gap-md);
+  width: 100%;
+  padding: var(--rv-padding-md) var(--rv-padding-3xl);
+  background: var(--rv-background-system-information-stronger);
+  color: var(--_fg);
+  font-family: var(--rv-font-family-sans), system-ui, sans-serif; font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm);
+}
+.rv-banner__icon { color: var(--_icon); }
+.rv-banner__text { display: flex; align-items: center; gap: var(--rv-gap-sm); flex: 1 1 auto; min-width: 0; flex-wrap: wrap; }
+.rv-banner__title { font-weight: var(--rv-font-weight-semibold); }
+.rv-banner__description { font-weight: var(--rv-font-weight-normal); }
+.rv-banner__close { display: inline-flex; align-items: center; justify-content: center; width: var(--rv-size-xs); height: var(--rv-size-xs); padding: 0; border: 0; background: none; cursor: pointer; color: var(--_icon); border-radius: var(--rv-radius-sm); }
+.rv-banner__close:focus-visible { outline: none; box-shadow: var(--rv-focus-ring-neutral); }
+.rv-banner[data-status="success"] { background: var(--rv-background-system-success-stronger); }
+.rv-banner[data-status="warning"] { background: var(--rv-background-system-warning-base); --_fg: var(--rv-text-static-dark); --_icon: var(--rv-icon-static-dark); }
+.rv-banner[data-status="error"] { background: var(--rv-background-system-error-bold); }

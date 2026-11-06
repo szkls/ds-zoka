@@ -1,0 +1,37 @@
+{
+  "name": "Avatar",
+  "figmaPage": "↳ Avatar",
+  "props": {
+    "type": {"type": "VARIANT", "options": ["image", "icon", "initials"], "default": "image"},
+    "size": {"type": "VARIANT", "options": ["xs", "sm", "md", "lg", "xl"], "default": "xs"},
+    "status": {"type": "VARIANT", "options": ["none", "available", "busy", "in-call", "do-not-disturb", "out-of-office", "idle", "away", "offline"], "default": "none"},
+    "initials": {"type": "TEXT", "default": "CL"},
+    "icon": {"type": "INSTANCE_SWAP", "default": "User"}
+  },
+  "sizes": {
+    "xs": {"box": "size/2xs", "px": 20, "icon": 12, "initials": "xs/semi-bold", "dot": {"outer": 8, "inner": 6, "ring": "border/xs"}},
+    "sm": {"box": "size/xs", "px": 24, "icon": 12, "initials": "xs/semi-bold", "dot": {"outer": 10, "inner": 8, "ring": "border/xs"}},
+    "md": {"box": "size/md", "px": 32, "icon": 16, "initials": "sm/semi-bold", "dot": {"outer": 12, "inner": 8, "ring": "border/sm"}},
+    "lg": {"box": "size/xl", "px": 40, "icon": 20, "initials": "md/semi-bold", "dot": {"outer": 14, "inner": 10, "ring": "border/sm"}},
+    "xl": {"box": "size/2xl", "px": 48, "icon": 24, "initials": "lg/semi-bold", "dot": {"outer": 16, "inner": 12, "ring": "border/sm"}}
+  },
+  "types": {
+    "image": {"fill": "IMAGE (object-fit cover)", "radius": "radius/full"},
+    "icon": {"fill": "background/brand/subtlest", "radius": "radius/full", "iconColor": "icon/brand/base", "iconStroke": 1.5},
+    "initials": {"fill": "background/brand/subtlest", "radius": "radius/full", "textColor": "text/brand/base"}
+  },
+  "dot": {
+    "position": "absolute, bottom-right, anchored MAX/MAX; the ring (outer circle, background/neutral/extra-subtle) overlaps the avatar edge",
+    "ringColor": "background/neutral/extra-subtle",
+    "statuses": {
+      "available": {"fill": "background/system/success/bold"},
+      "busy": {"fill": "background/system/error/base"},
+      "in-call": {"fill": "background/system/error/base"},
+      "do-not-disturb": {"fill": "background/system/error/base", "bar": {"fill": "background/neutral/extra-subtle", "width": "60 % of the dot", "height": "border/xs (xs, sm) or border/sm (md to xl)"}},
+      "out-of-office": {"fill": "colors/pink/500 (primitive, no semantic token yet)"},
+      "idle": {"fill": "background/neutral/extra-subtle", "stroke": "background/system/success/bold", "strokeWeight": "border/xs (xs, sm) or border/sm (md to xl)"},
+      "away": {"fill": "background/system/warning/bold"},
+      "offline": {"fill": "background/neutral/base"}
+    }
+  }
+}

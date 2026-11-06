@@ -1,0 +1,41 @@
+/* Checkbox — Figma "Checkbox" / "_Checkbox box" / "Checkbox group" */
+.rv-checkbox { display: inline-flex; align-items: flex-start; gap: var(--rv-gap-2xs); cursor: pointer; font-family: var(--rv-font-family-sans), system-ui, sans-serif; color: var(--rv-text-neutral-strongest); }
+.rv-checkbox[data-disabled] { cursor: not-allowed; }
+.rv-checkbox[data-readonly] { cursor: default; }
+.rv-checkbox__hit { position: relative; display: inline-flex; align-items: center; justify-content: center; width: var(--rv-size-2xs); height: var(--rv-size-2xs); flex-shrink: 0; }
+.rv-checkbox__input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: inherit; }
+.rv-checkbox__box {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: var(--rv-size-3xs); height: var(--rv-size-3xs);
+  border-radius: var(--rv-radius-sm);
+  background: var(--rv-background-neutral-extra-subtle);
+  box-shadow: inset 0 0 0 var(--rv-border-xs) var(--rv-border-neutral-base);
+  color: var(--rv-icon-neutral-extra-subtle);
+}
+.rv-checkbox__icon { opacity: 0; }
+/* hover */
+.rv-checkbox:hover:not([data-disabled]):not([data-readonly]) .rv-checkbox__box { background: var(--rv-background-neutral-subtlest); box-shadow: inset 0 0 0 var(--rv-border-xs) var(--rv-border-neutral-strongest); }
+/* checked / indeterminate */
+.rv-checkbox__input:checked + .rv-checkbox__box, .rv-checkbox__input[aria-checked="mixed"] + .rv-checkbox__box { background: var(--rv-background-brand-base); box-shadow: none; }
+.rv-checkbox__input:checked + .rv-checkbox__box .rv-checkbox__icon, .rv-checkbox__input[aria-checked="mixed"] + .rv-checkbox__box .rv-checkbox__icon { opacity: 1; }
+.rv-checkbox:hover:not([data-disabled]):not([data-readonly]) .rv-checkbox__input:checked + .rv-checkbox__box,
+.rv-checkbox:hover:not([data-disabled]):not([data-readonly]) .rv-checkbox__input[aria-checked="mixed"] + .rv-checkbox__box { background: var(--rv-background-brand-bold); box-shadow: none; }
+/* focus */
+.rv-checkbox__input:focus-visible + .rv-checkbox__box { box-shadow: inset 0 0 0 var(--rv-border-xs) var(--rv-border-neutral-base), var(--rv-focus-ring-brand); }
+.rv-checkbox__input:focus-visible:checked + .rv-checkbox__box, .rv-checkbox__input:focus-visible[aria-checked="mixed"] + .rv-checkbox__box { box-shadow: var(--rv-focus-ring-brand); }
+/* read-only */
+.rv-checkbox[data-readonly] .rv-checkbox__box { background: var(--rv-background-neutral-subtlest); box-shadow: inset 0 0 0 var(--rv-border-xs) var(--rv-border-neutral-subtler); }
+.rv-checkbox[data-readonly] .rv-checkbox__input:checked + .rv-checkbox__box, .rv-checkbox[data-readonly] .rv-checkbox__input[aria-checked="mixed"] + .rv-checkbox__box { background: var(--rv-background-brand-base); box-shadow: none; }
+/* disabled */
+.rv-checkbox[data-disabled] .rv-checkbox__box { background: var(--rv-background-neutral-subtlest); box-shadow: inset 0 0 0 var(--rv-border-xs) var(--rv-border-neutral-subtler); }
+.rv-checkbox[data-disabled] .rv-checkbox__input:checked + .rv-checkbox__box, .rv-checkbox[data-disabled] .rv-checkbox__input[aria-checked="mixed"] + .rv-checkbox__box { background: var(--rv-background-neutral-soft); box-shadow: none; color: var(--rv-icon-neutral-subtler); }
+.rv-checkbox[data-disabled] .rv-checkbox__label, .rv-checkbox[data-disabled] .rv-checkbox__description { color: var(--rv-text-neutral-subtler); }
+/* text */
+.rv-checkbox__text { display: flex; flex-direction: column; gap: var(--rv-gap-3xs); }
+.rv-checkbox__label { font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); font-weight: var(--rv-font-weight-medium); color: var(--rv-text-neutral-strongest); }
+.rv-checkbox__description { font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); font-weight: var(--rv-font-weight-normal); color: var(--rv-text-neutral-soft); }
+/* group */
+.rv-checkbox-group { display: flex; flex-direction: column; gap: var(--rv-gap-md); margin: 0; padding: 0; border: 0; min-width: 0; }
+.rv-checkbox-group__label { padding: 0; margin-bottom: var(--rv-gap-md); font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); font-weight: var(--rv-font-weight-medium); color: var(--rv-text-neutral-strongest); }
+.rv-checkbox-group__options { display: flex; flex-direction: column; gap: var(--rv-gap-md); }
+.rv-checkbox-group[data-orientation="horizontal"] .rv-checkbox-group__options { flex-direction: row; flex-wrap: wrap; }

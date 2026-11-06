@@ -1,0 +1,19 @@
+/* Badge — Figma "Badge" (status × size) */
+.rv-badge {
+  display: inline-flex; align-items: center; gap: var(--rv-gap-2xs);
+  padding: var(--rv-padding-3xs) var(--rv-padding-xs);
+  border-radius: var(--rv-radius-sm);
+  background: var(--rv-background-system-information-subtler);
+  color: var(--rv-text-system-information-stronger);
+  font-family: var(--rv-font-family-sans), system-ui, sans-serif; font-size: var(--rv-font-size-xs); line-height: var(--rv-font-line-height-xs); font-weight: var(--rv-font-weight-medium);
+  white-space: nowrap;
+}
+.rv-badge .rv-icon { color: var(--rv-icon-system-information-bold); }
+.rv-badge[data-size="md"] { padding: var(--rv-padding-2xs) var(--rv-padding-sm); }
+.rv-badge[data-size="lg"] { padding: var(--rv-padding-2xs) var(--rv-padding-md); border-radius: var(--rv-radius-md); font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); }
+.rv-badge[data-status="success"] { background: var(--rv-background-system-success-subtler); color: var(--rv-text-system-success-stronger); }
+.rv-badge[data-status="success"] .rv-icon { color: var(--rv-icon-system-success-bold); }
+.rv-badge[data-status="warning"] { background: var(--rv-background-system-warning-subtler); color: var(--rv-text-system-warning-stronger); }
+.rv-badge[data-status="warning"] .rv-icon { color: var(--rv-icon-system-warning-bold); }
+.rv-badge[data-status="error"] { background: var(--rv-background-system-error-subtler); color: var(--rv-text-system-error-stronger); }
+.rv-badge[data-status="error"] .rv-icon { color: var(--rv-icon-system-error-bold); }

@@ -1,0 +1,22 @@
+{
+  "Avatar user": {
+    "props": {"name": {"type": "TEXT", "default": "Camille Leroy"}, "show-detail": {"type": "BOOLEAN", "default": true}, "detail": {"type": "TEXT", "default": "Product designer"}, "size": {"type": "VARIANT", "options": ["sm", "md", "lg"], "default": "sm"}},
+    "root": {"layout": "HORIZONTAL", "gap": "gap/sm (lg: gap/md)", "align": "MIN/CENTER"},
+    "sizes": {
+      "sm": {"avatar": "Avatar size=sm (size/xs)", "name": "xs/medium", "detail": "xs/regular"},
+      "md": {"avatar": "Avatar size=md (size/md)", "name": "sm/medium", "detail": "xs/regular"},
+      "lg": {"avatar": "Avatar size=lg (size/xl)", "name": "md/medium", "detail": "sm/regular", "gap": "gap/md"}
+    },
+    "colors": {"name": "text/neutral/strongest", "detail": "text/neutral/soft"},
+    "Text": {"layout": "VERTICAL", "gap": 0}
+  },
+  "Avatar group": {
+    "props": {"show-counter": {"type": "BOOLEAN", "default": true}, "counter": {"type": "TEXT", "default": "+3"}, "show-add": {"type": "BOOLEAN", "default": false}, "size": {"type": "VARIANT", "options": ["xs", "sm", "md", "lg", "xl"], "default": "xs"}},
+    "root": {"layout": "HORIZONTAL", "align": "MIN/CENTER", "overlap": {"xs": -4, "sm": -6, "md": -8, "lg": -10, "xl": -12}},
+    "item wrapper": {"fill": "background/neutral/extra-subtle", "radius": "radius/full", "ringPadding": {"xs": "border/xs", "sm": "border/xs", "md": "border/sm", "lg": "border/sm", "xl": "border/sm"}},
+    "avatars": "Avatar 1, 2, 4 = type=image; Avatar 3 = type=initials (brand background)",
+    "avatarSize": {"xs": "size/2xs", "sm": "size/xs", "md": "size/md", "lg": "size/xl", "xl": "size/2xl"},
+    "Counter": {"circle": {"fill": "background/neutral/subtler", "radius": "radius/full", "size": "= avatar size"}, "text": {"color": "text/neutral/base", "style": {"xs": "xs/semi-bold", "sm": "xs/semi-bold", "md": "sm/semi-bold", "lg": "md/semi-bold", "xl": "lg/semi-bold"}}},
+    "Add button": {"component": "_Avatar add (orphaned in Figma, see notes)", "fill": "background/neutral/subtlest", "stroke": "border/neutral/base", "strokeWeight": "border/xs", "dash": "2/2", "radius": "radius/full", "icon": "Plus", "iconColor": "icon/neutral/soft", "iconSw": 1.5, "iconSize": {"xs": "size/4xs", "sm": "size/4xs", "md": "size/3xs", "lg": "size/2xs", "xl": "size/xs"}, "states": {"hover": {"fill": "background/neutral/subtler", "stroke": "border/neutral/bold", "icon": "icon/neutral/strongest"}, "focus": {"stroke": "border/neutral/strongest", "effect": "focus-ring/neutral", "icon": "icon/neutral/strongest"}, "disabled": {"opacity": "opacity/disabled"}}}
+  }
+}

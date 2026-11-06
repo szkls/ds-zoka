@@ -1,0 +1,36 @@
+{
+  "_Dropdown item": {
+    "props": {"label": "Menu item", "show-description": false, "description": "Insert the item description here.", "icon": "User", "show-shortcut": false, "shortcut": "⌘K", "show-badge": false, "show-chevron": false, "leading": ["none", "icon", "avatar", "checkbox", "radio"], "size": ["sm", "md"], "state": ["default", "hover", "focus", "disabled"], "selected": ["false", "true"], "type": ["default", "destructive"]},
+    "root": {"layout": "HORIZONTAL", "gap": "gap/sm", "align": "MIN/CENTER", "radius": "radius/sm", "width": "fill (232 in set)", "pad": {"sm": "padding/sm", "md": "padding/sm padding/md"}},
+    "Leading": {"wrapper": {"sm": "size/2xs", "md": "size/xs"}, "icon": {"sm": "size/3xs", "md": "size/2xs", "sw": "1.2 (1.5 when selected)", "color": "icon/neutral/strongest"}, "avatar": "Avatar type=image size=xs", "checkbox": "_Checkbox box", "radio": "_Radio circle"},
+    "Text": {"layout": "VERTICAL", "fillW": true, "minH": {"sm": 20, "md": 24}, "Label": {"style": "sm/regular (sm/medium when selected)", "color": "text/neutral/strongest"}, "Description": {"style": "xs/regular", "color": "text/neutral/soft", "hidden": true}},
+    "Shortcut": {"style": "xs/regular", "color": "text/neutral/soft", "hidden": true},
+    "Badge": "Badge status=information size=sm (hidden; opacity/disabled when disabled)",
+    "Chevron": "CaretRight size/3xs icon/neutral/soft sw 1.2 (hidden)",
+    "Check": "Check size/3xs icon/brand/base sw 1.5, trailing, only when selected",
+    "states": {
+      "hover": {"bg": "background/neutral/subtlest"},
+      "focus": {"bg": "background/neutral/extra-subtle", "effect": "focus-ring/neutral"},
+      "disabled": {"Label": "text/neutral/subtler", "Description": "text/neutral/subtler", "Shortcut": "text/neutral/subtler", "icon": "icon/neutral/subtler", "Chevron": "icon/neutral/subtler", "Check": "icon/neutral/subtler"},
+      "destructive": {"Label": "text/system/error/base", "icon": "icon/system/error/base", "hoverBg": "background/system/error/subtlest", "disabled": "same as default disabled"}
+    }
+  },
+  "_Dropdown section label": {"pad": "padding/xs padding/sm", "Label": {"style": "Inter Medium 12 (= xs/medium)", "color": "text/neutral/soft", "case": "UPPER"}},
+  "_Dropdown divider": {"pad": "padding/2xs padding/sm", "Line": {"height": "border/xs", "fill": "border/neutral/subtler"}},
+  "_Dropdown search": {"props": {"placeholder": "Search…", "query": "Search query", "show-clear": true, "state": ["placeholder", "filled"]}, "pad": "padding/sm", "gap": "gap/sm", "bottomBorder": "border/neutral/subtler", "Icon": "MagnifyingGlass size/3xs icon/neutral/soft sw 1.2", "Value": {"style": "sm/regular", "placeholder": "text/neutral/soft", "filled": "text/neutral/strongest"}, "Clear": "X size/3xs icon/neutral/soft (filled only)"},
+  "_Dropdown user": {"pad": "padding/sm", "gap": "gap/sm", "bottomBorder": "border/neutral/subtler", "Avatar user": "Avatar user size=md (name + detail), fillW", "Badge": "Badge success sm no icon (PRO)"},
+  "_Dropdown footer": {"props": {"text": "v1.0.0 · Terms & Conditions", "type": ["text", "button"]}, "pad": "padding/sm", "topBorder": "border/neutral/subtler", "text": {"style": "xs/regular", "color": "text/neutral/soft"}, "button": "Button brand stroke sm fillW, icon-left Plus, label Add workspace"},
+  "Dropdown": {
+    "props": {"show-search": false, "show-user": false, "show-item-4": true, "show-item-5": true, "show-item-6…10": false, "show-footer": false, "size": ["sm", "md"]},
+    "root": {"layout": "VERTICAL", "pad": "padding/2xs", "gap": "gap/3xs", "width": 240, "fill": "background/neutral/extra-subtle", "stroke": "border/neutral/subtler", "sw": 1, "radius": "radius/lg", "effect": "shadow/md"},
+    "order": ["Search", "User", "Item 1…10 (_Dropdown item leading=icon, size passed through)", "Footer"],
+    "defaultItems": [["PencilSimple", "Edit"], ["Copy", "Duplicate"], ["Share", "Share"], ["Archive", "Archive"], ["Trash", "Delete", "destructive"]]
+  },
+  "Select": {
+    "props": {"show-label": true, "show-hint": true, "placeholder": "Select an option", "value": "Option 1", "show-icon": true, "icon": "User", "state": ["placeholder", "hover", "focus", "filled", "disabled"], "status": ["default", "error"], "open": ["false", "true"]},
+    "root": {"layout": "VERTICAL", "gap": "gap/2xs", "width": 320, "children": ["Label", "Field wrap (Field + absolute Dropdown when open)", "Hint"]},
+    "Field": {"same as Input.Field": true, "Icon sw": 1.2, "Chevron": "CaretDown size/3xs icon/neutral/soft sw 1.2 (CaretUp when open)"},
+    "states": {"same as Input": true, "disabled": {"Icon": "icon/neutral/subtler", "Chevron": "icon/neutral/subtler", "Value": "text/neutral/subtler"}},
+    "open": {"onlyWith": "state=focus", "Dropdown": "Dropdown size=md absolute below the field (gap/2xs), 5 items"}
+  }
+}

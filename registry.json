@@ -1,0 +1,425 @@
+{
+  "name": "RV Design",
+  "source": "Figma \"DS - Test\" (fileKey tYFo6T4m7rMz10ugzm5Y1h)",
+  "entry": "src/index.ts",
+  "styles": "src/styles/index.css",
+  "tokens": {
+    "css": "src/tokens/tokens.css",
+    "json": "src/tokens/resolved.json",
+    "modes": {
+      "theme": [
+        "light",
+        "dark"
+      ],
+      "brand": [
+        "boreal",
+        "sylva"
+      ],
+      "device": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    "attributes": "html[data-theme] html[data-brand] html[data-device]"
+  },
+  "icons": {
+    "component": "Icon",
+    "names": "src/icons/paths.ts (iconNames)"
+  },
+  "components": [
+    {
+      "name": "Button",
+      "figma": "Button",
+      "figmaPage": "↳ Button",
+      "exports": [
+        "Button"
+      ],
+      "import": "import { Button } from 'rv-design'",
+      "path": "src/components/Button/",
+      "spec": "tokens/figma/components/button.json",
+      "docs": "docs/components/button.md",
+      "props": {
+        "label": "ReactNode = \"Button\"",
+        "type": "\"brand\" | \"destructive\" | \"static-black\" | \"static-white\" = \"brand\"",
+        "variant": "\"filled\" | \"stroke\" | \"lighter\" | \"ghost\" = \"filled\" (Figma: style)",
+        "size": "\"md\" | \"sm\" | \"xs\" = \"md\"",
+        "iconLeft": "IconName",
+        "iconRight": "IconName",
+        "icon": "IconName — icon-only button (label = accessible name)",
+        "disabled": "boolean",
+        "fullWidth": "boolean",
+        "htmlType": "\"button\" | \"submit\" | \"reset\"",
+        "onClick": "() => void"
+      },
+      "example": "<Button label=\"Save\" iconLeft=\"FloppyDisk\" />\n<Button label=\"Cancel\" variant=\"stroke\" />\n<Button label=\"Delete\" type=\"destructive\" variant=\"ghost\" size=\"sm\" />\n<Button icon=\"Gear\" label=\"Settings\" variant=\"ghost\" />",
+      "whenToUse": "Use the Button to trigger an action in the current context: submit a form, save, open a dialog, start a process, delete. The filled style is the primary action, and there is only one per view or dialog; stroke is the secondary action, lighter and ghost are supporting actions. destructive is reserved for actions that delete or cannot be undone.",
+      "note": null
+    },
+    {
+      "name": "Badge",
+      "figma": "Badge",
+      "figmaPage": "↳ Badge",
+      "exports": [
+        "Badge"
+      ],
+      "import": "import { Badge } from 'rv-design'",
+      "path": "src/components/Badge/",
+      "spec": "tokens/figma/components/badge-banner.json",
+      "docs": "docs/components/badge.md",
+      "props": {
+        "label": "ReactNode (one or two words)",
+        "status": "\"information\" | \"success\" | \"warning\" | \"error\" = \"information\"",
+        "size": "\"sm\" | \"md\" | \"lg\" = \"sm\"",
+        "showIcon": "boolean = true",
+        "icon": "IconName (override)"
+      },
+      "example": "<Badge label=\"Paid\" status=\"success\" />\n<Badge label=\"In review\" status=\"warning\" size=\"md\" showIcon={false} />",
+      "whenToUse": "Use the Badge to label a state or a category in one or two words, right next to what it qualifies: an order status in a table row, New beside an item of the Dropdown, Beta on a feature, the plan level in the account header. It is scanned in a list and read in a sentence; it is never clicked.",
+      "note": null
+    },
+    {
+      "name": "Alert",
+      "figma": "Alert",
+      "figmaPage": "↳ Alert",
+      "exports": [
+        "Alert"
+      ],
+      "import": "import { Alert } from 'rv-design'",
+      "path": "src/components/Alert/",
+      "spec": "tokens/figma/components/alert.json",
+      "docs": "docs/components/alert.md",
+      "props": {
+        "title": "ReactNode",
+        "description": "ReactNode",
+        "status": "Status = \"information\"",
+        "filled": "boolean = true (false: white + border + shadow/xs)",
+        "showIcon": "boolean = true",
+        "actions": "{ label, onClick }[] (ghost xs buttons)",
+        "onClose": "() => void (shows the X)",
+        "fullWidth": "boolean (default width 400 px)"
+      },
+      "example": "<Alert status=\"error\" title=\"Payment failed\" description=\"Your card was declined.\" actions={[{ label: 'Update card', onClick: retry }]} />",
+      "whenToUse": "Use the Alert for feedback that concerns a page or a section and stays until the user acts or dismisses it: a failed payment, a saved draft, a plan about to expire, a step to complete. It sits in the content, at the top of the page or of the form, under the heading.",
+      "note": null
+    },
+    {
+      "name": "Banner",
+      "figma": "Banner",
+      "figmaPage": "↳ Banner",
+      "exports": [
+        "Banner"
+      ],
+      "import": "import { Banner } from 'rv-design'",
+      "path": "src/components/Banner/",
+      "spec": "tokens/figma/components/badge-banner.json",
+      "docs": "docs/components/banner.md",
+      "props": {
+        "title": "ReactNode",
+        "description": "ReactNode",
+        "status": "Status = \"information\"",
+        "showIcon": "boolean = true",
+        "action": "{ label, onClick }",
+        "onClose": "() => void"
+      },
+      "example": "<Banner status=\"warning\" title=\"Verify your email\" description=\"Confirm your address before Friday.\" action={{ label: 'Resend email' }} onClose={dismiss} />",
+      "whenToUse": "Use the Banner for a message that concerns the whole site or the whole account and that every page must show while the situation lasts: planned maintenance, an outage, a payment problem on the account, a policy change, a new version to adopt. It sits at the very top of the screen, above the header, over the full width.",
+      "note": null
+    },
+    {
+      "name": "Checkbox",
+      "figma": "Checkbox",
+      "figmaPage": "↳ Checkbox",
+      "exports": [
+        "Checkbox",
+        "CheckboxGroup"
+      ],
+      "import": "import { Checkbox, CheckboxGroup } from 'rv-design'",
+      "path": "src/components/Checkbox/",
+      "spec": "tokens/figma/components/checkbox.json",
+      "docs": "docs/components/checkbox.md",
+      "props": {
+        "label": "ReactNode",
+        "description": "ReactNode",
+        "checked": "boolean | \"indeterminate\"",
+        "defaultChecked": "boolean",
+        "readOnly": "boolean",
+        "disabled": "boolean",
+        "onChange": "ChangeEventHandler",
+        "CheckboxGroup.label": "ReactNode",
+        "CheckboxGroup.orientation": "\"vertical\" | \"horizontal\" = \"vertical\""
+      },
+      "example": "<CheckboxGroup label=\"Notifications\">\n  <Checkbox label=\"Email\" defaultChecked />\n  <Checkbox label=\"Push\" description=\"Only for mentions\" />\n</CheckboxGroup>",
+      "whenToUse": "Use the Checkbox when the user can select several options in a list, or to turn a single standalone option on or off, such as accepting the terms or receiving a newsletter. Each box is independent: ticking one never changes the others. The indeterminate state is only for a parent box whose children are partly selected, such as a “Select all” row.",
+      "note": null
+    },
+    {
+      "name": "Radio button",
+      "figma": "Radio button",
+      "figmaPage": "↳ Radio button",
+      "exports": [
+        "Radio",
+        "RadioGroup"
+      ],
+      "import": "import { Radio, RadioGroup } from 'rv-design'",
+      "path": "src/components/Radio/",
+      "spec": "tokens/figma/components/radio.json",
+      "docs": "docs/components/radio-button.md",
+      "props": {
+        "label": "ReactNode",
+        "description": "ReactNode",
+        "name": "string (shared by the group)",
+        "checked": "boolean",
+        "readOnly": "boolean",
+        "disabled": "boolean",
+        "RadioGroup.label": "ReactNode (the question)",
+        "RadioGroup.orientation": "\"vertical\" | \"horizontal\" = \"vertical\""
+      },
+      "example": "<RadioGroup label=\"Delivery\">\n  <Radio name=\"delivery\" label=\"Standard\" defaultChecked />\n  <Radio name=\"delivery\" label=\"Express\" />\n</RadioGroup>",
+      "whenToUse": "Use the Radio button when the user must pick exactly one option among a small set of visible choices, from 2 to 7. Showing every option at once helps to compare them, and preselecting a safe default means the group always carries a value.",
+      "note": null
+    },
+    {
+      "name": "Text input",
+      "figma": "Input",
+      "figmaPage": "↳ Text input",
+      "exports": [
+        "Input",
+        "Label",
+        "Hint"
+      ],
+      "import": "import { Input, Label, Hint } from 'rv-design'",
+      "path": "src/components/Input/",
+      "spec": "tokens/figma/components/input.json",
+      "docs": "docs/components/text-input.md",
+      "props": {
+        "type": "\"basic\" | \"phone\" | \"website\" | \"amount\" | \"search\" | \"password\" | \"share-link\" = \"basic\"",
+        "label": "ReactNode",
+        "required": "boolean (brand *)",
+        "optional": "boolean | string (\"(Optional)\")",
+        "labelInfo": "boolean",
+        "hint": "ReactNode",
+        "status": "\"default\" | \"error\"",
+        "icon": "IconName | null (basic type)",
+        "info": "boolean (trailing Info icon)",
+        "placeholder": "string",
+        "value": "string",
+        "onChange": "ChangeEventHandler",
+        "disabled": "boolean",
+        "fullWidth": "boolean (default 320 px)",
+        "countryCode": "string (phone)",
+        "prefix": "string (website)",
+        "currencySymbol": "string (amount)",
+        "currencyCode": "string (amount)",
+        "shortcut": "string (search)",
+        "onCopy": "() => void (share-link)"
+      },
+      "example": "<Input label=\"Email\" type=\"basic\" icon=\"Envelope\" required hint=\"We never share it.\" />\n<Input label=\"Password\" type=\"password\" status=\"error\" hint=\"At least 8 characters.\" />",
+      "whenToUse": "Use the Input for short, single-line data the user knows and can type: a name, an email address, a phone number, a website, an amount, a search query, a password, or a link to copy. The type sets the right structure and keyboard: a country code for phone, an https:// prefix for website, a currency for amount, a magnifier and a shortcut for search, a show / hide button for password, a copy button for share-link.",
+      "note": null
+    },
+    {
+      "name": "Select",
+      "figma": "Select",
+      "figmaPage": "↳ Dropdown",
+      "exports": [
+        "Select"
+      ],
+      "import": "import { Select } from 'rv-design'",
+      "path": "src/components/Select/",
+      "spec": "tokens/figma/components/dropdown.json",
+      "docs": "docs/components/select.md",
+      "props": {
+        "label": "ReactNode",
+        "required": "boolean",
+        "optional": "boolean | string",
+        "hint": "ReactNode",
+        "status": "\"default\" | \"error\"",
+        "placeholder": "string = \"Select an option\"",
+        "icon": "IconName | null = \"User\"",
+        "options": "{ value, label, description?, icon?, disabled? }[]",
+        "value": "string",
+        "defaultValue": "string",
+        "onChange": "(value: string) => void",
+        "disabled": "boolean",
+        "fullWidth": "boolean",
+        "name": "string (hidden input for forms)"
+      },
+      "example": "<Select label=\"Country\" required options={[{ value: 'fr', label: 'France' }, { value: 'de', label: 'Germany' }]} onChange={setCountry} />",
+      "whenToUse": null,
+      "note": null
+    },
+    {
+      "name": "Dropdown",
+      "figma": "Dropdown",
+      "figmaPage": "↳ Dropdown",
+      "exports": [
+        "Dropdown",
+        "DropdownItem",
+        "DropdownSectionLabel",
+        "DropdownDivider",
+        "DropdownSearch",
+        "DropdownUser",
+        "DropdownFooter"
+      ],
+      "import": "import { Dropdown, DropdownItem, DropdownDivider } from 'rv-design'",
+      "path": "src/components/Dropdown/",
+      "spec": "tokens/figma/components/dropdown.json",
+      "docs": "docs/components/dropdown.md",
+      "props": {
+        "Dropdown.size": "\"sm\" | \"md\" = \"sm\"",
+        "Dropdown.search": "ReactNode (<DropdownSearch />)",
+        "Dropdown.user": "ReactNode (<DropdownUser />)",
+        "Dropdown.footer": "ReactNode (<DropdownFooter />)",
+        "DropdownItem.label": "ReactNode",
+        "DropdownItem.description": "ReactNode",
+        "DropdownItem.leading": "\"none\" | \"icon\" | \"avatar\" | \"checkbox\" | \"radio\" = \"none\"",
+        "DropdownItem.icon": "IconName",
+        "DropdownItem.selected": "boolean",
+        "DropdownItem.type": "\"default\" | \"destructive\"",
+        "DropdownItem.shortcut": "string",
+        "DropdownItem.badge": "string",
+        "DropdownItem.chevron": "boolean",
+        "DropdownItem.disabled": "boolean",
+        "DropdownItem.onClick": "() => void"
+      },
+      "example": "<Dropdown>\n  <DropdownItem label=\"Edit\" leading=\"icon\" icon=\"PencilSimple\" />\n  <DropdownItem label=\"Duplicate\" leading=\"icon\" icon=\"Copy\" />\n  <DropdownDivider />\n  <DropdownItem label=\"Delete\" leading=\"icon\" icon=\"Trash\" type=\"destructive\" />\n</Dropdown>",
+      "whenToUse": "Use the Dropdown for a list of actions or commands opened from a Button or an icon button: more actions, account menu, sort by, bulk actions. Use the Select as a form field when the user picks one value among 6 to 15 options and the value is submitted with the form.",
+      "note": "The panel is positioned by the caller (absolute under its trigger, left-aligned; flips when there is no room). Width 240 px; max 320 px."
+    },
+    {
+      "name": "Accordion",
+      "figma": "Accordion",
+      "figmaPage": "↳ Accordion",
+      "exports": [
+        "Accordion",
+        "AccordionBlock"
+      ],
+      "import": "import { Accordion, AccordionBlock } from 'rv-design'",
+      "path": "src/components/Accordion/",
+      "spec": "tokens/figma/components/accordion.json",
+      "docs": "docs/components/accordion.md",
+      "props": {
+        "heading": "ReactNode",
+        "children": "ReactNode (description)",
+        "icon": "IconName | null = \"Sun\"",
+        "open": "boolean (controlled)",
+        "defaultOpen": "boolean",
+        "onOpenChange": "(open) => void",
+        "grouped": "boolean (set automatically inside AccordionBlock — pass grouped on each child)",
+        "AccordionBlock.fullWidth": "boolean (default 400 px)"
+      },
+      "example": "<AccordionBlock>\n  <Accordion grouped heading=\"How do I cancel an order?\" icon=\"Question\" defaultOpen>Open the order and choose Cancel.</Accordion>\n  <Accordion grouped heading=\"Payment methods\" icon=\"CreditCard\">Cards, PayPal and bank transfer.</Accordion>\n</AccordionBlock>",
+      "whenToUse": "Use the Accordion to shorten a long page when the user only needs some of its sections: FAQ, help pages, settings groups, product details, order summaries. The headings give the overview and the user opens what they need. Related sections stack in an Accordion block, 3 to 6 sections at a time.",
+      "note": null
+    },
+    {
+      "name": "Avatar",
+      "figma": "Avatar",
+      "figmaPage": "↳ Avatar",
+      "exports": [
+        "Avatar",
+        "AvatarUser",
+        "AvatarGroup"
+      ],
+      "import": "import { Avatar, AvatarUser, AvatarGroup } from 'rv-design'",
+      "path": "src/components/Avatar/",
+      "spec": "tokens/figma/components/avatar.json",
+      "docs": "docs/components/avatar.md",
+      "props": {
+        "type": "\"image\" | \"icon\" | \"initials\" = \"image\" (falls back to initials without src)",
+        "size": "\"xs\" | \"sm\" | \"md\" | \"lg\" | \"xl\" = \"xs\"",
+        "status": "\"none\" | \"available\" | \"busy\" | \"in-call\" | \"do-not-disturb\" | \"out-of-office\" | \"idle\" | \"away\" | \"offline\"",
+        "initials": "string = \"CL\"",
+        "icon": "IconName = \"User\"",
+        "src": "string",
+        "alt": "string (person name)",
+        "AvatarUser.name": "ReactNode",
+        "AvatarUser.detail": "ReactNode",
+        "AvatarUser.size": "\"sm\" | \"md\" | \"lg\"",
+        "AvatarGroup.items": "{ src?, initials?, name? }[]",
+        "AvatarGroup.size": "AvatarSize",
+        "AvatarGroup.max": "number = 4",
+        "AvatarGroup.counter": "string | false",
+        "AvatarGroup.onAdd": "() => void"
+      },
+      "example": "<AvatarUser name=\"Camille Leroy\" detail=\"Product designer\" size=\"md\" status=\"available\" />\n<AvatarGroup items={members} size=\"sm\" />",
+      "whenToUse": "Use the Avatar wherever a person must be recognised at a glance: comment author, assignee, member list, message header, account menu in the Dropdown. Prefer the photo; fall back on the initials when the name is known, and keep the icon for an unknown or anonymous person and for the placeholder before a photo is uploaded.",
+      "note": null
+    },
+    {
+      "name": "Breadcrumb",
+      "figma": "Breadcrumb",
+      "figmaPage": "↳ Breadcrumb",
+      "exports": [
+        "Breadcrumb"
+      ],
+      "import": "import { Breadcrumb } from 'rv-design'",
+      "path": "src/components/Breadcrumb/",
+      "spec": "tokens/figma/components/breadcrumb.json",
+      "docs": "docs/components/breadcrumb.md",
+      "props": {
+        "items": "{ label, href?, icon?, onClick? }[] (last = current page)",
+        "showIcons": "boolean = true",
+        "maxVisible": "number = 4 (beyond: root › … › current)",
+        "renderLink": "(item, props) => ReactNode (router links)"
+      },
+      "example": "<Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Settings', href: '/settings' }, { label: 'Billing' }]} />",
+      "whenToUse": "Use the Breadcrumb on pages that sit at least two levels below the root of a hierarchy: a catalogue, a documentation, settings, a file tree. It sits under the header and above the page title, as a secondary navigation. It shows the path from the root to the page, not the history of the visit.",
+      "note": null
+    },
+    {
+      "name": "Tabs",
+      "figma": "Tabs",
+      "figmaPage": "↳ Tabs",
+      "exports": [
+        "Tabs"
+      ],
+      "import": "import { Tabs } from 'rv-design'",
+      "path": "src/components/Tabs/",
+      "spec": "tokens/figma/components/tabs.json",
+      "docs": "docs/components/tabs.md",
+      "props": {
+        "items": "{ id, label, icon?: IconName | null, badge?, disabled? }[]",
+        "type": "\"line\" | \"segmented\" = \"line\"",
+        "size": "\"sm\" | \"md\" = \"sm\"",
+        "value": "string",
+        "defaultValue": "string",
+        "onChange": "(id) => void",
+        "label": "string (aria-label)"
+      },
+      "example": "<Tabs items={[{ id: 'overview', label: 'Overview' }, { id: 'activity', label: 'Activity', badge: '3' }]} value={tab} onChange={setTab} />",
+      "whenToUse": null,
+      "note": "First draft in Figma (page ↳ Tabs has no Documentation section yet). Render the matching panel yourself with role=\"tabpanel\"."
+    },
+    {
+      "name": "Header",
+      "figma": "Header",
+      "figmaPage": "↳ Header",
+      "exports": [
+        "Header"
+      ],
+      "import": "import { Header } from 'rv-design'",
+      "path": "src/components/Header/",
+      "spec": "tokens/figma/components/header.json",
+      "docs": "docs/components/header.md",
+      "props": {
+        "device": "\"desktop\" | \"mobile\" (omit to follow html[data-device])",
+        "brand": "ReactNode = \"Brand\"",
+        "logoIcon": "IconName = \"Hexagon\"",
+        "navigation": "TabItem[] (desktop)",
+        "navigationValue": "string",
+        "onNavigate": "(id) => void",
+        "onSearch": "() => void",
+        "onNotifications": "() => void",
+        "onMenu": "() => void (mobile burger)",
+        "avatarSrc": "string",
+        "avatarInitials": "string",
+        "userName": "string",
+        "onProfile": "() => void"
+      },
+      "example": "<Header brand=\"RV Design\" navigation={nav} navigationValue={page} onNavigate={go} avatarInitials=\"CL\" userName=\"Camille Leroy\" />",
+      "whenToUse": null,
+      "note": "Mirrors the Figma `device` variable: html[data-device=\"mobile\"] switches to the mobile composition (breakpoint 768 px decided with the designer; apply it in the app)."
+    }
+  ]
+}

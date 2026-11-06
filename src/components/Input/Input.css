@@ -1,0 +1,51 @@
+/* Label / Hint / Input — Figma page ↳ Text input */
+.rv-label { display: inline-flex; align-items: center; gap: var(--rv-gap-2xs); font-family: var(--rv-font-family-sans), system-ui, sans-serif; font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); font-weight: var(--rv-font-weight-medium); color: var(--rv-text-neutral-strongest); }
+.rv-label__required { color: var(--rv-text-brand-base); }
+.rv-label__optional { font-weight: var(--rv-font-weight-normal); color: var(--rv-text-neutral-soft); }
+.rv-label__info { color: var(--rv-icon-neutral-subtler); }
+.rv-label[data-disabled] { color: var(--rv-text-neutral-subtler); }
+.rv-label[data-disabled] .rv-label__required, .rv-label[data-disabled] .rv-label__optional { color: var(--rv-text-neutral-subtler); }
+.rv-label[data-disabled] .rv-label__info { color: var(--rv-icon-neutral-subtlest); }
+
+.rv-hint { display: flex; align-items: flex-start; gap: var(--rv-gap-2xs); font-family: var(--rv-font-family-sans), system-ui, sans-serif; font-size: var(--rv-font-size-xs); line-height: var(--rv-font-line-height-xs); font-weight: var(--rv-font-weight-normal); color: var(--rv-text-neutral-soft); }
+.rv-hint__icon { color: var(--rv-icon-neutral-subtler); }
+.rv-hint[data-status="error"] { color: var(--rv-text-system-error-base); }
+.rv-hint[data-status="error"] .rv-hint__icon { color: var(--rv-icon-system-error-base); }
+.rv-hint[data-status="disabled"] { color: var(--rv-text-neutral-subtler); }
+.rv-hint[data-status="disabled"] .rv-hint__icon { color: var(--rv-icon-neutral-subtlest); }
+
+.rv-input { display: flex; flex-direction: column; gap: var(--rv-gap-2xs); width: 320px; max-width: 100%; font-family: var(--rv-font-family-sans), system-ui, sans-serif; }
+.rv-input--full { width: 100%; }
+.rv-input__field {
+  --_border: var(--rv-border-neutral-base);
+  display: flex; align-items: center; height: var(--rv-size-xl); width: 100%;
+  border-radius: var(--rv-radius-md); background: var(--rv-background-neutral-extra-subtle);
+  box-shadow: inset 0 0 0 var(--rv-border-xs) var(--_border);
+  overflow: hidden;
+}
+.rv-input__content { display: flex; align-items: center; gap: var(--rv-gap-sm); flex: 1 1 auto; min-width: 0; height: 100%; padding: 0 var(--rv-padding-md); }
+.rv-input__icon { color: var(--rv-icon-neutral-soft); }
+.rv-input__control { flex: 1 1 auto; min-width: 0; height: 100%; padding: 0; border: 0; background: transparent; outline: none; font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); font-weight: var(--rv-font-weight-normal); color: var(--rv-text-neutral-strongest); }
+.rv-input__control::placeholder { color: var(--rv-text-neutral-soft); opacity: 1; }
+.rv-input__control::-webkit-search-decoration, .rv-input__control::-webkit-search-cancel-button { appearance: none; }
+.rv-input__currency { font-size: var(--rv-font-size-sm); color: var(--rv-text-neutral-soft); }
+.rv-input__shortcut { display: inline-flex; align-items: center; padding: 0 var(--rv-padding-2xs); border-radius: var(--rv-radius-sm); box-shadow: inset 0 0 0 var(--rv-border-xs) var(--rv-border-neutral-subtler); font-size: var(--rv-font-size-xs); line-height: var(--rv-font-line-height-xs); font-weight: var(--rv-font-weight-medium); color: var(--rv-text-neutral-soft); }
+.rv-input__toggle { display: inline-flex; padding: 0; border: 0; background: none; color: var(--rv-icon-neutral-soft); cursor: pointer; border-radius: var(--rv-radius-sm); }
+.rv-input__toggle:focus-visible { outline: none; box-shadow: var(--rv-focus-ring-neutral); }
+.rv-input__addon { display: inline-flex; align-items: center; gap: var(--rv-gap-2xs); height: 100%; padding: 0 var(--rv-padding-md); background: var(--rv-background-neutral-subtlest); color: var(--rv-text-neutral-base); font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); white-space: nowrap; border: 0; }
+.rv-input__addon .rv-icon { color: var(--rv-icon-neutral-base); }
+.rv-input__addon--leading { box-shadow: inset calc(-1 * var(--rv-border-xs)) 0 0 0 var(--rv-border-neutral-base); }
+.rv-input__addon--trailing { box-shadow: inset var(--rv-border-xs) 0 0 0 var(--rv-border-neutral-base); }
+.rv-input[data-type="phone"] .rv-input__addon--leading { background: var(--rv-background-neutral-extra-subtle); }
+.rv-input__copy { cursor: pointer; }
+.rv-input__copy:focus-visible { outline: none; box-shadow: inset var(--rv-border-xs) 0 0 0 var(--rv-border-neutral-base), var(--rv-focus-ring-neutral); }
+/* states */
+.rv-input__field:hover { background: var(--rv-background-neutral-subtlest); }
+.rv-input__field:focus-within { --_border: var(--rv-border-neutral-strongest); background: var(--rv-background-neutral-extra-subtle); box-shadow: inset 0 0 0 var(--rv-border-xs) var(--_border), var(--rv-focus-ring-neutral); }
+.rv-input__field:focus-within .rv-input__icon, .rv-input__control:not(:placeholder-shown) ~ .rv-input__icon { color: var(--rv-icon-neutral-strongest); }
+.rv-input__content:has(.rv-input__control:not(:placeholder-shown)) .rv-input__icon, .rv-input__field:focus-within .rv-input__icon { color: var(--rv-icon-neutral-strongest); }
+.rv-input[data-status="error"] .rv-input__field { --_border: var(--rv-border-system-error-base); }
+.rv-input[data-status="error"] .rv-input__field:focus-within { box-shadow: inset 0 0 0 var(--rv-border-xs) var(--_border), var(--rv-focus-ring-error); }
+.rv-input[data-disabled] .rv-input__field { background: var(--rv-background-neutral-subtlest); box-shadow: none; }
+.rv-input[data-disabled] .rv-input__icon { color: var(--rv-icon-neutral-subtlest); }
+.rv-input[data-disabled] .rv-input__control, .rv-input[data-disabled] .rv-input__control::placeholder { color: var(--rv-text-neutral-subtler); }

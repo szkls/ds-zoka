@@ -1,0 +1,18 @@
+/* RV Design — base reset. Tokens come from ../tokens/tokens.css (generated). */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--rv-font-family-sans), system-ui, sans-serif;
+  font-size: var(--rv-font-size-sm);
+  line-height: var(--rv-font-line-height-sm);
+  color: var(--rv-text-neutral-strongest);
+  background: var(--rv-background-neutral-extra-subtle);
+  -webkit-font-smoothing: antialiased;
+}
+button, input, select, textarea { font: inherit; color: inherit; }
+img { display: block; max-width: 100%; }
+/* Figma focus rings are effect styles (box-shadow); the native outline is replaced by them. */
+.rv-focus-ring-brand:focus-visible, [data-rv-focus="brand"]:focus-visible { outline: none; box-shadow: var(--rv-focus-ring-brand); }
+.rv-focus-ring-neutral:focus-visible, [data-rv-focus="neutral"]:focus-visible { outline: none; box-shadow: var(--rv-focus-ring-neutral); }
+.rv-focus-ring-error:focus-visible, [data-rv-focus="error"]:focus-visible { outline: none; box-shadow: var(--rv-focus-ring-error); }
+.rv-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

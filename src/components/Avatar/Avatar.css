@@ -1,0 +1,42 @@
+/* Avatar / Avatar user / Avatar group — Figma page ↳ Avatar */
+.rv-avatar { position: relative; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: var(--_box); height: var(--_box); border-radius: var(--rv-radius-full); background: var(--rv-background-brand-subtlest); color: var(--rv-text-brand-base); font-family: var(--rv-font-family-sans), system-ui, sans-serif; font-weight: var(--rv-font-weight-semibold); vertical-align: middle; }
+.rv-avatar[data-size="xs"] { --_box: var(--rv-size-2xs); --_dot: 8px; --_dot-in: 6px; --_ring: var(--rv-border-xs); font-size: var(--rv-font-size-xs); line-height: var(--rv-font-line-height-xs); }
+.rv-avatar[data-size="sm"] { --_box: var(--rv-size-xs); --_dot: 10px; --_dot-in: 8px; --_ring: var(--rv-border-xs); font-size: var(--rv-font-size-xs); line-height: var(--rv-font-line-height-xs); }
+.rv-avatar[data-size="md"] { --_box: var(--rv-size-md); --_dot: 12px; --_dot-in: 8px; --_ring: var(--rv-border-sm); font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); }
+.rv-avatar[data-size="lg"] { --_box: var(--rv-size-xl); --_dot: 14px; --_dot-in: 10px; --_ring: var(--rv-border-sm); font-size: var(--rv-font-size-md); line-height: var(--rv-font-line-height-md); }
+.rv-avatar[data-size="xl"] { --_box: var(--rv-size-2xl); --_dot: 16px; --_dot-in: 12px; --_ring: var(--rv-border-sm); font-size: var(--rv-font-size-lg); line-height: var(--rv-font-line-height-lg); }
+.rv-avatar__image { width: 100%; height: 100%; border-radius: inherit; object-fit: cover; }
+.rv-avatar__icon { color: var(--rv-icon-brand-base); }
+/* status dot: ring = outer circle in extra-subtle, anchored bottom-right */
+.rv-avatar__dot { position: absolute; right: 0; bottom: 0; width: var(--_dot); height: var(--_dot); border-radius: var(--rv-radius-full); background: var(--rv-background-neutral-extra-subtle); display: flex; align-items: center; justify-content: center; }
+.rv-avatar__dot-inner { width: var(--_dot-in); height: var(--_dot-in); border-radius: var(--rv-radius-full); background: var(--_status); display: flex; align-items: center; justify-content: center; }
+.rv-avatar[data-status="available"] { --_status: var(--rv-background-system-success-bold); }
+.rv-avatar[data-status="busy"], .rv-avatar[data-status="in-call"], .rv-avatar[data-status="do-not-disturb"] { --_status: var(--rv-background-system-error-base); }
+.rv-avatar[data-status="out-of-office"] { --_status: var(--rv-colors-pink-500); } /* primitive: no semantic token yet (flagged in Figma notes) */
+.rv-avatar[data-status="away"] { --_status: var(--rv-background-system-warning-bold); }
+.rv-avatar[data-status="offline"] { --_status: var(--rv-background-neutral-base); }
+.rv-avatar[data-status="idle"] .rv-avatar__dot-inner { background: var(--rv-background-neutral-extra-subtle); box-shadow: inset 0 0 0 var(--_ring) var(--rv-background-system-success-bold); }
+.rv-avatar__dot-bar { width: 60%; height: var(--_ring); background: var(--rv-background-neutral-extra-subtle); border-radius: var(--rv-radius-full); }
+
+.rv-avatar-user { display: inline-flex; align-items: center; gap: var(--rv-gap-sm); font-family: var(--rv-font-family-sans), system-ui, sans-serif; }
+.rv-avatar-user[data-size="lg"] { gap: var(--rv-gap-md); }
+.rv-avatar-user__text { display: flex; flex-direction: column; min-width: 0; }
+.rv-avatar-user__name { font-weight: var(--rv-font-weight-medium); color: var(--rv-text-neutral-strongest); font-size: var(--rv-font-size-xs); line-height: var(--rv-font-line-height-xs); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rv-avatar-user__detail { font-weight: var(--rv-font-weight-normal); color: var(--rv-text-neutral-soft); font-size: var(--rv-font-size-xs); line-height: var(--rv-font-line-height-xs); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rv-avatar-user[data-size="md"] .rv-avatar-user__name { font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); }
+.rv-avatar-user[data-size="lg"] .rv-avatar-user__name { font-size: var(--rv-font-size-md); line-height: var(--rv-font-line-height-md); }
+.rv-avatar-user[data-size="lg"] .rv-avatar-user__detail { font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); }
+
+.rv-avatar-group { display: inline-flex; align-items: center; font-family: var(--rv-font-family-sans), system-ui, sans-serif; }
+.rv-avatar-group[data-size="xs"] { --_box: var(--rv-size-2xs); --_overlap: -4px; --_ring: var(--rv-border-xs); --_fs: var(--rv-font-size-xs); --_lh: var(--rv-font-line-height-xs); }
+.rv-avatar-group[data-size="sm"] { --_box: var(--rv-size-xs); --_overlap: -6px; --_ring: var(--rv-border-xs); --_fs: var(--rv-font-size-xs); --_lh: var(--rv-font-line-height-xs); }
+.rv-avatar-group[data-size="md"] { --_box: var(--rv-size-md); --_overlap: -8px; --_ring: var(--rv-border-sm); --_fs: var(--rv-font-size-sm); --_lh: var(--rv-font-line-height-sm); }
+.rv-avatar-group[data-size="lg"] { --_box: var(--rv-size-xl); --_overlap: -10px; --_ring: var(--rv-border-sm); --_fs: var(--rv-font-size-md); --_lh: var(--rv-font-line-height-md); }
+.rv-avatar-group[data-size="xl"] { --_box: var(--rv-size-2xl); --_overlap: -12px; --_ring: var(--rv-border-sm); --_fs: var(--rv-font-size-lg); --_lh: var(--rv-font-line-height-lg); }
+.rv-avatar-group__item { display: inline-flex; padding: var(--_ring); border-radius: var(--rv-radius-full); background: var(--rv-background-neutral-extra-subtle); }
+.rv-avatar-group__item + .rv-avatar-group__item { margin-left: var(--_overlap); }
+.rv-avatar-group__counter { display: inline-flex; align-items: center; justify-content: center; width: var(--_box); height: var(--_box); border-radius: var(--rv-radius-full); background: var(--rv-background-neutral-subtler); color: var(--rv-text-neutral-base); font-size: var(--_fs); line-height: var(--_lh); font-weight: var(--rv-font-weight-semibold); }
+.rv-avatar-group__add { display: inline-flex; align-items: center; justify-content: center; width: var(--_box); height: var(--_box); padding: 0; border: var(--rv-border-xs) dashed var(--rv-border-neutral-base); border-radius: var(--rv-radius-full); background: var(--rv-background-neutral-subtlest); color: var(--rv-icon-neutral-soft); cursor: pointer; }
+.rv-avatar-group__add:hover { background: var(--rv-background-neutral-subtler); border-color: var(--rv-border-neutral-bold); color: var(--rv-icon-neutral-strongest); }
+.rv-avatar-group__add:focus-visible { outline: none; border-color: var(--rv-border-neutral-strongest); box-shadow: var(--rv-focus-ring-neutral); color: var(--rv-icon-neutral-strongest); }
+.rv-avatar-group__add:disabled { opacity: var(--rv-opacity-disabled); cursor: not-allowed; }

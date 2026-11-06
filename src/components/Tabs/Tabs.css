@@ -1,0 +1,30 @@
+/* Tabs / _Tab item — Figma page ↳ Tabs */
+.rv-tabs { position: relative; display: inline-flex; align-items: center; gap: var(--rv-gap-md); font-family: var(--rv-font-family-sans), system-ui, sans-serif; }
+.rv-tabs[data-type="line"][data-size="md"] { gap: var(--rv-gap-lg); }
+.rv-tabs__rule { position: absolute; left: 0; right: 0; bottom: 0; height: var(--rv-border-xs); background: var(--rv-border-neutral-subtler); }
+.rv-tab {
+  position: relative; display: inline-flex; align-items: center; justify-content: center; gap: var(--rv-gap-xs);
+  height: var(--rv-size-md); padding: 0 var(--rv-padding-2xs); border: 0; border-radius: var(--rv-radius-sm); background: transparent;
+  color: var(--rv-text-neutral-soft); font-family: inherit; font-size: var(--rv-font-size-sm); line-height: var(--rv-font-line-height-sm); font-weight: var(--rv-font-weight-medium); cursor: pointer; white-space: nowrap; z-index: 1;
+}
+.rv-tab__icon { color: var(--rv-icon-neutral-soft); }
+.rv-tab:hover:not(:disabled) { color: var(--rv-text-neutral-strongest); }
+.rv-tab:hover:not(:disabled) .rv-tab__icon { color: var(--rv-icon-neutral-strongest); }
+.rv-tab:focus-visible { outline: none; background: var(--rv-background-neutral-extra-subtle); box-shadow: var(--rv-focus-ring-neutral); }
+.rv-tab[data-selected] { color: var(--rv-text-neutral-strongest); }
+.rv-tab[data-selected] .rv-tab__icon { color: var(--rv-icon-neutral-strongest); }
+.rv-tab:disabled { cursor: not-allowed; color: var(--rv-text-neutral-subtler); }
+.rv-tab:disabled .rv-tab__icon { color: var(--rv-icon-neutral-subtler); }
+.rv-tabs[data-size="md"] .rv-tab { height: var(--rv-size-xl); }
+/* line indicator */
+.rv-tab__indicator { position: absolute; left: 0; right: 0; bottom: 0; height: var(--rv-border-sm); background: var(--rv-border-brand-base); opacity: 0; }
+.rv-tab[data-selected] .rv-tab__indicator { opacity: 1; }
+.rv-tab:disabled .rv-tab__indicator { background: var(--rv-border-neutral-soft); }
+/* segmented */
+.rv-tabs[data-type="segmented"] { gap: var(--rv-gap-3xs); padding: var(--rv-padding-3xs); background: var(--rv-background-neutral-subtler); border-radius: var(--rv-radius-md); }
+.rv-tabs[data-type="segmented"] .rv-tab { height: var(--rv-size-sm); padding: 0 var(--rv-padding-sm); }
+.rv-tabs[data-type="segmented"][data-size="md"] .rv-tab { height: var(--rv-size-lg); padding: 0 var(--rv-padding-md); }
+.rv-tabs[data-type="segmented"] .rv-tab:hover:not(:disabled):not([data-selected]) { background: var(--rv-background-neutral-alpha-black-4); }
+.rv-tabs[data-type="segmented"] .rv-tab[data-selected] { background: var(--rv-background-neutral-extra-subtle); box-shadow: var(--rv-shadow-xs); }
+.rv-tabs[data-type="segmented"] .rv-tab[data-selected]:focus-visible { box-shadow: var(--rv-focus-ring-neutral); }
+.rv-tabs[data-type="segmented"] .rv-tab[data-selected]:disabled { box-shadow: none; }
